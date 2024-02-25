@@ -2583,7 +2583,7 @@ iconify-icon.rate {
   background-color: #DE6A12;
   border: 15px solid #DE6A12;
   border-radius: 3.5rem;
-  margin-top: 26em;
+  margin-top: 24em;
 }
 
 }
@@ -2596,7 +2596,6 @@ iconify-icon.rate {
   
   .text-container h1{
     font-size: 2.60em;
-    color: #C21A1A;
 }
   .text-container p{
     font-size: .9em;
@@ -2615,7 +2614,7 @@ iconify-icon.rate {
   background-color: #DE6A12;
   border: 15px solid #DE6A12;
   border-radius: 3.5rem;
-  margin-top: 32em;
+  margin-top: 30em;
 }
 }
 @media (max-width: 369px){
