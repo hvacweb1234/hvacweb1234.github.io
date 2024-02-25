@@ -2571,7 +2571,7 @@ iconify-icon.rate {
 
 .text-container {
   position: absolute;
-  top: 101%;
+  top: 10%;
   left: 5%;
   width: 90%;
 }
