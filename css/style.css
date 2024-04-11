@@ -2337,7 +2337,7 @@ margin-top: -4em;
 
 @media (max-width: 419px){
   .logo{
-    width: 9.5em ;
+    width: 10.25em ;
 
   }
   .appointment {
@@ -2390,7 +2390,7 @@ margin-top: 0em;
       left: 45px; /* Adjust the left position of the phone number */
       transform: translateY(-50%);
       color: white;
-      font-size: 16px;
+      font-size: 19px;
     }
     .phone-icon {
       position: absolute;
@@ -2435,7 +2435,7 @@ margin-top: 0em;
       top: 50%;
       left: 70%; /* Place in the middle of the black section */
       color: white;
-      font-size: 16px;
+      font-size: 19px;
       cursor: pointer;
       font-family: "Kanit", sans-serif;
     font-weight: 500;
