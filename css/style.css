@@ -210,6 +210,14 @@
     color: #182333;
     text-decoration: underline;
   }
+  .about-page-link:hover{
+    font-family: 'Kanit', sans-serif;
+    font-size: 22px;
+    font-style: italic;
+    font-weight: 500;
+    color: #182333;
+    text-decoration: underline;
+  }
 
   .btn-colour:hover{
     background: rgb(191,30,46);
