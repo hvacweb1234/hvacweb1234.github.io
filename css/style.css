@@ -2461,6 +2461,18 @@ margin-top: 0em;
     
       z-index: 2; /* Ensure the text appears above the white line */
     }
+    .get-quote:hover {
+      position: absolute;
+      top: 50%;
+      left: 70%; /* Place in the middle of the black section */
+      color: white;
+      font-size: 19px;
+      cursor: pointer;
+      font-family: "Kanit", sans-serif;
+    font-weight: 500;
+    
+      z-index: 2; /* Ensure the text appears above the white line */
+    }
     .carousel-item {
       position: absolute;
       width: 100%;
@@ -2607,6 +2619,18 @@ font-weight: 500;
 
   z-index: 2; /* Ensure the text appears above the white line */
 }
+.get-quote:hover {
+  position: absolute;
+  top: 50%;
+  left: 70%; /* Place in the middle of the black section */
+  color: white;
+  font-size: 17px;
+  cursor: pointer;
+  font-family: "Kanit", sans-serif;
+font-weight: 500;
+
+  z-index: 2; /* Ensure the text appears above the white line */
+}
 .carousel-item {
   position: absolute;
   width: 100%;
@@ -2725,6 +2749,18 @@ margin-top: 2em;
   transform: skewX(-30deg); /* Apply the same slant as the black section */
 }
 .get-quote {
+  position: absolute;
+  top: 50%;
+  left: 70%; /* Place in the middle of the black section */
+  color: white;
+  font-size: 15px;
+  cursor: pointer;
+  font-family: "Kanit", sans-serif;
+font-weight: 500;
+
+  z-index: 2; /* Ensure the text appears above the white line */
+}
+.get-quote:hover {
   position: absolute;
   top: 50%;
   left: 70%; /* Place in the middle of the black section */
@@ -3049,6 +3085,18 @@ margin-top: 15em;
       transform: skewX(-30deg); /* Apply the same slant as the black section */
     }
     .get-quote {
+      position: absolute;
+      top: 50%;
+      left: 70%; /* Place in the middle of the black section */
+      color: white;
+      font-size: 19px;
+      cursor: pointer;
+      font-family: "Kanit", sans-serif;
+      font-weight: 500;
+
+      z-index: 2; /* Ensure the text appears above the white line */
+    }
+    .get-quote:hover {
       position: absolute;
       top: 50%;
       left: 70%; /* Place in the middle of the black section */
