@@ -2510,7 +2510,9 @@ z-index: 2; /* Ensure it appears above other elements */
 width: 2.5em;
 }
 .van {
-margin-top: -5em;  
+margin-top: -5em;
+min-width: 389px; 
+
 
 }
 .service{
