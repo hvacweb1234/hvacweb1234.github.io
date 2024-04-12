@@ -27,6 +27,7 @@
     color: #2A3890;
   }
 
+
   .btn-colour {
     background: rgb(235,28,36);
     background: linear-gradient(90deg, rgba(235,28,36,1) 0%, rgba(191,30,46,1) 100%);
@@ -516,7 +517,7 @@
     text-transform: capitalize;
   }
   .van{
-    width: 110em;
+    width: 120em;
   }
 
     
@@ -589,10 +590,10 @@
     z-index: 10;
   }
 
-  @media (max-width: 768px) {
+  @media (max-width: 707px) {
       #header-carousel .carousel-item {
           position: relative;
-          min-height: 450px;
+          min-height: 550px;
       }
       
       #header-carousel .carousel-item img {
@@ -675,7 +676,7 @@
 
   /*** Appointment ***/
   .appointment {
-      background: linear-gradient(rgba(0, 0, 0, .65), rgba(0, 0, 0, .3)), url(../img/carousel-2.jpg) center center no-repeat;
+      background: linear-gradient(rgba(0, 0, 0, .65), rgba(0, 0, 0, .3)), url(../img/carousel-2.webp) center center no-repeat;
       background-size: cover;
   }
 
@@ -2094,7 +2095,7 @@
       color: #ffffff;
     }
     .mobile-overlay {
-
+z-index: -1;
       padding: 0;
       height: 100vh;
       margin: 0;
@@ -2142,7 +2143,7 @@ margin-top: 15em;
   
     }
     .appointment {
-      background: linear-gradient(rgba(0, 0, 0, .65), rgba(0, 0, 0, .3)), url(../img/carousel-2.jpg) center center no-repeat;
+      background: linear-gradient(rgba(0, 0, 0, .65), rgba(0, 0, 0, .3)), url(../img/carousel-2.webp) center center no-repeat;
       background-size: cover;
       height: 113vh;
   }
@@ -2278,7 +2279,7 @@ margin-top: 0em;
 
 
 .form-padding{
-  padding-right: 4em;
+  padding-right: 2em;
 }
 .contact-paragraph-text{
   padding-right: 4em;
@@ -2341,7 +2342,7 @@ margin-top: -4em;
 
   }
   .appointment {
-    background: linear-gradient(rgba(0, 0, 0, .65), rgba(0, 0, 0, .3)), url(../img/carousel-2.jpg) center center no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, .65), rgba(0, 0, 0, .3)), url(../img/carousel-2.webp) center center no-repeat;
     background-size: cover;
     height: 113vh;
 }
@@ -2465,7 +2466,7 @@ margin-top: 0em;
   z-index: 1;
 }
 .form-padding{
-padding-right: 4em;
+padding-right: 2em;
 }
 .contact-paragraph-text{
 padding-right: 4em;
@@ -2499,18 +2500,18 @@ z-index: 2; /* Ensure it appears above other elements */
 width: 2.5em;
 }
 .van {
-margin-top: -4em;  
+margin-top: -5em;  
 
 }
 .service{
-margin-top: -2em !important;
+margin-top: -6em !important;
 }
 @keyframes driveIn {
 from {
     transform: translateX( 100%);
 }
 to {
-    transform: translateX(50%);
+    transform: translateX(20%);
 }
 }
 
@@ -2518,11 +2519,81 @@ to {
 
 @media (max-width: 385px){
   .appointment {
-    background: linear-gradient(rgba(0, 0, 0, .65), rgba(0, 0, 0, .3)), url(../img/carousel-2.jpg) center center no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, .65), rgba(0, 0, 0, .3)), url(../img/carousel-2.webp) center center no-repeat;
     background-size: cover;
     height: 150vh;
 }
+.phone-number {
+  position: absolute;
+  top: 50%;
+  font-family: "Kanit", sans-serif;
+  font-weight: 500;
+  left: 45px; /* Adjust the left position of the phone number */
+  transform: translateY(-50%);
+  color: white;
+  font-size: 17px;
+}
+.phone-icon {
+  position: absolute;
+  top: 50%;
+  left: 20px; /* Adjust the left position of the phone icon */
+  transform: translateY(-50%);
+  color: white;
+  font-size: 16px;
+}
+.slanted-topbar::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 60%; /* Starting from the end of the red section */
+  width: 60%; /* 1/5 of the width */
+  height: 100%;
+  background-color: #EB1C24; /* Black color */
+  transform-origin: top right;
+  transform: skewX(-30deg); /* Skew the section to create slant */
+}
+.get-quote .i1 {
+  margin-left: 10px; /* Add spacing between text and icon */
+  font-size: 16px;
+}
+.appointment {
+  background: linear-gradient(rgba(0, 0, 0, .65), rgba(0, 0, 0, .3)), url(../img/carousel-2.webp) center center no-repeat;
+  background-size: cover;
+  height: 162vh;
+}
 
+.get-quote .i2 {
+  display: none;}
+.white-line {
+  position: absolute;
+  top: 0;
+  left: 60%; /* Starting from the end of the red section */
+  width: 6px; /* Width of the white line */
+  height: 100%;
+  background-color: white; /* White color */
+  z-index: 1; /* Ensure the white line appears above the black section */
+  transform-origin: top right;
+  transform: skewX(-30deg); /* Apply the same slant as the black section */
+}
+.get-quote {
+  position: absolute;
+  top: 50%;
+  left: 70%; /* Place in the middle of the black section */
+  color: white;
+  font-size: 17px;
+  cursor: pointer;
+  font-family: "Kanit", sans-serif;
+font-weight: 500;
+
+  z-index: 2; /* Ensure the text appears above the white line */
+}
+.carousel-item {
+  position: absolute;
+  width: 100%;
+  height: 91vh;
+  
+  object-fit: cover;
+}
 .carousel-item {
   position: absolute;
   width: 100%;
@@ -2546,11 +2617,11 @@ to {
 }
 .van {
   margin-top: -4em; 
-  min-width: 400px; 
+  min-width: 389px; 
   
   }
   .service{
-    margin-top: -5em !important;
+    margin-top: -6em !important;
     }
 
   @keyframes driveIn {
@@ -2575,3 +2646,427 @@ margin-top: 2em;
   display: block;
 }
 }/* Add this CSS to your existing stylesheet */
+@media (max-width: 370px){
+  .appointment {
+    background: linear-gradient(rgba(0, 0, 0, .65), rgba(0, 0, 0, .3)), url(../img/carousel-2.webp) center center no-repeat;
+    background-size: cover;
+    height: 150vh;
+}
+.phone-number {
+  position: absolute;
+  top: 50%;
+  font-family: "Kanit", sans-serif;
+  font-weight: 500;
+  left: 45px; /* Adjust the left position of the phone number */
+  transform: translateY(-50%);
+  color: white;
+  font-size: 15px;
+}
+.phone-icon {
+  position: absolute;
+  top: 50%;
+  left: 20px; /* Adjust the left position of the phone icon */
+  transform: translateY(-50%);
+  color: white;
+  font-size: 16px;
+}
+.slanted-topbar::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 60%; /* Starting from the end of the red section */
+  width: 60%; /* 1/5 of the width */
+  height: 100%;
+  background-color: #EB1C24; /* Black color */
+  transform-origin: top right;
+  transform: skewX(-30deg); /* Skew the section to create slant */
+}
+.get-quote .i1 {
+  margin-left: 10px; /* Add spacing between text and icon */
+  font-size: 16px;
+}
+.appointment {
+  background: linear-gradient(rgba(0, 0, 0, .65), rgba(0, 0, 0, .3)), url(../img/carousel-2.webp) center center no-repeat;
+  background-size: cover;
+  height: 162vh;
+}
+
+.get-quote .i2 {
+  display: none;}
+.white-line {
+  position: absolute;
+  top: 0;
+  left: 60%; /* Starting from the end of the red section */
+  width: 6px; /* Width of the white line */
+  height: 100%;
+  background-color: white; /* White color */
+  z-index: 1; /* Ensure the white line appears above the black section */
+  transform-origin: top right;
+  transform: skewX(-30deg); /* Apply the same slant as the black section */
+}
+.get-quote {
+  position: absolute;
+  top: 50%;
+  left: 70%; /* Place in the middle of the black section */
+  color: white;
+  font-size: 15px;
+  cursor: pointer;
+  font-family: "Kanit", sans-serif;
+font-weight: 500;
+
+  z-index: 2; /* Ensure the text appears above the white line */
+}
+.carousel-item {
+  position: absolute;
+  width: 100%;
+  height: 91vh;
+  
+  object-fit: cover;
+}
+.carousel-item {
+  position: absolute;
+  width: 100%;
+  height: 115vh;
+  object-fit: cover;
+}
+.carousel-control-prev,
+.carousel-control-next {
+    width: 15%;
+    margin-top: 28em;
+  z-index: 13;
+  }
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    width: 3rem;
+    height: 3rem;
+    background-color: var(--dark);
+    border: 15px solid var(--dark);
+    border-radius: 50px;
+}
+.van {
+  margin-top: -4em; 
+  min-width: 389px; 
+  
+  }
+  .service{
+    margin-top: -6em !important;
+    }
+
+  @keyframes driveIn {
+  from {
+      transform: translateX( 100%);
+  }
+  to {
+      transform: translateX(20%);
+  }
+  }
+  .refrigeration-style{
+  width: 39em;
+padding-right: 2em;    
+margin-top: 2em;
+}
+.mobile-overlay {
+
+  padding: 0;
+  height: 120vh;
+  margin: 0;
+  width: 120%;
+  display: block;
+}
+.logo{
+  width: 9em;
+}
+}/* Add this CSS to your existing stylesheet */
+@media (min-width: 1000px){
+  .contact-left{
+    margin-left: 2em;
+  }
+}
+@media screen and (min-width: 1000px) and (max-width: 1400px){
+  .testimonial-section{
+    margin-top: 3em;
+    margin-bottom: 6em;
+  }
+  .testimonial-content {
+    position: relative;
+    background: #ffffff;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.15); /* Add shadow to the top */
+    margin: 0em 0em 6em 0em; /* Reset margin */
+    padding: 20px; /* Add padding as needed */
+  }
+}
+@media screen and (min-width: 1400px) and (max-width: 1800px){
+  .testimonial-section{
+    margin-top: 3em;
+    margin-bottom: 6em;
+  }
+  .testimonial-content {
+    position: relative;
+    background: #ffffff;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.15); /* Add shadow to the top */
+    margin: 0em 0em 6em 0em; /* Reset margin */
+    padding: 20px; /* Add padding as needed */
+  }
+}
+@media screen and (min-width: 992px) and (max-width: 1100px){
+  .choose-left1{
+    margin-left: 3em;
+    margin-top: 4em;
+  }
+}
+@media screen and (min-width: 1100px) and (max-width: 1400px){
+  .choose-left1{
+    margin-left: 3em;
+    margin-top: 4em;
+  }
+}
+@media screen and (min-width: 1400px) and (max-width: 1800px){
+  .choose-left1{
+    margin-left: 4em;
+    margin-top: 4em;
+  }
+}
+@media screen and (min-width: 1800px) and (max-width: 2100px){
+  .choose-left1{
+    margin-left: .5em;
+    margin-top: 4em;
+  }
+}
+.user{
+  width: 2.5em;
+  }
+
+  @media screen and (min-width: 1000px) and (max-width: 1250px){
+
+    .navbar .navbar-nav .nav-link {
+      margin-right: 30px;
+      padding: 30px 0px 0px 0;
+      color: #1d1c1c;
+      font-size: 17px;
+      text-transform: uppercase;
+      outline: none;
+      font-family: "Kanit", sans-serif;
+      font-weight: 500; 
+      font-style: italic;
+  
+      }
+      .logo{
+        width: 10em;
+      }
+      .navbar-brand{
+        padding-left: .4em  ;
+      }
+      .navbar .navbar-nav .nav-link:hover,
+      .navbar .navbar-nav .nav-link.active {
+      color: #ED412B;
+      }
+      .btn-colour-nav {
+        position: relative;
+        background: rgb(42,56,144);
+        background: linear-gradient(90deg, rgba(42,56,144,1) 0%, rgba(38,33,97,1) 100%);
+        color: #fff;
+        padding: .5em 1.74em;
+        margin-left: .75em;
+        border-radius: .21em;
+        font-size: 18px;
+        font-style: italic;
+        font-family: "Kanit", sans-serif;
+        font-weight: 500 !important;
+        box-shadow: 0 0 7px rgba(0, 63, 199, 1); /* Adjust the values to control the glow */
+      }
+      
+@keyframes driveIn {
+  from {
+      transform: translateX( 100%);
+  }
+  to {
+      transform: translateX(10%);
+  }
+}
+
+.van {
+  animation: driveIn 2s ease-out forwards;
+  min-width: 600px;
+
+}
+.service{
+    margin-top: 8em;
+}
+.carousel-caption p {
+  top: 50%;
+  right: 0;
+  width: 80%;
+  bottom: 0;
+  margin: 0 10%;
+  text-align: center;
+  z-index: 1;
+}
+
+  }
+
+
+  @media screen and (min-width: 768px) and (max-width: 1366px) and (orientation: portrait) {
+    .chooseus {
+          padding: 0px 0px 50px 0px;
+      }
+      
+      .chooseus__text {
+          text-align: center;
+      }
+      #header-carousel .carousel-item {
+        position: relative;
+        min-height: 550px;
+    }
+    
+    #header-carousel .carousel-item img {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .carousel-control-prev-icon,
+    .carousel-control-next-icon {
+        width: 3rem;
+        height: 3rem;
+        border-width: 12px;
+    }
+      .chooseus__text .section-title {
+          margin-bottom: 20px;
+      }
+      
+      .chooseus__text ul {
+          margin-bottom: 120px;
+
+      }
+      
+      .chooseus__text ul li {
+          font-size: 14px;
+          line-height: 1.5;
+      }
+      
+      .chooseus__video {
+        justify-content: center;
+        align-items: center;
+        height: 100%; /* Adjust the height as needed */
+        margin-top: 3em;
+    }
+
+    .chooseus__video img {
+        width: 94%;
+    margin-left: 3%;
+      margin-right: 3%;
+        height: 100%;
+        object-fit: fill;
+      padding-bottom: 2em;
+    }
+
+    .carousel-caption p {
+      top: 50%;
+      right: 0;
+      width: 80%;
+      bottom: 0;
+      margin: 0 10%;
+      text-align: center;
+      z-index: 1;
+    }
+    .phone-number {
+      position: absolute;
+      top: 50%;
+      left: 45px; /* Adjust the left position of the phone number */
+      transform: translateY(-50%);
+      color: white;
+      font-size: 19px;
+      font-family: "Kanit", sans-serif;
+      font-weight: 500;
+    }
+    .phone-icon {
+      position: absolute;
+      top: 50%;
+      left: 20px; /* Adjust the left position of the phone icon */
+      transform: translateY(-50%);
+      color: white;
+      font-size: 16px;
+    }
+    .slanted-topbar::after {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 60%; /* Starting from the end of the red section */
+      width: 60%; /* 1/5 of the width */
+      height: 100%;
+      background-color: #EB1C24; /* Black color */
+      transform-origin: top right;
+      transform: skewX(-30deg); /* Skew the section to create slant */
+    }
+    .get-quote .i1 {
+      margin-left: 10px; /* Add spacing between text and icon */
+      font-size: 16px;
+    }
+
+
+    .get-quote .i2 {
+      display: inline  ;}
+    .white-line {
+      position: absolute;
+      top: 0;
+      left: 60%; /* Starting from the end of the red section */
+      width: 6px; /* Width of the white line */
+      height: 100%;
+      background-color: white; /* White color */
+      z-index: 1; /* Ensure the white line appears above the black section */
+      transform-origin: top right;
+      transform: skewX(-30deg); /* Apply the same slant as the black section */
+    }
+    .get-quote {
+      position: absolute;
+      top: 50%;
+      left: 70%; /* Place in the middle of the black section */
+      color: white;
+      font-size: 19px;
+      cursor: pointer;
+      font-family: "Kanit", sans-serif;
+      font-weight: 500;
+
+      z-index: 2; /* Ensure the text appears above the white line */
+    }
+    .carousel-item {
+      position: absolute;
+      width: 100%;
+      height: 70vh;
+      object-fit: cover;
+    }
+    .testimonial-section{
+      margin-top: 3em;
+      margin-bottom: 6em;
+    }
+    .testimonial-content {
+      position: relative;
+      background: #ffffff;
+      box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.15); /* Add shadow to the top */
+      margin: 0em 0em 6em 0em; /* Reset margin */
+      padding: 20px; /* Add padding as needed */
+    }
+      }
+      
+      @media screen and (min-width: 1400px) and (max-width: 2000px){
+        .carousel-caption p {
+          top: 50%;
+          right: 0;
+          width: 6=70%;
+          bottom: 0;
+          margin: 0 15%;
+          text-align: center;
+          z-index: 1;
+        }
+        .carousel-caption h1 {
+          top: 50%;
+          right: 0;
+          width: 70%;
+          bottom: 0;
+          margin: 0 15%;
+          text-align: center;
+          z-index: 1;
+        }
+      }
