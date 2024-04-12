@@ -2212,6 +2212,16 @@ margin-top: 0em;
         font-family: "Kanit", sans-serif;
         font-weight: 500;
       }
+      .phone-number:hover {
+        position: absolute;
+        top: 50%;
+        left: 45px; /* Adjust the left position of the phone number */
+        transform: translateY(-50%);
+        color: white;
+        font-size: 16px;
+        font-family: "Kanit", sans-serif;
+        font-weight: 500;
+      }
       .phone-icon {
         position: absolute;
         top: 50%;
@@ -2411,6 +2421,16 @@ margin-top: 0em;
       color: white;
       font-size: 19px;
     }
+    .phone-number:hover {
+      position: absolute;
+      top: 50%;
+      font-family: "Kanit", sans-serif;
+      font-weight: 500;
+      left: 45px; /* Adjust the left position of the phone number */
+      transform: translateY(-50%);
+      color: white;
+      font-size: 19px;
+    }
     .phone-icon {
       position: absolute;
       top: 50%;
@@ -2565,6 +2585,16 @@ to {
   color: white;
   font-size: 17px;
 }
+.phone-number:hover {
+  position: absolute;
+  top: 50%;
+  font-family: "Kanit", sans-serif;
+  font-weight: 500;
+  left: 45px; /* Adjust the left position of the phone number */
+  transform: translateY(-50%);
+  color: white;
+  font-size: 17px;
+}
 .phone-icon {
   position: absolute;
   top: 50%;
@@ -2697,6 +2727,16 @@ margin-top: 2em;
     height: 150vh;
 }
 .phone-number {
+  position: absolute;
+  top: 50%;
+  font-family: "Kanit", sans-serif;
+  font-weight: 500;
+  left: 45px; /* Adjust the left position of the phone number */
+  transform: translateY(-50%);
+  color: white;
+  font-size: 15px;
+}
+.phone-number:hover {
   position: absolute;
   top: 50%;
   font-family: "Kanit", sans-serif;
@@ -3037,6 +3077,16 @@ margin-top: 15em;
       z-index: 1;
     }
     .phone-number {
+      position: absolute;
+      top: 50%;
+      left: 45px; /* Adjust the left position of the phone number */
+      transform: translateY(-50%);
+      color: white;
+      font-size: 19px;
+      font-family: "Kanit", sans-serif;
+      font-weight: 500;
+    }
+    .phone-number:hover {
       position: absolute;
       top: 50%;
       left: 45px; /* Adjust the left position of the phone number */
