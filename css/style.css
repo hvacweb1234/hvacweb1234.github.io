@@ -1910,7 +1910,7 @@
   }
 
   .contact-overlay{
-    height: 85vh;
+    height: 90vh;
     left: -0.95%;
   }
   @media (max-width: 767px) {
@@ -2079,16 +2079,30 @@
 
 
   /* Mobile Styles */
-  @media (max-width: 767px) {
+  @media (max-width: 778px) {
+    .mobile-overlay {
+
+      padding: 0;
+      height: 120vh;
+      margin: 0;
+      width: 120%;
+      display: block;
+    }
+    .contact-overlay {
+      display: none;
+    }
+  }
+  /* Mobile Styles */
+  @media (max-width: 1000px) {
     /* Adjust map container height */
     .container-flu iframe {
       height: 780px; /* Adjust height as needed */
-      width: 130%;
+      width: 130vh;
     }
 
     /* Apply grayscale filter to the map */
     .container-flu iframe {
-      filter: grayscale(120%) !important;
+      filter: grayscale(30%) !important;
       }
     
     .text-contact{
@@ -2100,11 +2114,10 @@ z-index: -1;
       height: 100vh;
       margin: 0;
       width: 120%;
-      display: block;
+      display: flex;
     }
     .contact-overlay {
-      display: none;
-    }
+width: 100vh;    }
   }
   
   /* Define the background color when a dropdown item is clicked */
@@ -3048,13 +3061,14 @@ margin-top: 2em;
       margin: 0em 0em 6em 0em; /* Reset margin */
       padding: 20px; /* Add padding as needed */
     }
+    
       }
       
       @media screen and (min-width: 1400px) and (max-width: 2000px){
         .carousel-caption p {
           top: 50%;
           right: 0;
-          width: 6=70%;
+          width: 70%;
           bottom: 0;
           margin: 0 15%;
           text-align: center;
@@ -3068,5 +3082,24 @@ margin-top: 2em;
           margin: 0 15%;
           text-align: center;
           z-index: 1;
+        }
+        
+      }    
+      @media screen and (min-width: 1000px) and (max-width: 1070px){
+        .contact-overlay{
+          height: 86.54vh;
+          left: -0.95%;
+        }
+      }
+      @media screen and (min-width: 1070px) and (max-width: 1200px){
+        .contact-overlay{
+          height: 89.54vh;
+          left: -0.95%;
+        }
+      }
+      @media screen and (min-width: 1200px) and (max-width: 1390px){
+        .contact-overlay{
+          height: 71.54vh;
+          left: -0.95%;
         }
       }
