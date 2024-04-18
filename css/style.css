@@ -1919,7 +1919,7 @@
   }
 
   .contact-overlay{
-    height: 90vh;
+    height: 102vh;
     left: -0.95%;
   }
   @media (max-width: 767px) {
@@ -2921,6 +2921,8 @@ margin-top: 15em;
     margin-left: 3em;
     margin-top: 4em;
   }
+
+
 }
 @media screen and (min-width: 1400px) and (max-width: 1800px){
   .choose-left1{
@@ -3197,7 +3199,8 @@ margin-top: 15em;
           text-align: center;
           z-index: 1;
         }
-        
+       
+      
       }    
       @media screen and (min-width: 1000px) and (max-width: 1070px){
         .contact-overlay{
@@ -3211,12 +3214,11 @@ margin-top: 15em;
           height: 89.54vh;
           left: -0.95%;
         }
-      }
-      @media screen and (min-width: 1200px) and (max-width: 1390px){
-        .contact-overlay{
-          height: 91.54vh;
-          left: -0.95%;
+        iframe {
+          height: 668px !important; /* Adjust the height as needed */
         }
+      
+        
       }
       @media screen and (max-width: 1000px){
         .refrigeration-style{
@@ -3226,3 +3228,61 @@ margin-top: 15em;
 
 
       }
+
+
+/* For large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  iframe {
+    height: 665px; /* Adjust the height as needed */
+  }
+}
+/* For large devices (desktops, 992px and up) */
+
+
+/* For extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  iframe {
+    height: 760px; /* Adjust the height as needed */
+  }
+  .contact-overlay{
+    height: 81.74vh;
+    left: -0.95%;
+  }
+  
+}
+@media (min-width: 1250px) {
+  iframe {
+    height: 760px; /* Adjust the height as needed */
+  }
+  .contact-overlay{
+    height: 105.54vh;
+    left: -0.95%;
+  }
+}
+@media (min-width: 1400px) {
+  iframe {
+    height: 730px; /* Adjust the height as needed */
+  }
+  .contact-overlay{
+    height: 81.1vh;
+    left: -0.95%;
+  }
+}
+@media (min-width: 1500px) {
+  iframe {
+    height: 730px; /* Adjust the height as needed */
+  }
+  .contact-overlay{
+    height: 84.54vh;
+    left: -0.95%;
+  }
+}
+@media (min-width: 1600px) {
+  iframe {
+    height: 730px; /* Adjust the height as needed */
+  }
+  .contact-overlay{
+    height: 81vh;
+    left: -0.95%;
+  }
+}
