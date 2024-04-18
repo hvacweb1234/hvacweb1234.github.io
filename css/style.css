@@ -3286,3 +3286,30 @@ margin-top: 15em;
     left: -0.95%;
   }
 }
+@media (min-width: 1700px) {
+  iframe {
+    height: 730px; /* Adjust the height as needed */
+  }
+  .contact-overlay{
+    height: 88.3vh;
+    left: -0.95%;
+  }
+}
+@media (min-width: 1900px) {
+  iframe {
+    height: 730px; /* Adjust the height as needed */
+  }
+  .contact-overlay{
+    height: 80.1vh;
+    left: -0.95%;
+  }
+}
+@media (min-width: 1915px) {
+  iframe {
+    height: 730px; /* Adjust the height as needed */
+  }
+  .contact-overlay{
+    height: 67.71vh;
+    left: -0.95%;
+  }
+}
