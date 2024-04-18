@@ -3313,3 +3313,12 @@ margin-top: 15em;
     left: -0.95%;
   }
 }
+@media (min-width: 1920px) {
+  iframe {
+    height: 730px; /* Adjust the height as needed */
+  }
+  .contact-overlay{
+    height: 100.71vh !important;
+    left: -0.95%;
+  }
+}
