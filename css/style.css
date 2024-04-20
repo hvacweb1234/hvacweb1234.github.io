@@ -3248,6 +3248,11 @@ margin-top: 15em;
     height: 81.74vh;
     left: -0.95%;
   }
+  .van {
+    animation: driveIn 2s ease-out forwards;
+    min-width: 300px;
+    min-height: 700px;
+  }
   
 }
 @media (min-width: 1250px) {
@@ -3258,6 +3263,7 @@ margin-top: 15em;
     height: 105.54vh;
     left: -0.95%;
   }
+
 }
 @media (min-width: 1400px) {
   iframe {
