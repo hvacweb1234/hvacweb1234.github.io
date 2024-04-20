@@ -1912,7 +1912,7 @@
     background-size: cover;
   }
   .about-img{
-    background-image: url(../img/about-1.jpg);
+    background-image: url(../img/about-us-page-image.jpg);
     background-size: cover;
     min-height: 80vh;
   background-position: top;
@@ -1926,7 +1926,7 @@
 
 
     .about-img{
-      background-image: url(../img/about-1.jpg);
+      background-image: url(../img/about-us-page-image.jpg);
       background-size: cover;
       width: 90%;
       margin-left: 5%;
