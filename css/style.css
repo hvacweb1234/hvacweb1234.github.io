@@ -2705,7 +2705,7 @@ color: #020202;
 }
 
 /* Media query for screens between 300px and 385px */
-@media (min-width: 300px) and (max-width: 385px) {
+@media (min-width: 370px) and (max-width: 385px) {
 
   .font-type-services{
     font-family: "Cormorant Garamond", serif !important;
@@ -3409,6 +3409,759 @@ color: #020202;
     background: linear-gradient(to right, rgba(3, 3, 3, 0.692), rgba(0, 0, 0, .63)), url(../img/appointment.jpg) left center no-repeat;
     background-size: cover;
     height: 175vh;
+    margin-bottom: 7em !important;
+  }
+  .font-type-contact{
+    font-family: "Cormorant Garamond", serif;
+    font-weight: 600 !important;
+      font-style: normal;
+      color: #ffffff;
+      font-size: 2.75em;
+  }
+  .navbar .navbar-nav .nav-link {
+    margin-right: 35px;
+    padding: 10px 0;
+    color: #231F20;
+    font-size: 25px;
+    font-weight: 500;
+    outline: none;
+    font-family: "Cormorant Garamond", serif;
+    font-weight: 600 !important;
+      font-style: normal;}
+  }
+/* Media query for screens between 300px and 385px */
+@media (min-width: 100px) and (max-width: 375px) {
+
+  .navbar-toggler{
+    margin-right: -1.25em !important;
+    margin-bottom: -.75em;
+  }
+
+  .iframe-container {
+    width: 95% !important;
+    padding-top: 100%; /* This makes the container a square */
+    height: 50% !important;
+}
+
+.iframe-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100% !important;
+}
+.shadow-box-contact {
+  position: absolute;
+  top: -20px; /* Adjust the position as needed */
+  left: 130px; /* Adjust the position as needed */
+  width: 60%; /* Adjust the size as needed */
+  height: 90%; /* Adjust the size as needed */
+  background-color: #1E1E1E; /* Black color */
+  z-index: -1; /* Ensure it is behind the image */
+}
+
+  .font-type-services{
+    font-family: "Cormorant Garamond", serif !important;
+  font-weight: 600 !important;
+  color: #020202;
+  font-size: 2.1em !important;
+  }
+
+  .font-type-projects-page{
+    font-family: "Cormorant Garamond", serif;
+    font-weight: 600 !important;
+      font-style: normal;
+      font-size: 2.35em;
+      margin-bottom: .5em;
+      color: #020202;
+      margin-top: -.25em;
+  }
+
+  .p-l-5{
+    margin-left: .17em;
+    margin-top: 1em;
+  }
+  .services-image1{
+    height: 43vh !important;
+    width: 100%;
+  }
+  .services-image2{
+    height: 43vh !important;
+  }
+  .services-image3{
+    height: 43vh !important;
+  }
+  .services-image4{
+    height: 43vh !important;
+  }
+  .about-text{
+    margin-top: -4.5em;
+  }
+  .py-15{
+    padding-bottom: 8em;
+    padding-top: 3em !important;
+  }
+  
+
+  .page-header .breadcrumb-item,
+  .page-header .breadcrumb-item a {
+    font-size: 22px !important;
+    font-family: "Cormorant Garamond", serif;
+    font-weight: 600 !important;
+      font-style: italic;
+    color: var(--light);
+  }
+  
+
+  .font-type-page-header{
+    font-family: "Cormorant Garamond", serif;
+    font-weight: 600 !important;
+      font-style: normal;
+      font-size: 3.5em;
+      margin-top: -.75em;
+  }
+  .font-type-service-page-header{
+    font-family: "Cormorant Garamond", serif;
+    font-weight: 600 !important;
+      font-style: normal;
+      font-size: 2.83em;
+      margin-top: -1.15em;
+  }
+  .font-type-service-page-header3{
+    font-family: "Cormorant Garamond", serif;
+    font-weight: 600 !important;
+      font-style: normal;
+      font-size: 2.8em;
+      margin-top: -.5em;
+  }
+  .page-header {
+    background: linear-gradient(to right, rgb(35, 31, 32) 0%, rgba(179, 185, 191, 0) 100%), url(../img/carousel-1.jpg) center right no-repeat;
+    background-size: cover;
+    height: 300px;
+  }
+
+  .service-page-header {
+    background: linear-gradient(to right, rgb(35, 31, 32) 0%, rgba(179, 185, 191, 0) 100%), url(../img/carousel-1.jpg) center right no-repeat;
+    background-size: cover;
+    height: 300px;
+  }
+  
+  .service-page-header .breadcrumb-item+.breadcrumb-item::before {
+    color: var(--light);
+  }
+  
+  .service-page-header .breadcrumb-item,
+  .service-page-header .breadcrumb-item a {
+    font-size: 22px;
+    font-family: "Cormorant Garamond", serif;
+    font-weight: 600 !important;
+      font-style: italic;
+    color: var(--light);
+  }
+  
+  .service-page-header3 {
+    background: linear-gradient(to right, rgb(35, 31, 32) 0%, rgba(179, 185, 191, 0) 100%), url(../img/carousel-1.jpg) center right no-repeat;
+    background-size: cover;
+    height: 300px;
+  }
+  
+  .service-page-header3 .breadcrumb-item+.breadcrumb-item::before {
+    color: var(--light);
+  }
+  
+  .service-page-header3 .breadcrumb-item,
+  .service-page-header3 .breadcrumb-item a {
+    font-size: 22px;
+    font-family: "Cormorant Garamond", serif;
+    font-weight: 600 !important;
+      font-style: italic;
+    color: var(--light);
+  }
+  
+
+
+.font-future-about-page{
+  color:  #020202;
+  font-family: "Cormorant Garamond", serif;
+  font-weight: 600 !important;
+    font-style: normal;
+    font-size: 2.2em !important;
+  }
+  
+  .about-img{
+    background-image: url(../img/about-page-image.jpg);
+    background-size: cover;
+    height: 50vh;
+    margin-bottom: -1em !important;
+    width: 90%;
+    margin:  0 5%;
+  background-position: top;
+  }
+  .section-header-text-page{
+    color: #979797;
+    font-family: "Cormorant Garamond", serif;
+    font-weight: 800 !important;
+      font-style: italic;
+      font-size: 1.50em ;
+      letter-spacing: .1px;
+  }
+
+  .icon-container {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    border: 1.5px solid #fff; /* Adjust color as needed */
+    border-radius: 50%;
+  }
+  
+  .icon-container i {
+    font-size: 18px;
+    color: #fff; /* Adjust color as needed */
+  }
+
+  .logo {
+    width: 8em;
+    margin-right: 0.5em;
+    margin-bottom: .135em;
+  }
+
+  .clipping-mask2 {
+    display: none;
+  }
+
+  .clipping-mask {
+    display: none;
+  }
+
+  .fb-mobile {
+    margin-top: .1em;
+    padding-right: 2em;
+  }
+
+  .topbar-text1 {
+    white-space: nowrap;
+    margin-left: .75em;
+    font-family: "Cormorant Garamond", serif;
+    font-weight: 600 !important;
+    font-style: normal;
+    color: #fff;
+    margin-bottom: 1em;
+    font-size: 1.24em !important;
+  }
+
+  .icon-outline2 {
+    -webkit-text-stroke: 1px #fff; /* Outline color and width */
+    color: transparent; /* Hide the fill color */
+    font-size: 17px; /* Adjust size as needed */
+    margin-right: 8px; /* Space between icon and text */
+    transform: rotate(120deg);
+  }
+
+  .facebook-icon-mobile {
+    font-size: 12px !important;
+  }
+
+  .carousel-item {
+    height: 165vh;
+    width: 100%;
+  }
+
+  .carousel-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .text-container {
+    position: absolute;
+    top: 23%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100% !important;
+  }
+
+  .quote-form {
+    width: 94%;
+    margin-left: 5% !important;
+    max-width: 700px; /* Adjust the maximum width as needed */
+    margin: auto;
+    padding: 0px;
+    background-color: #ffffff94;
+    border-radius: 0px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    order: 2; /* Set the order to 2 to move the form below the text */
+    margin-top: 31.5em !important;
+    height: 49%;
+    background: rgb(11, 11, 11);
+    background: linear-gradient(180deg, rgba(11, 11, 11, 1) 11%, rgba(0, 0, 0, 1) 8%, rgba(0, 0, 0, 1) 10%, rgba(255, 255, 255, 1) 10%, rgba(255, 255, 255, 1) 20%, rgba(255, 255, 255, 1) 25%);
+  }
+
+  .header-text {
+    font-family: "Cormorant Garamond", serif;
+    font-weight: 600 !important;
+    font-style: normal;
+    color: #fff;
+    font-size: 2.75em;
+  }
+
+  .body-text {
+    font-family: "Cormorant Garamond", serif;
+    font-weight: 500 !important;
+    font-size: 1.12em;
+  }
+
+  .btn-carousel {
+    display: none;
+  }
+
+  .btn-colour-form {
+    background-color: #231F20;
+    padding: .5em 2.1em;
+    white-space: nowrap;
+    font-family: "Cormorant Garamond", serif;
+    font-weight: 600 !important;
+    font-style: normal;
+    color: #fff;
+    font-size: 1.23em;
+  }
+
+  .form-group {
+    margin-bottom: 15px;
+    margin-right: 5px; /* Adjust this value to reduce the space between the input boxes */
+  }
+
+  .form-row {
+   }
+
+  .form-group {
+    margin-bottom: 15px;
+  }
+
+  .half-width {
+    width: calc(50% - 10px); /* Subtracting margin space */
+  }
+
+  .taller {
+    height: auto; /* Change height to auto */
+  }
+
+  .taller input {
+    height: calc(100% - 30px); /* Subtract the height of the icon placeholder */
+  }
+
+  .taller i {
+    margin-top: 2px; /* Adjust as needed */
+  }
+
+  .taller textarea {
+    height: 150px; /* Adjust the height as needed */
+  }
+
+  .form-group.taller i {
+    height: calc(100% - 13px); /* Subtract the height of the icon placeholder */
+    resize: none; /* Prevent resizing of the textarea */
+  }
+
+  .form-group {
+    position: relative;
+    margin-bottom: 15px; /* Adjust margin between form groups */
+  }
+
+  .form-group i {
+    position: absolute;
+    top: 55%;
+    left: 20px;
+    transform: translateY(-50%);
+    font-size: .58em;
+    color: #73737399; /* Adjust icon color if needed */
+    margin-left: 1em;
+    padding-left: .2em;
+  }
+
+  .form-group input,
+  .form-group textarea {
+    width: calc(100% - 30px); /* Adjust width and padding as needed */
+    padding: 10px;
+    padding-left: 30px; /* Ensure enough space for the icon */
+    margin-left: 1em;
+    background-color: #ECECEC;
+    border: 1px solid #ECECEC; /* Adjust border color if needed */
+  }
+
+  .form-container {
+    position: relative;
+  }
+
+  .form-header {
+    text-align: center;
+    font-size: 26px;
+    padding-top: .5em;
+    margin: 0 auto 20px;
+    color: #fafafa;
+    width: 100%;
+    height: 100px;
+    font-family: "Cormorant Garamond", serif;
+    font-weight: 600;
+    font-style: normal;
+    z-index: 5 !important;
+    position: absolute;
+  }
+
+  /* CSS to change the font and size of the placeholder text */
+  .form-control::placeholder {
+    font-family: "Cormorant Garamond", serif;
+    font-size: 17px; /* Change font size as needed */
+    color: #999; /* Change placeholder color as needed */
+  }
+
+  .form-content {
+    margin-top: 7.5em;
+  }
+
+  .arrow-down {
+    position: absolute;
+    margin-top: 3.811em;
+    margin-left: .000001em;
+    left: 0; /* Adjust positioning to start from the left */
+    width: 100%; /* Span the entire width */
+    height: 47px; /* Set the height of the arrow */
+    background-color: #777777; /* Adjust color as needed */
+    clip-path: polygon(-10% 0%, 50% 75%, 108% 0%); /* Create arrow shape */
+    z-index: 3; /* Ensure arrow is behind the form header */
+  }
+
+  .arrow-down-black {
+    position: absolute;
+    margin-top: 3.61em;
+    margin-left: .00000001em;
+    left: 0; /* Adjust positioning to start from the left */
+    width: 100%; /* Span the entire width */
+    height: 32px; /* Set the height of the arrow */
+    background-color: #0b0b0b; /* Adjust color as needed */
+    clip-path: polygon(-10% 0%, 50% 75%, 108% 0%); /* Create arrow shape */
+    z-index: 3; /* Ensure arrow is above the form header */
+  }
+  .slant {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 60px; /* Adjust the height as needed */
+    background-color: white; /* Background color */
+    clip-path: polygon(0% 85%, 100% 0%, 100% 100%, 0% 100%);
+    z-index: 2; /* Ensure it's above the carousel */
+  }
+
+  .list-text{
+    color: #020202;
+    font-family: "Cormorant Garamond", serif;
+    font-weight: 800 !important;
+      font-style: italic;
+      font-size: 1.4em;
+  }
+  .list-text-about{
+    color: #020202;
+    font-family: "Cormorant Garamond", serif;
+    font-weight: 800 !important;
+      font-style: italic;
+      font-size: 1.54em;
+  }
+  .about-img-container {
+    position: relative;
+  }
+  
+  .about-img-container .shadow-box {
+    position: absolute;
+    top: -15px; /* Adjust the position as needed */
+    left: 45px; /* Adjust the position as needed */
+    width: 70%; /* Adjust the size as needed */
+    height: 95%; /* Adjust the size as needed */
+    margin-left: 2em ;
+
+    background-color: #1E1E1E; /* Black color */
+    z-index: -1; /* Ensure it is behind the image */
+  }
+
+  
+  .about-img-container img {
+    position: relative;
+    z-index: 1;
+  }
+  .about-img-home{
+    height: auto;
+    width: 90%;
+    margin-bottom: -1em;
+  margin-left: .0000001em ;
+
+}
+  .service{
+    margin-top: .5em;
+  }
+  .about-section{
+    margin-top: 3em;
+  }
+  .font-future-about-section{
+    color: #020202;
+    font-family: "Cormorant Garamond", serif;
+    font-weight: 600 !important;
+      font-style: normal;
+    font-size: 2.25em;
+    }
+  /* Styling for mobile top bar */
+
+  .section-header-text{
+    color: #979797;
+    font-family: "Cormorant Garamond", serif;
+    font-weight: 800 !important;
+      font-style: italic;
+      font-size: 1.30em;
+      letter-spacing: .1px;
+  }
+  .body-text-dark{
+    font-family: "Sedan", serif;
+    font-weight: 400;     
+    font-size: 1.05em;
+    color: #020202;
+  }
+  .font-type-service{
+    font-family: "Cormorant Garamond", serif;
+    font-weight: 800 !important;
+    letter-spacing: .4px;
+      font-style: normal;
+      font-size: 1.95em;
+    color: #070707;
+  }
+  .font-type-service-header{
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 1.62em;
+    color: #070707;
+    font-family: "Cormorant Garamond", serif;
+    font-weight: 800 !important;
+    letter-spacing: .4px;
+
+  }  
+  .service-item2 p{
+    text-align: center;
+    padding: 0 1em;
+  }
+     /*---- testimonial section style start ----*/
+     section#testimonial {
+      margin-top: 3em;
+      padding-bottom: 150px;
+      margin-bottom: 1em;
+  }
+
+  .testimonial-section h3 {
+      text-align: center;
+  }
+
+  .testimonial-section h6 {
+      text-align: center;
+  }
+
+  .testimonial-section .review {
+      margin-top: 1em;
+  }
+
+
+  .testimonial-section h5 {
+      margin-left: -.45em;  
+      font-family: "Kanit", sans-serif;
+      font-weight: 500;
+      color: #0e0d0d;
+      font-style: italic;
+      font-size: 1.14em;
+      margin-top: .32em;
+  }
+
+  .star {
+      margin-left: -.37em;
+  }
+
+  .testimonial-top {
+      text-align: center;
+  }
+
+  .testimonial-top p {
+      text-align: center;
+      margin-bottom: 3em;
+      color: #000;
+      font-weight: 500;
+      font-size: 1.2em;
+  }
+
+  .testimonial-top img {
+      width: 9em;
+  }
+
+  .testimonial-content {
+      position: relative;
+      background: #ffffff;
+      box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.15);
+      margin: 10px; /* Add margin for spacing between slides */
+      padding: 20px;
+      border-radius: 10px;
+  }
+
+  .testimonial-content::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: -10px;
+      width: calc(100% + 20px);
+      height: 10px;
+      box-shadow: 0px -12px 20px rgba(0, 0, 0, 0.15);
+  }
+
+  .testimonial-content::after {
+      content: '';
+      position: absolute;
+      bottom: -10px;
+      left: -10px;
+      width: calc(100% + 20px);
+      height: 10px;
+      box-shadow: 0px -10px 20px rgba(0, 0, 0, 0.15);
+  }
+
+  iconify-icon.rate {
+      color: #F2B821;
+  }
+  .navbar-brand {
+    padding-left: .25em !important;
+    }
+
+  .swiper-pagination {
+    position: absolute;
+    bottom: -70px !important; /* Adjust the distance from the bottom as needed */
+    left: 0;
+    width: 100%;
+    text-align: center;
+}
+  .swiper-pagination .swiper-pagination-bullet {
+      background-color: #2e2d2d;
+  }
+
+  .swiper {
+      overflow: visible !important;
+  }
+
+  .review-scroll {
+      max-height: 200px;
+      overflow-y: auto;
+  }
+
+  ::-webkit-scrollbar {
+      width: 5px;
+  }
+
+  ::-webkit-scrollbar-track {
+      background: #f1f1f1;
+  }
+
+  ::-webkit-scrollbar-thumb {
+      background: #797979;
+      border-radius: 5px;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+      background: #555;
+  }
+
+  .review {
+      padding-right: 2em;
+  }
+
+  .google-logo{
+    width: 4.21em !important;
+    margin-top: -2em;
+  }
+  .testimonial-paragraph-header-text{
+    white-space: nowrap;
+    margin-left: 0em;
+    font-family: "Sedan", serif;
+    font-weight: 400 !important;
+      font-style: normal;
+      margin-top: -2em;
+      color: #020202;
+      font-size: 1.41em !important;
+  }
+  iconify-icon.rate2 {
+    color: #F2B821;
+font-size: 16px;  
+    width: 15px;
+}
+.star-margin-2{
+  margin-right: .5em;
+
+}
+.star-margin-1{
+  margin-left: .3em;
+
+}
+.font-future-testimonial{
+  font-family: "Cormorant Garamond", serif;
+font-weight: 600 !important;
+color: #020202;
+}
+
+.testimonial-content .google-icon {
+  position: absolute;
+  top: 35px; /* Adjust as needed */
+  right: 36px; /* Adjust as needed */
+  width: 30px; /* Adjust as needed */
+  height: auto;
+}
+.testimonial-content .user-info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: nowrap;
+  margin-right: 5em;
+}
+
+.testimonial-content .user-info .user {
+  margin-right: 10px; /* Adjust space between image and text */
+}
+
+.testimonial-content .user-info .user-details {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 1em;
+}
+
+.testimonial-content .user-info .user-details h5,
+.testimonial-content .user-info .user-details .star {
+  display: flex;
+  align-items: center;
+}
+.user{
+  width: 3em;
+}
+
+          .swiper-slide {
+        width: calc(100% - 20px);
+        margin: 0 auto;
+      }
+    
+
+      .swiper-slide {
+        width: calc(90% - 30px);
+        margin: 0 auto;
+      }
+
+
+    .swiper-slide {
+      box-sizing: border-box;
+    }
+    
+  .appointment {
+    background: linear-gradient(to right, rgba(3, 3, 3, 0.692), rgba(0, 0, 0, .63)), url(../img/appointment.jpg) left center no-repeat;
+    background-size: cover;
+    height: 155vh;
     margin-bottom: 7em !important;
   }
   .font-type-contact{
@@ -4185,7 +4938,7 @@ padding: 0em 1em;
     font-weight: 600 !important;
       font-style: normal;}
       .navbar-brand {
-        padding-left: .1em !important;
+        padding-left: 1em !important;
         }
   }
 /* Media query for screens between 410px and 425 */
@@ -4338,7 +5091,7 @@ padding: 0em 1em;
   
 
   .navbar-brand {
-    padding-left: .1em !important;
+    padding-left: 1em !important;
     }
   .font-future-about-page{
     color:  #020202;
@@ -4641,7 +5394,7 @@ padding: 0em 1em;
   .about-img-container .shadow-box {
     position: absolute;
     top: -15px; /* Adjust the position as needed */
-    left: 45px; /* Adjust the position as needed */
+    left: 55px; /* Adjust the position as needed */
     width: 70%; /* Adjust the size as needed */
     height: 95%; /* Adjust the size as needed */
     margin-left: 2em ;
@@ -4927,7 +5680,7 @@ padding: 0em 1em;
   .appointment {
     background: linear-gradient(to right, rgba(3, 3, 3, 0.692), rgba(0, 0, 0, .63)), url(../img/appointment.jpg) left center no-repeat;
     background-size: cover;
-    height: 125vh;
+    height: 130vh;
     margin-bottom: 7em !important;
   }
   .font-type-contact{
@@ -5852,6 +6605,29 @@ padding: 0em 0em !important;
           margin:  0 5%;
         background-position: top;
         }
+
+        .iframe-container {
+          width: 90% !important;
+          padding-top: 100%; /* This makes the container a square */
+          height: 50% !important;
+      }
+    
+      .iframe-container iframe {
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100% !important;
+      }
+      .shadow-box-contact {
+        position: absolute;
+        top: -20px; /* Adjust the position as needed */
+        left: 140px; /* Adjust the position as needed */
+        width: 60%; /* Adjust the size as needed */
+        height: 90%; /* Adjust the size as needed */
+        background-color: #1E1E1E; /* Black color */
+        z-index: -1; /* Ensure it is behind the image */
+      }
   }
 
 @media (max-width: 767px) {
@@ -5944,34 +6720,9 @@ padding: 0em 0em !important;
   border: 0;
 }
 
-/* Styles for mobile screens */
-@media (max-width: 768px) {
-  .iframe-container {
-      width: 100%;
-      padding-top: 100%; /* This makes the container a square */
-      height: 0;
-  }
-
-  .iframe-container iframe {
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-  }
-  .shadow-box-contact {
-    position: absolute;
-    top: -30px; /* Adjust the position as needed */
-    left: -35px; /* Adjust the position as needed */
-    width: 60%; /* Adjust the size as needed */
-    height: 95%; /* Adjust the size as needed */
-    background-color: #1E1E1E; /* Black color */
-    z-index: -1; /* Ensure it is behind the image */
-  }
-}
 
 
 .topbar-phone-link{
 
-  
+  color: #fff ;
 }
