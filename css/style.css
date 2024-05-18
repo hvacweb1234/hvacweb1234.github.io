@@ -4430,7 +4430,7 @@ padding: 0em 1em;
   }
 
   .carousel-item {
-    height: 140vh;
+    height: 144vh;
     width: 100%;
   }
 
@@ -4442,7 +4442,7 @@ padding: 0em 1em;
 
   .text-container {
     position: absolute;
-    top: 23%;
+    top: 24%;
     left: 50%;
     transform: translate(-50%, -50%);
     width: 100% !important;
@@ -5970,3 +5970,8 @@ padding: 0em 0em !important;
   }
 }
 
+
+.topbar-phone-link{
+
+  
+}
