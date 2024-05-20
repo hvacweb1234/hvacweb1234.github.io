@@ -3278,7 +3278,7 @@ color: #020202;
       color: #F2B821;
   }
   .navbar-brand {
-    padding-left: .75em !important;
+    padding-left: .15em !important;
     }
 
   .swiper-pagination {
@@ -3451,6 +3451,11 @@ color: #020202;
       height: 90%; /* Adjust the size as needed */
       background-color: #1E1E1E; /* Black color */
       z-index: -1; /* Ensure it is behind the image */
+    }
+
+    .navbar-toggler{
+      margin-right: -1.25em !important;
+      margin-bottom: -.75em;
     }
   }
 /* Media query for screens between 300px and 385px */
@@ -4209,6 +4214,12 @@ color: #020202;
 /* Media query for screens between 300px and 385px */
 @media (min-width: 385px) and (max-width: 410px) {
 
+  .navbar-toggler{
+    margin-right: -1.25em !important;
+    margin-bottom: -.75em;
+  }
+
+
   .iframe-container {
     width: 95% !important;
     padding-top: 100%; /* This makes the container a square */
@@ -4404,7 +4415,7 @@ color: #020202;
 
 
   .navbar-brand {
-    padding-left: .1em !important;
+    padding-left: .001em !important;
     }
 
   .icon-container {
@@ -4983,11 +4994,17 @@ padding: 0em 1em;
     font-weight: 600 !important;
       font-style: normal;}
       .navbar-brand {
-        padding-left: 1em !important;
+        padding-left: .41em !important;
         }
   }
 /* Media query for screens between 410px and 425 */
 @media (min-width: 410px) and (max-width: 425px) {
+
+  .navbar-toggler{
+    margin-right: -.75em !important;
+    margin-bottom: -1.15em !important;
+  }
+
 
   .iframe-container {
     width: 95% !important;
@@ -5157,7 +5174,7 @@ padding: 0em 1em;
   
 
   .navbar-brand {
-    padding-left: 1em !important;
+    padding-left: .41em !important;
     }
   .font-future-about-page{
     color:  #020202;
@@ -5770,15 +5787,16 @@ padding: 0em 1em;
         padding-left: .1em;
         }
 
-        .navbar-toggler{
-          margin-right: -1.25em !important;
-          margin-bottom: -.25em;
-        }
+
   }
 /* Media query for screens between 410px and 425 */
 @media (min-width: 425px) and (max-width: 630px) {
 
   
+  .navbar-toggler{
+    margin-right: -.75em !important;
+    margin-bottom: -1.15em !important;
+  }
   
   .font-type-services{
     font-family: "Cormorant Garamond", serif !important;
@@ -5981,7 +5999,7 @@ padding: 0em 1em;
     font-family: "Cormorant Garamond", serif;
     font-weight: 600 !important;
       font-style: normal;
-      font-size: 2.83em;
+      font-size: 2.83em !important;
       margin-top: -1.15em;
   }
   .font-type-service-page-header3{
@@ -6044,7 +6062,7 @@ padding: 0em 1em;
       margin-top:  -.2em;
   }
   .navbar-brand {
-    padding-left: .2em !important;
+    padding-left: .4em !important;
     }
 
 
@@ -6659,10 +6677,7 @@ padding: 0em 0em !important;
         padding-left: .1em;
         }
 
-        .navbar-toggler{
-          margin-right: -1.25em !important;
-          margin-bottom: -.25em;
-        }
+      
         .about-img{
           background-image: url(../img/about-page-image.jpg);
           background-size: cover;
