@@ -6799,6 +6799,13 @@ padding: 0em 0em !important;
   .carousel-item{
     height: 100vh;
   }
+  .testimonial-content .user-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    margin-right: 3.25em;
+  }
   .body-text{
     font-size: 1.1em;
   }
@@ -7389,6 +7396,14 @@ z-index: -1; /* Ensure it is behind the image */
   .carousel-item{
     height: 88vh;
   }
+  .testimonial-content .user-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    margin-right: 3.25em;
+  }
+
   .text-container{
     width: 74%;
     margin-left: 2em;
@@ -7986,6 +8001,14 @@ z-index: -1; /* Ensure it is behind the image */
   .carousel-item{
     height: 88vh;
   }
+  .testimonial-content .user-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    margin-right: 3.25em;
+  }
+
   .text-container{
     width: 74%;
     margin-left: 2em;
@@ -8583,6 +8606,14 @@ z-index: -1; /* Ensure it is behind the image */
   .carousel-item{
     height: 100vh;
   }
+  .testimonial-content .user-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    margin-right: 7.5em;
+  }
+
   .text-container{
     width: 65%;
     margin-left: 2em;
@@ -9211,6 +9242,14 @@ z-index: -1; /* Ensure it is behind the image */
   .carousel-item{
     height: 80vh;
   }
+  .testimonial-content .user-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    margin-right: 7.5em;
+  }
+
   .text-container{
     width: 65%;
     margin-left: 2em;
@@ -9833,10 +9872,25 @@ z-index: -1; /* Ensure it is behind the image */
   
 
 
-}}
+}
+.testimonial-content .user-info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: nowrap;
+  margin-right: 7.5em;
+}
+}
 @media (min-width: 1400px) and (max-width: 1500px){
   .carousel-item{
     height: 85vh;
+  }
+  .testimonial-content .user-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    margin-right: 10.5em;
   }
   .text-container{
     width: 65%;
@@ -10466,6 +10520,13 @@ z-index: -1; /* Ensure it is behind the image */
   .carousel-item{
     height: 95vh;
   }
+  .testimonial-content .user-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    margin-right: 10.5em;
+  }
   .text-container{
     width: 65%;
     margin-left: 2em;
@@ -11094,6 +11155,13 @@ z-index: -1; /* Ensure it is behind the image */
 @media (min-width: 1600px) and (max-width: 1700px){
    .carousel-item{
     height: 95vh;
+  }
+  .testimonial-content .user-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    margin-right: 10.5em;
   }
   .text-container{
     width: 65%;
@@ -11725,6 +11793,13 @@ z-index: -1; /* Ensure it is behind the image */
    .carousel-item{
     height: 95vh;
   }
+  .testimonial-content .user-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    margin-right: 10.5em;
+  }
   .text-container{
     width: 55%;
     margin-left: -2em;
@@ -12355,6 +12430,13 @@ z-index: -1; /* Ensure it is behind the image */
   .carousel-item{
     height: 80vh;
   }
+  .testimonial-content .user-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    margin-right: 11em;
+  }
   .text-container{
     width: 60%;
     margin-top: -15% !important;
@@ -12979,6 +13061,7 @@ z-index: -1; /* Ensure it is behind the image */
   .carousel-item{
     height: 80vh;
   }
+  
   .text-container{
     width: 55%;
     margin-top: -15% !important;
@@ -13596,5 +13679,11 @@ z-index: -1; /* Ensure it is behind the image */
 
 }
 
-
+.testimonial-content .user-info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: nowrap;
+  margin-right: 11em;
+}
 }
