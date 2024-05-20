@@ -2765,31 +2765,31 @@ color: #020202;
     font-family: "Cormorant Garamond", serif;
     font-weight: 600 !important;
       font-style: normal;
-      font-size: 3.5em;
-      margin-top: -.75em;
+      font-size: 3.5em !important;
+      margin-top: -.5em;
   }
   .font-type-service-page-header{
     font-family: "Cormorant Garamond", serif;
     font-weight: 600 !important;
       font-style: normal;
-      font-size: 2.83em;
-      margin-top: -1.15em;
+      font-size: 3em !important;
+      margin-top: -1.15em !important;
   }
   .font-type-service-page-header3{
     font-family: "Cormorant Garamond", serif;
     font-weight: 600 !important;
       font-style: normal;
-      font-size: 2.9em;
-      margin-top: -.5em;
+      font-size: 3em !important;
+      margin-top: -.5em !important;
   }
   .page-header {
-    background: linear-gradient(to right, rgb(35, 31, 32) 0%, rgba(179, 185, 191, 0) 100%), url(../img/carousel-1.jpg) center right no-repeat;
+    background: linear-gradient(to right, rgb(35, 31, 32) 0%, rgba(0, 0, 0, 0.54) 100%), url(../img/carousel-1.jpg) center top no-repeat !important;
     background-size: cover;
     height: 300px;
   }
 
   .service-page-header {
-    background: linear-gradient(to right, rgb(35, 31, 32) 0%, rgba(179, 185, 191, 0) 100%), url(../img/carousel-1.jpg) center right no-repeat;
+    background: linear-gradient(to right, rgb(35, 31, 32) 0%, rgba(0, 0, 0, 0.54) 100%), url(../img/carousel-1.jpg) center top no-repeat !important;
     background-size: cover;
     height: 300px;
   }
@@ -2808,9 +2808,9 @@ color: #020202;
   }
   
   .service-page-header3 {
-    background: linear-gradient(to right, rgb(35, 31, 32) 0%, rgba(179, 185, 191, 0) 100%), url(../img/carousel-1.jpg) center right no-repeat;
+    background: linear-gradient(to right, rgb(35, 31, 32) 0%, rgba(0, 0, 0, 0.54) 100%), url(../img/carousel-1.jpg) center top no-repeat !important;
     background-size: cover;
-    height: 300px;
+    height: 300px !important;
   }
   
   .service-page-header3 .breadcrumb-item+.breadcrumb-item::before {
@@ -3541,31 +3541,31 @@ color: #020202;
     font-family: "Cormorant Garamond", serif;
     font-weight: 600 !important;
       font-style: normal;
-      font-size: 3.5em;
-      margin-top: -.75em;
+      font-size: 3.5em !important;
+      margin-top: -.45em;
   }
   .font-type-service-page-header{
     font-family: "Cormorant Garamond", serif;
     font-weight: 600 !important;
       font-style: normal;
-      font-size: 2.83em;
-      margin-top: -1.15em;
+      font-size: 2.83em !important;
+      margin-top: -1.15em !important;
   }
   .font-type-service-page-header3{
     font-family: "Cormorant Garamond", serif;
     font-weight: 600 !important;
       font-style: normal;
-      font-size: 2.8em;
-      margin-top: -.5em;
+      font-size: 2.83em !important;
+      margin-top: -1.15em !important;
   }
   .page-header {
-    background: linear-gradient(to right, rgb(35, 31, 32) 0%, rgba(179, 185, 191, 0) 100%), url(../img/carousel-1.jpg) center right no-repeat;
+    background: linear-gradient(to right, rgb(35, 31, 32) 0%, rgba(0, 0, 0, 0.54) 100%), url(../img/carousel-1.jpg) center top no-repeat !important;
     background-size: cover;
     height: 300px;
   }
 
   .service-page-header {
-    background: linear-gradient(to right, rgb(35, 31, 32) 0%, rgba(179, 185, 191, 0) 100%), url(../img/carousel-1.jpg) center right no-repeat;
+    background: linear-gradient(to right, rgb(35, 31, 32) 0%, rgba(0, 0, 0, 0.54) 100%), url(../img/carousel-1.jpg) center top no-repeat !important;
     background-size: cover;
     height: 300px;
   }
@@ -3584,9 +3584,9 @@ color: #020202;
   }
   
   .service-page-header3 {
-    background: linear-gradient(to right, rgb(35, 31, 32) 0%, rgba(179, 185, 191, 0) 100%), url(../img/carousel-1.jpg) center right no-repeat;
+    background: linear-gradient(to right, rgb(35, 31, 32) 0%, rgba(0, 0, 0, 0.54) 100%), url(../img/carousel-1.jpg) center top no-repeat !important;
     background-size: cover;
-    height: 300px;
+    height: 300px !important;
   }
   
   .service-page-header3 .breadcrumb-item+.breadcrumb-item::before {
@@ -4289,31 +4289,31 @@ color: #020202;
     font-family: "Cormorant Garamond", serif;
     font-weight: 600 !important;
       font-style: normal;
-      font-size: 3.5em;
-      margin-top: -.75em;
+      font-size: 3.5em !important;
+      margin-top: -.55em !important;
   }
   .font-type-service-page-header{
     font-family: "Cormorant Garamond", serif;
     font-weight: 600 !important;
       font-style: normal;
-      font-size: 3em;
-      margin-top: -1.15em;
+      font-size: 3em !important;
+      margin-top: -1.15em !important;
   }
   .font-type-service-page-header3{
     font-family: "Cormorant Garamond", serif;
     font-weight: 600 !important;
       font-style: normal;
-      font-size: 2.9em;
-      margin-top: -.5em;
+      font-size: 3em !important;
+      margin-top: -.5em !important;
   }
   .page-header {
-    background: linear-gradient(to right, rgb(35, 31, 32) 0%, rgba(179, 185, 191, 0) 100%), url(../img/carousel-1.jpg) center right no-repeat;
+    background: linear-gradient(to right, rgb(35, 31, 32) 0%, rgba(0, 0, 0, 0.54) 100%), url(../img/carousel-1.jpg) center top no-repeat !important;
     background-size: cover;
     height: 300px;
   }
 
   .service-page-header {
-    background: linear-gradient(to right, rgb(35, 31, 32) 0%, rgba(179, 185, 191, 0) 100%), url(../img/carousel-1.jpg) center right no-repeat;
+    background: linear-gradient(to right, rgb(35, 31, 32) 0%, rgba(0, 0, 0, 0.54) 100%), url(../img/carousel-1.jpg) center top no-repeat !important;
     background-size: cover;
     height: 300px;
   }
@@ -4332,9 +4332,9 @@ color: #020202;
   }
   
   .service-page-header3 {
-    background: linear-gradient(to right, rgb(35, 31, 32) 0%, rgba(179, 185, 191, 0) 100%), url(../img/carousel-1.jpg) center right no-repeat;
+    background: linear-gradient(to right, rgb(35, 31, 32) 0%, rgba(0, 0, 0, 0.54) 100%), url(../img/carousel-1.jpg) center top no-repeat !important;
     background-size: cover;
-    height: 300px;
+    height: 300px !important;
   }
   
   .service-page-header3 .breadcrumb-item+.breadcrumb-item::before {
@@ -5069,31 +5069,31 @@ padding: 0em 1em;
     font-family: "Cormorant Garamond", serif;
     font-weight: 600 !important;
       font-style: normal;
-      font-size: 3.5em;
-      margin-top: -.75em;
+      font-size: 3em !important;
+      margin-top: -.5em !important;
   }
   .font-type-service-page-header{
     font-family: "Cormorant Garamond", serif;
     font-weight: 600 !important;
       font-style: normal;
-      font-size: 3.4em;
-      margin-top: -1.15em;
+      font-size: 3em !important;
+      margin-top: -.5em !important;
   }
   .font-type-service-page-header3{
     font-family: "Cormorant Garamond", serif;
     font-weight: 600 !important;
       font-style: normal;
-      font-size: 2.9em;
-      margin-top: -.5em;
+      font-size: 3em !important;
+      margin-top: -.5em !important;
   }
   .page-header {
-    background: linear-gradient(to right, rgb(35, 31, 32) 0%, rgba(179, 185, 191, 0) 100%), url(../img/carousel-1.jpg) center right no-repeat;
+    background: linear-gradient(to right, rgb(35, 31, 32) 0%, rgba(0, 0, 0, 0.54) 100%), url(../img/carousel-1.jpg) center top no-repeat !important;
     background-size: cover;
     height: 300px;
   }
 
   .service-page-header {
-    background: linear-gradient(to right, rgb(35, 31, 32) 0%, rgba(179, 185, 191, 0) 100%), url(../img/carousel-1.jpg) center right no-repeat;
+    background: linear-gradient(to right, rgb(35, 31, 32) 0%, rgba(0, 0, 0, 0.54) 100%), url(../img/carousel-1.jpg) center top no-repeat !important;
     background-size: cover;
     height: 300px;
   }
@@ -5112,9 +5112,9 @@ padding: 0em 1em;
   }
   
   .service-page-header3 {
-    background: linear-gradient(to right, rgb(35, 31, 32) 0%, rgba(179, 185, 191, 0) 100%), url(../img/carousel-1.jpg) center right no-repeat;
+    background: linear-gradient(to right, rgb(35, 31, 32) 0%, rgba(0, 0, 0, 0.54) 100%), url(../img/carousel-1.jpg) center top no-repeat !important;
     background-size: cover;
-    height: 300px;
+    height: 300px !important;
   }
   
   .service-page-header3 .breadcrumb-item+.breadcrumb-item::before {
@@ -5837,31 +5837,31 @@ padding: 0em 1em;
     font-family: "Cormorant Garamond", serif;
     font-weight: 600 !important;
       font-style: normal;
-      font-size: 3.5em;
-      margin-top: -.6em !important;
+      font-size: 3em !important;
+      margin-top: -.5em !important;
   }
   .font-type-service-page-header{
     font-family: "Cormorant Garamond", serif;
     font-weight: 600 !important;
       font-style: normal;
-      font-size: 3.4em;
-      margin-top: -1.15em;
+      font-size: 3em !important;
+      margin-top: -.5em !important;
   }
   .font-type-service-page-header3{
     font-family: "Cormorant Garamond", serif;
     font-weight: 600 !important;
       font-style: normal;
-      font-size: 2.9em;
-      margin-top: -.5em;
+      font-size: 3em !important;
+      margin-top: -.5em !important;
   }
   .page-header {
-    background: linear-gradient(to right, rgb(35, 31, 32) 0%, rgba(179, 185, 191, 0) 100%), url(../img/carousel-1.jpg) center right no-repeat;
+    background: linear-gradient(to right, rgb(35, 31, 32) 0%, rgba(0, 0, 0, 0.54) 100%), url(../img/carousel-1.jpg) center top no-repeat !important;
     background-size: cover;
     height: 300px;
   }
 
   .service-page-header {
-    background: linear-gradient(to right, rgb(35, 31, 32) 0%, rgba(179, 185, 191, 0) 100%), url(../img/carousel-1.jpg) center right no-repeat;
+    background: linear-gradient(to right, rgb(35, 31, 32) 0%, rgba(0, 0, 0, 0.54) 100%), url(../img/carousel-1.jpg) center top no-repeat !important;
     background-size: cover;
     height: 300px;
   }
@@ -5880,9 +5880,9 @@ padding: 0em 1em;
   }
   
   .service-page-header3 {
-    background: linear-gradient(to right, rgb(35, 31, 32) 0%, rgba(179, 185, 191, 0) 100%), url(../img/carousel-1.jpg) center right no-repeat;
-    background-size: cover;
-    height: 300px;
+    background: linear-gradient(to right, rgb(35, 31, 32) 0%, rgba(0, 0, 0, 0.54) 100%), url(../img/carousel-1.jpg) center top no-repeat !important;
+      background-size: cover;
+    height: 300px !important;
   }
   
   .service-page-header3 .breadcrumb-item+.breadcrumb-item::before {
@@ -14352,4 +14352,11 @@ z-index: -1; /* Ensure it is behind the image */
   font-weight: 600 !important;
     font-style: normal;
     font-size: 5.39em;
+}
+
+@media (max-width: 374px) {
+  .mobile-br::after {
+    content: '';
+    display: block;
+  }
 }
