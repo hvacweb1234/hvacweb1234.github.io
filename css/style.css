@@ -9469,7 +9469,7 @@ background-size: contain !important;  }
       
 
 .half-width {
-  width: 172px !important;
+  width: 167px !important;
   width: calc(50% - 10px); /* Subtracting margin space */
 }
 .form-header {
