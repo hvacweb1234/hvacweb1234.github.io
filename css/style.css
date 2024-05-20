@@ -2258,7 +2258,7 @@ font-weight: 600 !important;
 }
 
 .half-width {
-  width: 195px !important;
+  width: 220px !important;
   width: calc(50% - 10px); /* Subtracting margin space */
 }
 
@@ -8664,7 +8664,7 @@ padding: 0em 0em !important;
 
 .topbar-phone-link{
 
-  color: #fff ;
+  color: #fff !important;
 }
 
 /* IPAD STYLES */
@@ -14292,7 +14292,7 @@ z-index: -1; /* Ensure it is behind the image */
 }
 @media (min-width: 1800px) and (max-width: 1900px){
   .carousel-item{
-    height: 80vh;
+    height: 83vh;
   }
   .testimonial-content .user-info {
     display: flex;
@@ -14308,7 +14308,7 @@ z-index: -1; /* Ensure it is behind the image */
     margin-left: -2em;
   }
   .half-width {
-  width: 245px !important;
+  width: 235px !important;
   width: calc(50% - 10px); /* Subtracting margin space */
 }
 .form-header {
@@ -16235,3 +16235,8 @@ z-index: -1; /* Ensure it is behind the image */
   }
 }
 
+.form-control::placeholder {
+  font-family: "Cormorant Garamond", serif;
+  font-size: 17px; /* Change font size as needed */
+  color: #999; /* Change placeholder color as needed */
+}
