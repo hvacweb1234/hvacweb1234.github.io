@@ -5266,7 +5266,7 @@ padding: 0em 1em;
   }
 
   .carousel-item {
-    height: 144vh;
+    height: 1270px;
     width: 100%;
   }
 
@@ -14375,3 +14375,4 @@ z-index: -1; /* Ensure it is behind the image */
     display: block;
   }
 }
+
