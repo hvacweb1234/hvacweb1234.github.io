@@ -6359,7 +6359,7 @@ font-weight: bold;
   display: none;
 }
 .logo2 {
-  width: 5.75em !important; /* Adjust as necessary */
+  width: 51.95em !important; /* Adjust as necessary */
   margin-left: -1em !important;
   margin-top: 1em !important;
  }
@@ -6720,7 +6720,7 @@ background-position: top;
   font-weight: 400 !important;     
   font-size: 1.3em !important;
   margin-bottom: .75em;
-  margin-top: .65em;
+  margin-top: .83em;
   color: #fff;
 }
 .btn-grey{
@@ -18903,7 +18903,7 @@ font-size: 4em;
   /* Initial logo size */
   .navbar .logo2 {
     transition: all 0.3s ease;
-    width: 100px !important; /* Initial size */
+    width: 105px !important; /* Initial size */
   }
 
   /* Styles for the scrolled state */
