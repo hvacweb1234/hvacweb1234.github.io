@@ -18920,3 +18920,18 @@ font-size: 4em;
 .form-floating {
   margin-bottom: 2px; /* Add some space between form elements */
 }
+.card-body{
+  background: #000;
+  border: 0px !important;
+}
+.card{
+  background: #000;
+}
+.card p{
+  color: #fff;
+}
+.card h5{
+  color: #fff;
+  font-family: 'Bebas neue';
+  font-size: 1.5em;
+}
