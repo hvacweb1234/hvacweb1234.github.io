@@ -6075,14 +6075,15 @@ padding: 10px 0 !important;
 .underline-carousel::after {
   content: '';
   position: absolute;
-  bottom: -13px !important; /* Adjust based on the position of your underline */
-  left: 0;
-  width: 100%;
-  height: 20px; /* Adjust to the height of your underline */
-  background: url('../img/about-underline.png') no-repeat;
-  background-size: fit;
+  bottom: -14px; /* Adjust based on the position of your underline */
+  left: -7px;
+  width: 110%; /* Ensure it spans the entire width of the text */
+  height: 30px; /* Adjust to the height of your underline */
+  background: url('../img/carousel-underline.png') no-repeat center center;
+  background-size: cover; /* Maintain aspect ratio and prevent shrinking */
   z-index: 2; /* Ensure the underline is behind the text */
 }
+
 .about-header-container{
   margin-left: .05em !important;
   border-left: 4px solid #3356C9 !important;
@@ -6394,7 +6395,7 @@ display: none;
 }
 .navbar-toggler {
   margin-right: 1.25em !important;
-  margin-bottom: -0.41em !important; /* Initial margin-bottom */
+  margin-bottom: -1.2em !important; /* Initial margin-bottom */
 }
 
 .navbar .navbar-brand {
