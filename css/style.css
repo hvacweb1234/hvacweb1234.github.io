@@ -7065,13 +7065,13 @@ color: #79baff !important;
   font-weight: 500 !important;
     font-style: normal;
     font-size: 4.42em !important;
-    margin-top: 1.13em;
+    margin-top: .913em;
 }
 
 .page-header {
   background: linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0.3449754901960784) 100%),
   url(../img/carousel-1.jpg) center center no-repeat;
-  height: 400px;
+  height: 380px;
 }
 .service-font-type{
   color:  #121212;
