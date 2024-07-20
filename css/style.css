@@ -6333,7 +6333,7 @@ font-size: 1.73em;
     font-weight: 400 !important;
       font-style: normal;
   
-      margin-top: -.4em;
+      margin-top: -.1em;
       text-align: center !important;
     color: var(--light);
   }
@@ -7033,6 +7033,9 @@ font-size: 2.4em;
   padding-top: 1em !important;
 }
 
+.breadcrumb{
+  margin-top: -.25em !important;
+}
 
 
 .page-header .breadcrumb-item,
@@ -7040,7 +7043,8 @@ font-size: 2.4em;
   font-size: 23px !important;
   font-family: Arial, Helvetica, sans-serif !important ;
   font-weight: 400 !important;
-    font-style: normal;
+    font-style: normal; 
+  margin-top: 0em !important;
 }
 .page-header .breadcrumb-item,
 .page-header .breadcrumb-item .active {
@@ -7048,8 +7052,8 @@ font-size: 23px;
 font-family: Arial, Helvetica, sans-serif !important ;
 font-weight: 400 !important;
   font-style: normal;
+  margin-top: 0em !important;
 
-  margin-top: -.4em;
   text-align: center !important;
 color: #79baff !important;
 }
@@ -7523,11 +7527,14 @@ margin-left: .0000001em ;
     margin-bottom: -1.05em;
     z-index: 11400 !important;
   }
+  .contact-form-header-margin{
+    margin-top: -1.5em !important;
+  }
   }
 /* Media query for screens between 410px and 425 */
 @media (min-width: 425px) and (max-width: 699px) {
   .contact-form-header-margin{
-    margin-top: -1.5em ;
+    margin-top: 1.5em !important;
   }
   .section-header-text-contact-page{
     color: #2C67CF;
