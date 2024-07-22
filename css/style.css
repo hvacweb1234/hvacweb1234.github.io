@@ -24714,7 +24714,7 @@ text-align: center;
   height: 730px !important;
   width: 650px;
   z-index: 3 !important;
-  margin-left: .15em;
+  margin-left: 0em !important;
   object-fit: cover;
 background-position: top;
 }
