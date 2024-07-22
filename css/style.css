@@ -19011,7 +19011,7 @@ text-align: center;
   background-size: cover;
   height: 820px !important;
   width: 450px;
-  margin-left: 2em;
+  margin-left: 0em !important;
   object-fit: cover;
 background-position: top;
 }
