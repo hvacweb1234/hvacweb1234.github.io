@@ -2560,7 +2560,12 @@ color: #020202;
 
 /* Media query for screens between 300px and 385px */
 @media (min-width: 370px) and (max-width: 385px) 
-{   .section-header-text-contact-page{
+{   
+  .pricing-margin{
+    margin-top: .1em !important;
+  }
+  
+  .section-header-text-contact-page{
   color: #2C67CF;
   font-family: Arial, Helvetica, sans-serif !important;
   font-weight: 400 !important;
@@ -2655,7 +2660,7 @@ color: #020202;
     font-family: "Bebas Neue", sans-serif;
     font-weight: 400 !important;
       font-style: normal;
-      margin-bottom: .51em !important;
+      margin-bottom: .11em !important;
       font-size: 3em !important;} 
   .underline5 {
     position: relative;
@@ -3941,6 +3946,10 @@ display: none;
   .contact-form-header-margin{
     margin-top: -1em !important;
   }
+  .pricing-margin{
+    margin-top: .5em !important;
+  }
+  
   .underline-about-page {
     position: relative;
     display: inline-block;
@@ -4004,7 +4013,9 @@ display: none;
     font-family: "Bebas Neue", sans-serif;
     font-weight: 400 !important;
       font-style: normal;
-      margin-bottom: .51em !important;
+      padding: 0em .5em .0em .5em !important  ;
+
+      margin-bottom: .31em !important;
       font-size: 3em !important;} 
   .underline5 {
     position: relative;
@@ -5231,6 +5242,10 @@ background-position: top;
     }}
 /* Media query for screens between 300px and 385px */
 @media (min-width: 385px) and (max-width: 410px) {
+
+  .pricing-margin{
+    margin-top: 0em !important;
+  }
   
   .contact-form-header-margin{
     margin-top: -1.55em !important;
@@ -5325,15 +5340,7 @@ background-position: top;
       padding: 0em 1.5em !important;
       margin-bottom: 4em !important;
     }
-    .pricing-section-header{
-      color:  #fff;
-      font-family: "Bebas Neue", sans-serif;
-      font-weight: 400 !important;
-        font-style: normal;
-        padding: 0em .5em !important  ;
-
-        margin-bottom: .51em !important;
-        font-size: 3em !important;} 
+  
     .underline5 {
       position: relative;
       display: inline-block;
@@ -5386,18 +5393,7 @@ background-position: top;
     margin-top: 2.5em ;
     font-size: 2.75em !important;
     }
-    .pricing-section-header{
-      color:  #fff;
-      font-family: "Bebas Neue", sans-serif;
-      font-weight: 400 !important;
-        font-style: normal;
-        margin-bottom: .51em !important;
-        font-size: 3em !important;} 
-        .underline5 {
-          position: relative;
-          display: inline-block;
-      }
-    
+
       .underline5::after {
           content: '';
           position: absolute;
@@ -5467,7 +5463,8 @@ background-position: top;
       font-family: "Bebas Neue", sans-serif;
       font-weight: 400 !important;
         font-style: normal;
-        margin-bottom: .51em !important;
+        padding: 0 .5em;
+        margin-bottom: .31em !important;
         font-size: 3em !important;} 
     .underline5 {
       position: relative;
@@ -7434,7 +7431,7 @@ margin-right: 1.25em;
   opacity: 1;
 }
 .pricing-margin{
-  margin-top: 1em !important;
+  margin-top: 0em !important;
 }
 
 .project-carousel .owl-nav .owl-prev,
@@ -9057,7 +9054,7 @@ margin-right: 1.25em;
   opacity: 1;
 }
 .pricing-margin{
-  margin-top: .15em !important;
+  margin-top: 0em !important;
 }
 
 .project-carousel .owl-nav .owl-prev,
@@ -9118,7 +9115,7 @@ margin-right: 1.25em;
   font-family: "Bebas Neue", sans-serif;
   font-weight: 400 !important;
     font-style: normal;
-    margin-bottom: .51em !important;
+    margin-bottom: .31em !important;
     font-size: 3.7em !important;} 
 .contact {
   margin-top: 30px;
