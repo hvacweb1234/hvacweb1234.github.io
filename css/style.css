@@ -6795,7 +6795,7 @@ margin-left: .0000001em ;
     font-family: "Bebas Neue", sans-serif;
     font-weight: 400 !important;
       font-style: normal;
-      padding: 0em .5em !important  ;
+      padding: 0em .5em .99em .5em !important  ;
 
       margin-bottom: .51em !important;
       font-size: 3em !important;} 
@@ -7434,7 +7434,7 @@ margin-right: 1.25em;
   opacity: 1;
 }
 .pricing-margin{
-  margin-top: 4em !important;
+  margin-top: 1em !important;
 }
 
 .project-carousel .owl-nav .owl-prev,
