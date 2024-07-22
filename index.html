@@ -3,11 +3,18 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Acosta Roofing LLC | Trusted Roofing and Gutter Services in Wichita, KS</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <meta name="description" content="Acosta Roofing LLC offers expert roofing and gutter services in Wichita, KS. Specializing in roof repairs, replacements, and insurance work. Free inspections available!">
-    <meta name="keywords" content="Acosta Roofing LLC, roofing services, gutter services, roof repair, roof replacement, Wichita KS, free inspections, insurance roofing, residential roofing">
+<!-- Meta Tags for Home Page -->
+<!-- Meta Tags for Home Page -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>REL Refrigeration | Reliable Refrigeration and AC Solutions</title>
+<meta name="description" content="REL Refrigeration offers reliable and professional refrigeration and air conditioning services, including repairs, maintenance, and installations.">
+<meta name="keywords" content="refrigeration, air conditioning, cooling solutions, refrigeration repairs, AC repairs, REL Refrigeration, reliable refrigeration, professional cooling services">
+
+
     
+
+    <meta property="og:image" content="https://hvacweb1234.github.io/img/about.jpg">
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
@@ -95,9 +102,9 @@
 
 <body>
 <!-- Spinner Start -->
-<div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+<div id="spinner" class="show bg-black position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
     <div class="custom-spinner-container">
-        <img src="img/logo.png" alt="Company Logo" class="spinner-logo">
+        <img src="img/spinner.png" alt="Company Logo" class="spinner-logo">
     </div>
 </div>
 <!-- Spinner End -->
@@ -213,13 +220,13 @@
                 <img class="d-block w-100 carousel-img" src="img/carousel-1.jpg" alt="Image">
                 <div class="carousel-overlay"></div> <!-- Overlay -->
                 <div class="carousel-caption d-flex flex-row align-items-center justify-content-center">
-                    <div class="p text-container" style="max-width: 100%;">
+                    <div class="p text-container" style="max-width: 100%; z-index: 1000 !important;">
                         <div class="border-left">
                             <div class="carousel-content">
                                 <a class="btn-grey mb-15">Keep cool</a>
                                 <h1 class="display-5 mt-4 header-text">Reliable Refrigeration and AC <span class="underline-carousel">Solutions</span></h1>
                                 <p class="body-text">Expert Repairs for all of your Cooling needs</p>
-                                <a href="contact.html" class="btn btn-carousel animated slideInRight">Book Now</a>
+                                <div class="zzz"><a href="contact.html" class="btn btn-carousel animated slideInRight">Book Now</a></div>
                             </div>
                         </div>
                     </div>
@@ -289,7 +296,7 @@
                             <img src="img/telephone (1).png" alt="Phone Icon" width="30" height="30">
                             <div>
                                 <div class="call-us">Call Us</div>
-                                <div class="about-section-phone-number">07377 412194</div>
+                                <div class="about-section-phone-number"><a href="tel:+07377 412194" class="text-white">07377 412194</a></div>
                             </div>
                         </div>
                     </div>
@@ -390,7 +397,7 @@
                         <div class="service-content">
                             <img src="img/cellar-cooler.png" alt="Service Icon" class="service-icon">
                             <h3 class="service-title">Cellar Coolers</h3>
-                            <p class="service-description">Keep your beverages consistently cold with our thorough and efficient repairs</p>
+                            <p class="service-description">Keep your beverages consistently cold with our thorough and efficient repairs.</p>
                             <a href="cellar-coolers.html" class="read-more">
                                 Read More <img src="img/service-arrow-right.png" alt="Arrow Icon" class="arrow-icon">
                             </a>
@@ -511,7 +518,7 @@
     <div class="choose-us-container">
         <div class="left-section">
             <span class="border-choose">
-                <h1 class="choose-us-header">WHY <span class="underline-about-section">CHOOSE US </span> DISCOVER HERE</h1>
+                <h1 class="choose-us-header">WHY <span class="underline-about-section">CHOOSE US </span> <br class="choose-us-break"> DISCOVER HERE</h1>
             </span>
             <p class="text-white margin-top2">Here are just a few reasons why REL Refrigeration stands out among the rest.</p>
             <div class="reason one1">
@@ -542,49 +549,66 @@
     </div>
 </section>
 
-<div class="card pricing-margin">
+<!-- Pricing Section Start -->
+<div class="container mt-5 pricing">
     <div class="text-center mx-auto mt-5 wow fadeIn" data-wow-delay="0.1s" style="max-width: 600px;">
         <p class="fw-medium text-uppercase projects-header-text mb-2">Pricing</p>
-        <h1 class="display-5 text-white mb-5 pricing-section-header ">Call Out Charges <span class="pricing-underline">and Rates</span></span></h1>
-    </div>    <div class="card-body mt-3">
-      <h5 class="card-title">Call-Out Charge</h5>
-      <p class="card-text">
-        <div class="price"><strong > Price:</strong> £70 <br></div>
-        <strong class="text-white">Includes:</strong> <span class="text-white">Engineer visit to site, 1st half-hour of diagnosis, initial problem assessment, rough price estimate for repair (if not repaired in the 1st half hour).</span>
-      </p>
+        <h1 class="display-5 text-white mb-5 pricing-section-header">Call Out Charges <span class="pricing-underline">and Rates</span></h1>
     </div>
-  </div>
-  
-  <div class="card mt-2">
-    <div class="card-body">
-      <h5 class="card-title">Hourly Rate (Monday-Friday, Business Hours)</h5>
-      <p class="card-text">
-        <div class="price"><strong > Price:</strong> £45 <br></div>
-      </p>
+
+    <div class="row justify-content-center"> 
+        <div class="col-lg-3 col-md-6 mt-3">
+            <div class="card pricing-margin text-center">
+                <div class="card-body">
+                    <h5 class="card-title">Call-Out Charge</h5>
+                    <p class="card-text">
+                        <div class="price"><strong> Price:</strong> £70 <br></div>
+                        <strong class="text-white">Includes:</strong> <span class="text-white">Engineer visit to site, 1st half-hour of diagnosis, initial problem assessment, rough price estimate for repair (if not repaired in the 1st half hour).</span>
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6 mt-3">
+            <div class="card pricing-margin text-center">
+                <div class="card-body">
+                    <h5 class="card-title">Hourly Rate (Monday-Friday, Business Hours)</h5>
+                    <p class="card-text">
+                        <div class="price"><strong> Price:</strong> £45 <br></div>
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6 mt-3">
+            <div class="card pricing-margin text-center">
+                <div class="card-body">
+                    <h5 class="card-title">Additional Charges</h5>
+                    <p class="card-text">
+                        <strong>Travel:</strong> 50p per mile outside the call-out area.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6 mt-3">
+            <div class="card pricing-margin text-center">
+                <div class="card-body">
+                    <h5 class="card-title">After-Hours Rates</h5>
+                    <p class="card-text">
+                        <strong>Monday-Friday (Outside Business Hours):</strong> Time and a half. <br><br>
+                        <strong>Saturday:</strong> Time and a half. <br><br>
+                        <strong>Sunday & Bank Holidays:</strong> Double time.
+                    </p>
+                </div>
+            </div>
+        </div>
     </div>
-  </div>
-  
-  <div class="card mt-2">
-    <div class="card-body">
-      <h5 class="card-title">Additional Charges</h5>
-      <p class="card-text">
-        <strong>Travel:</strong> 50p per mile outside the call-out area.
-      </p>
-    </div>
-  </div>
-  
-  <div class="card mt-3">
-    <div class="card-body">
-      <h5 class="card-title">After-Hours Rates</h5>
-      <p class="card-text">
-        <strong>Monday-Friday (Outside Business Hours):</strong> Time and a half. <br><br>
-        <strong>Saturday:</strong> Time and a half. <br><br>
-        <strong>Sunday & Bank Holidays:</strong> Double time.
-      </p>
-    </div>
-  </div>
 </div>
-</div>
+<!-- Pricing Section End -->
+
+
+
    <!-- Appointment Start -->
    <div
    class="container-fluid appointment my-5  py-5 wow fadeIn" slot=""
@@ -654,18 +678,15 @@
  
   
   <!-- Footer Start -->
-<div class="container-fluid bg-black footer mt-5 py-5 wow fadeIn" data-wow-delay="0.1s" >
+<div class="container-fluid bg-blue-black footer mt-5 py-5 wow fadeIn" data-wow-delay="0.1s">
     <div class="container py-5">
         <div class="row g-5">
             <div class="col-lg-3 col-md-6">
-                <h4 class="text-white font-footer-header mb-4">Contact</h4>
+                <h5 class="text-white  mb-4">Contact</h5>
                 <i class="fa fa-map-marker-alt me-3 icon-colour"></i>
-                <p class="mb-2">Deal, Kent, United Kingdom
-</p><br>
-                <a href="tel:+1 316-775-8147" class="text-footer-colour">
+                <p class="mb-2">Deal, Kent, United Kingdom</p><br>
+                <a href="tel:+07377 412194" class="text-footer-colour">
                     <i class="fa fa-phone-alt me-3 icon-colour" style="transform: rotate(110deg);"></i><br>+07377 412194
-
-
                 </a>
                 <div class="d-flex pt-4 mb-4">
                     <a href="https://www.facebook.com/profile.php?id=100095190737678" target="_blank" class="text-white" style="text-decoration: none;">
@@ -674,24 +695,22 @@
                 </div>
             </div>
             <div class="col-lg-3 col-md-6 mb-4">
-                <h4 class="text-white mb-4 font-footer-header">Quick Links</h4>
-                <a class="btn btn-link" href="chiller-and-freezer-coldrooms.html">Chiller and Freezer coldrooms
-                </a>
-                <a class="btn btn-link" href="undercounter-fridges-and-freezers.html">Undercounter
-                    fridges and freezer's</a>
-                <a class="btn btn-link" href="upright-fridges-and-freezers.html">Upright fridges and
-                    freezer's</a>
-                <a class="btn btn-link" href="pack-systems.html">Pack systems
-                </a>
-                <a class="btn btn-link" href="cellar-coolers.html">Cellar Coolers
-                </a>
+                <h5 class="text-white mb-4 ">Quick Links</h5>
+                <a class="btn btn-link" href="bottle-coolers.html">Bottle Coolers</a>
+                <a class="btn btn-link" href="air-conditioning.html">Air conditioning</a>
+                <a class="btn btn-link" href="ice-machines.html">Ice Machines</a>
+                <a class="btn btn-link" href="pack-systems.html">Pack systems</a>
+                <a class="btn btn-link" href="cellar-coolers.html">Cellar Coolers</a>
                 <a class="btn btn-link" href="about.html">About Us</a>
                 <a class="btn btn-link" href="contact.html">Contact Us</a>
                 <a class="btn btn-link" href="project.html">Projects</a>
             </div>
-            
+            <div class="col-lg-3 col-md-6">
+                <h5 class="text-white mb-4">Business Hours</h5>
+                <p class="mb-4">Open 24 Hours</p>
+            </div>
             <div class="col-lg-3 col-md-6 col-sm-12">
-                <h4 class="text-white mb-1 font-footer-header">Location</h4>
+                <h5 class="text-white mb-1 ">Location</h5>
                 <br>
                 <!-- Responsive Google Maps Embed -->
                 <div style="position: relative; overflow: hidden; height: 250px; width: 100%;">
@@ -707,11 +726,13 @@
 <!-- Footer End -->
 
 <!-- Copyright Start -->
-<div class="container-fluid copyright bg-black py-4" >
+<div class="container-fluid copyright bg-black py-4">
     <div class="container text-center">
         <p class="mb-2">Copyright &copy; <a class="fw-semi-bold icon-footer blue-text" href="index.html">Rel Refrigeration</a>, All Rights Reserved.</p>
     </div>
 </div>
+<!-- Copyright End -->
+
 
 <!-- Back to Top -->
 <!-- Include jQuery and Bootstrap JS -->
