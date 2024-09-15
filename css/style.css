@@ -2501,6 +2501,9 @@ color: #020202;
 
 /* Media query for screens between 300px and 385px */
 @media (min-width: 370px) and (max-width: 385px) {
+  .no-br-on-mobile{
+    display: none !important;
+  }
   .navbar-nav{
     margin-top: -.35em;
   }
@@ -4371,6 +4374,9 @@ color: transparent;
   }
 /* Media query for screens between 300px and 385px */
 @media (min-width: 321px) and (max-width: 370px) {
+  .no-br-on-mobile{
+    display: none !important;
+  }
   .navbar-nav{
     margin-top: -.35em;
   }
@@ -8109,10 +8115,15 @@ color: transparent;
       .about-page-page{
         padding: 2.7em 3px 0em 3px !important;
       }
+      .no-br-on-mobile{
+        display: none !important;
+      }
     }
 /* Media query for screens between 300px and 385px */
 @media (min-width: 385px) and (max-width: 410px) {
-
+  .no-br-on-mobile{
+    display: none !important;
+  }
   .navbar-nav{
     margin-top: -.35em;
   }
@@ -11819,6 +11830,9 @@ margin-top: -.25em;
     .sidebar{
       margin-top: -1.3em !important;
     }
+      .no-br-on-mobile{
+    display: none !important;
+  }
   }
 /* Media query for screens between 410px and 425 */
 @media (min-width: 425px) and (max-width: 699px) {
@@ -13643,6 +13657,9 @@ margin-top: -.25em;
       font-family: "Bebas Neue", sans-serif !important;
       transform: skewX(-8deg);
     
+    }
+    .no-br-on-mobile{
+      display: none !important;
     }
   }
 /* Media query for screens between 410px and 425 */
