@@ -191,6 +191,7 @@ font-weight: 600
   background: rgb(33,123,199);
   background: linear-gradient(90deg, rgba(33,123,199,1) 0%, rgba(23,165,237,1) 100%);  color: #fff;
   border: none;
+  
 }
 .btn-colour2{
   background-color: #797979;
@@ -2500,7 +2501,9 @@ color: #020202;
 
 /* Media query for screens between 300px and 385px */
 @media (min-width: 370px) and (max-width: 385px) {
-
+  .navbar-nav{
+    margin-top: -.35em;
+  }
   .about-page-page{
     padding: 2.7em 8px 0em 8px !important;
   }
@@ -3935,11 +3938,11 @@ color: transparent;
     }
   
     .fb-mobile {
-      margin-top: .1em;
+      margin-top: .2em;
       padding-right: 3em;
     }
     .pt-mobile22{
-      margin-top: -.8em;
+      margin-top: -.72em;
       padding-left: .7em;
     }
     .pt-mobile2{
@@ -4368,6 +4371,9 @@ color: transparent;
   }
 /* Media query for screens between 300px and 385px */
 @media (min-width: 321px) and (max-width: 370px) {
+  .navbar-nav{
+    margin-top: -.35em;
+  }
   .margin-top-custom{
     margin-top: 1.2em !important;
   }
@@ -5804,11 +5810,11 @@ color: transparent;
     }
   
     .fb-mobile {
-      margin-top: .1em;
+      margin-top: .15em;
       padding-right: 3em;
     }
     .pt-mobile22{
-      margin-top: -.8em;
+      margin-top: -.732em;
       padding-left: .7em;
     }
     .pt-mobile2{
@@ -6238,6 +6244,10 @@ color: transparent;
   }
 /* Media query for screens between 300px and 385px */
 @media (min-width: 100px) and (max-width: 321px) {
+  .navbar-nav{
+    margin-top: -.25em;
+  }
+
   .sidebar{
 
     margin-top: -2em;
@@ -8102,6 +8112,11 @@ color: transparent;
     }
 /* Media query for screens between 300px and 385px */
 @media (min-width: 385px) and (max-width: 410px) {
+
+  .navbar-nav{
+    margin-top: -.35em;
+  }
+
   .margin-top-custom{
     margin-top: 1.2em !important;
   }
@@ -9525,11 +9540,11 @@ color: transparent;
     }
   
     .fb-mobile {
-      margin-top: .1em;
+      margin-top: .19em !important;
       padding-right: 3em;
     }
     .pt-mobile22{
-      margin-top: -.8em;
+      margin-top: -.732em;
       padding-left: .7em;
     }
     .pt-mobile2{
@@ -9974,6 +9989,8 @@ color: transparent;
   .phone-icon-topbar{
     transform: rotate(100deg);
     
+  }  .navbar-nav{
+    margin-top: -.25em;
   }
 
   .icon-margin{
@@ -11805,6 +11822,10 @@ margin-top: -.25em;
   }
 /* Media query for screens between 410px and 425 */
 @media (min-width: 425px) and (max-width: 699px) {
+  .sidebar{
+
+    margin-top: -2em;
+    }
   .about-page-page{
     padding: 2.7em 8px 0em 8px !important;
   }
@@ -13200,7 +13221,7 @@ font-size: 1.3em !important;
     padding-left: .7em;
   }
   .pt-mobile2{
-    padding-top: 2.75em !important;
+    padding-top: .75em !important;
   }
 
   .topbar-text1 {
@@ -13529,6 +13550,9 @@ margin-top: -.25em;
       text-transform: uppercase;
       line-height: 1em !important;
   }
+  .navbar-nav{
+    margin-top: -1.5em;
+  }
   .navbar .navbar-nav .nav-link {
     margin-right: 35px;
     padding: 7px 0;
@@ -13623,6 +13647,31 @@ margin-top: -.25em;
   }
 /* Media query for screens between 410px and 425 */
 @media (min-width: 700px) and (max-width: 800px) {
+  .btn-colour-contact-form-page{
+    background: rgb(33,123,199);
+    background: linear-gradient(90deg, rgba(33,123,199,1) 0%, rgba(23,165,237,1) 100%);  color: #fff;
+    border: none;
+    font-family: "Bebas Neue", sans-serif !important;
+color: #fff;
+font-size: 1.8em !important;
+padding: 0.25em 2em .1em 2em !important;
+font-style:  italic !important;
+  }
+  .blog-title{
+    color: #0E1A36 !important;
+    font-size: 3em !important;
+    line-height: 1.1;
+    font-weight: 400 !important;
+    text-transform: uppercase;
+    margin-left: 0em;
+    font-family: "Bebas Neue", sans-serif !important;
+    transform: skewX(-8deg);
+  margin-bottom: -.21em;
+  }
+  .sidebar{
+
+    margin-top: -2em;
+    }
   .about-page-page{
     padding-top: 2.7em !important;
   }
@@ -13689,9 +13738,18 @@ color: #fff !important;
     width: 95%  !important;
     font-size: 1.2em !important;
   }
-  .card-contact-page-size{
-    height: 400px !important;
-    padding-top: 83px !important;
+  .card-contact-page-size {
+    background-color: #ffffff !important; /* White background for the card */
+    border-radius: 10px; /* Slightly rounded corners */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    padding: 68px 20px 0px 20px !important; /* Padding inside the card for content */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth hover effect */
+    margin: -13px auto !important; /* Center the card on the page */
+    max-width: 400px; /* Set a max width for responsiveness */
+    height: 380px !important;
+  }
+  .bg-white-grey-123{
+    background: #F7F7F7;
   }
   .card-contact-page-size p{
 font-size: 1.2em !important;
@@ -13701,14 +13759,14 @@ font-size: 1.2em !important;
     outline: none;
     font-weight: 400 !important;
     margin-top: .25em;
-  font-size: 2.2em !important;
+  font-size: 2.3em !important;
     text-transform: uppercase;
     font-family: "Bebas Neue", sans-serif !important;
   }
   .contact-btn{
     background: rgb(33,123,199);
     background: linear-gradient(90deg, rgba(33,123,199,1) 0%, rgba(23,165,237,1) 100%);
-    font-size: 1.14em !important;
+    font-size: 1.2em !important;
   }
   .contact-us-page-header {
     color: #0E1A36 !important;
@@ -14792,7 +14850,7 @@ margin-left: .3em;
     padding-right: 3em;
   }
   .pt-mobile22{
-    margin-top: -.8em;
+    margin-top: -.72em;
     padding-left: 1.3em !important;
   }
   .pt-mobile2{
@@ -15043,10 +15101,10 @@ margin-left: 0 !important;  }
   margin-left: 0em !important;
 }
   .service{
-    margin-top: -2.76em !important; 
+    margin-top: -3em !important; 
   }
   .about-section{
-    margin-top: 1em;
+    margin-top: -3em !important;
   }
 
   /* Styling for mobile top bar */
@@ -15201,6 +15259,31 @@ margin-left: 0 !important;  }
   }
 /* Media query for screens between 410px and 425 */
 @media (min-width: 800px) and (max-width: 990px) {
+  .blog-title{
+    color: #0E1A36 !important;
+    font-size: 3em !important;
+    line-height: 1.1;
+    font-weight: 400 !important;
+    text-transform: uppercase;
+    margin-left: 0em;
+    font-family: "Bebas Neue", sans-serif !important;
+    transform: skewX(-8deg);
+  margin-bottom: -.21em;
+  }
+  .btn-colour-contact-form-page{
+    background: rgb(33,123,199);
+    background: linear-gradient(90deg, rgba(33,123,199,1) 0%, rgba(23,165,237,1) 100%);  color: #fff;
+    border: none;
+    font-family: "Bebas Neue", sans-serif !important;
+color: #fff;
+font-size: 1.8em !important;
+padding: 0.25em 2em .1em 2em !important;
+font-style:  italic !important;
+  }
+  .sidebar{
+
+    margin-top: -2em;
+    }
   .about-page-page{
     padding-top: 3.7em !important;
   }
@@ -15267,27 +15350,37 @@ color: #fff !important;
     width: 98%  !important;
     font-size: 1.2em !important;
   }
-  .card-contact-page-size{
-    height: 400px !important;
-    padding-top: 83px !important;
+  .card-contact-page-size {
+    background-color: #ffffff !important; /* White background for the card */
+    border-radius: 10px; /* Slightly rounded corners */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    padding: 68px 20px 0px 20px !important; /* Padding inside the card for content */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth hover effect */
+    margin: -13px auto !important; /* Center the card on the page */
+    max-width: 400px; /* Set a max width for responsiveness */
+    height: 380px !important;
+  }
+  .bg-white-grey-123{
+    background: #F7F7F7;
   }
   .card-contact-page-size p{
 font-size: 1.2em !important;
+  }
+  .contact-btn{
+    background: rgb(33,123,199);
+    background: linear-gradient(90deg, rgba(33,123,199,1) 0%, rgba(23,165,237,1) 100%);
+    font-size: 1.2em !important;
   }
   .contact-card-page-header{
     color: #0E1A36;
     outline: none;
     font-weight: 400 !important;
     margin-top: .25em;
-  font-size: 2.2em !important;
+  font-size: 2.3em !important;
     text-transform: uppercase;
     font-family: "Bebas Neue", sans-serif !important;
   }
-  .contact-btn{
-    background: rgb(33,123,199);
-    background: linear-gradient(90deg, rgba(33,123,199,1) 0%, rgba(23,165,237,1) 100%);
-    font-size: 1.14em !important;
-  }
+
   .contact-us-page-header {
     color: #0E1A36 !important;
     font-size: 3.6em !important;
@@ -16370,7 +16463,7 @@ margin-left: .3em;
     padding-right: 3em;
   }
   .pt-mobile22{
-    margin-top: -.8em;
+    margin-top: -.73em;
     padding-left: 1.3em !important;
   }
   .pt-mobile2{
@@ -16624,7 +16717,7 @@ margin-left: 0 !important;  }
     margin-top: -2.76em !important; 
   }
   .about-section{
-    margin-top: 1em;
+    margin-top: -3.5em !important;
   }
 
   /* Styling for mobile top bar */
@@ -16879,6 +16972,48 @@ margin-left: 0 !important;  }
 /* IPAD STYLES */
 
 @media (min-width: 1000px) and (max-width: 1070px){
+  .review-logos{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 2em !important;
+    justify-content: center;
+    }
+  .google-review-logo-section{
+    margin-right: 2em;
+    width: 10em !important;
+  }
+  .facebook-review-logo-section{
+    width: 11em !important;
+  }
+  .blog-title{
+    color: #0E1A36 !important;
+    font-size: 3em !important;
+    line-height: 1.1;
+    font-weight: 400 !important;
+    text-transform: uppercase;
+    margin-left: 0em;
+    font-family: "Bebas Neue", sans-serif !important;
+    transform: skewX(-8deg);
+  margin-bottom: -.31em;
+  }
+  .ipad-display-visible{
+    display: block !important;
+  }
+  .review-logos{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 2em !important;
+    justify-content: center;
+    }
+  .google-review-logo-section{
+    margin-right: 2em;
+    width: 10em !important;
+  }
+  .facebook-review-logo-section{
+    width: 11em !important;
+  }
   .service-page-underline-image{
     position: relative;
     display: inline-block;
@@ -16978,12 +17113,26 @@ font-style:  italic !important;
     background-clip: text !important; 
     color: transparent;
   }
-  .card-contact-page-size{
-    height: 400px !important;
-    padding-top: 83px !important;
+  .card-contact-page-size {
+    background-color: #ffffff !important; /* White background for the card */
+    border-radius: 10px; /* Slightly rounded corners */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    padding: 68px 20px 0px 20px !important; /* Padding inside the card for content */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth hover effect */
+    margin: -13px auto !important; /* Center the card on the page */
+    max-width: 400px; /* Set a max width for responsiveness */
+    height: 380px !important;
+  }
+  .bg-white-grey-123{
+    background: #F7F7F7;
   }
   .card-contact-page-size p{
-font-size: 1.2em !important;
+font-size: 1.12em !important;
+  }
+  .contact-btn{
+    background: rgb(33,123,199);
+    background: linear-gradient(90deg, rgba(33,123,199,1) 0%, rgba(23,165,237,1) 100%);
+    font-size: 1.2em !important;
   }
   .blog-title{
     color: #0E1A36 !important;
@@ -17008,7 +17157,7 @@ font-size: 1.2em !important;
     transform: skewX(0deg) !important; /* Simulate slant by skewing text */
   margin-left: 0em !important;
     font-size: 1.5em !important;
-    margin-bottom: .2em;
+    margin-bottom: .4em;
     background: linear-gradient(119deg, rgba(227,132,48,1) 0%, rgba(206,85,36,1) 100%) !important;
     -webkit-background-clip: text;
     background-clip: text !important; 
@@ -17417,7 +17566,7 @@ margin-top: -.5em !important;
     font-size: 1.731em !important;
     background: rgb(33,123,199);
     background: linear-gradient(90deg, rgba(33,123,199,1) 0%, rgba(23,165,237,1) 100%);  
-    padding: 10px 40px 8px 40px !important;
+    padding: 10px 40px 6px 40px !important;
     border-radius: 0px;
     white-space: nowrap !important;
     display: inline-block;
@@ -17437,10 +17586,10 @@ margin-top: -.5em !important;
   .contact img{
     border: 0px solid #EC7A2D;
   padding: 15px;
-  width: 60px;
+  width: 55px;
   background: rgb(237,163,57);
   background: linear-gradient(180deg, rgba(237,163,57,1) 0%, rgba(199,101,46,1) 100%);
-  height: 60px;
+  width: 55px;
   margin-left: 70px;
   }
   .contact div {
@@ -17837,7 +17986,7 @@ section#testimonial {
 background-position: top !important;
 }
 .about-page-page{
-  padding-top: 1em !important;
+  padding-top: 0em !important;
 }
 .font-future-service-page{
   color: #121212   ;
@@ -17930,7 +18079,7 @@ background-position: top !important;
         letter-spacing: 0px !important; 
     }
     .about-section{
-      margin-top: 2em;
+      margin-top: -2em !important;
     }
   
     .custom-select{
@@ -18445,7 +18594,7 @@ align-items: center;
 }
 
 .service{
-  margin-top: -2.8em !important;
+  margin-top: -3.73em !important;
   margin-bottom: -1em;
 }
 
@@ -18565,12 +18714,17 @@ height: 90%; /* Adjust the size as needed */
 background-color: #1E1E1E; /* Black color */
 z-index: -1; /* Ensure it is behind the image */
 }
-
+.margin-margin-margin{
+  margin-left: -1em;
+}
 
 
 
 }
 @media (min-width: 1070px) and (max-width: 1100px){
+  .margin-margin-margin{
+    margin-left: -1em;
+  }
   .mt-115{
     margin-top: 4.3em !important;
   }
@@ -18611,7 +18765,7 @@ z-index: -1; /* Ensure it is behind the image */
 color: #fff;
 font-weight: 400 !important;
 font-size: 1.58em !important;
-padding: 0.25em 2em !important;
+padding: 0.25em 2em 0.15em 2em !important;
 font-style:  italic !important;
   }
   .font-future-about{
@@ -18654,12 +18808,26 @@ font-style:  italic !important;
     background-clip: text !important; 
     color: transparent;
   }
-  .card-contact-page-size{
-    height: 400px !important;
-    padding-top: 83px !important;
+  .card-contact-page-size {
+    background-color: #ffffff !important; /* White background for the card */
+    border-radius: 10px; /* Slightly rounded corners */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    padding: 68px 20px 0px 20px !important; /* Padding inside the card for content */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth hover effect */
+    margin: -13px auto !important; /* Center the card on the page */
+    max-width: 400px; /* Set a max width for responsiveness */
+    height: 380px !important;
+  }
+  .bg-white-grey-123{
+    background: #F7F7F7;
   }
   .card-contact-page-size p{
-font-size: 1.2em !important;
+font-size: 1.12em !important;
+  }
+  .contact-btn{
+    background: rgb(33,123,199);
+    background: linear-gradient(90deg, rgba(33,123,199,1) 0%, rgba(23,165,237,1) 100%);
+    font-size: 1.2em !important;
   }
   .blog-title{
     color: #0E1A36 !important;
@@ -20295,6 +20463,20 @@ z-index: -1; /* Ensure it is behind the image */
 
 }
 @media (min-width: 1100px) and (max-width: 1170px){
+  .review-logos{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 1.7em !important;
+    justify-content: center;
+    }
+  .google-review-logo-section{
+    margin-right: 2em;
+    width: 10em !important;
+  }
+  .facebook-review-logo-section{
+    width: 11em !important;
+  }
   .projects{
     margin-top: 6em !important;
   }
@@ -20338,7 +20520,7 @@ z-index: -1; /* Ensure it is behind the image */
 color: #fff;
 font-weight: 400 !important;
 font-size: 1.58em !important;
-padding: 0.25em 2em !important;
+padding: 0.25em 2em 0.13em 2em !important;
 font-style:  italic !important;
   }
   .font-future-about{
@@ -20381,12 +20563,26 @@ font-style:  italic !important;
     background-clip: text !important; 
     color: transparent;
   }
-  .card-contact-page-size{
-    height: 400px !important;
-    padding-top: 83px !important;
+  .card-contact-page-size {
+    background-color: #ffffff !important; /* White background for the card */
+    border-radius: 10px; /* Slightly rounded corners */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    padding: 68px 20px 0px 20px !important; /* Padding inside the card for content */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth hover effect */
+    margin: -13px auto !important; /* Center the card on the page */
+    max-width: 430px; /* Set a max width for responsiveness */
+    height: 380px !important;
+  }
+  .bg-white-grey-123{
+    background: #F7F7F7;
   }
   .card-contact-page-size p{
-font-size: 1.2em !important;
+font-size: 1.12em !important;
+  }
+  .contact-btn{
+    background: rgb(33,123,199);
+    background: linear-gradient(90deg, rgba(33,123,199,1) 0%, rgba(23,165,237,1) 100%);
+    font-size: 1.2em !important;
   }
   .blog-title{
     color: #0E1A36 !important;
@@ -20411,7 +20607,7 @@ font-size: 1.2em !important;
     transform: skewX(0deg) !important; /* Simulate slant by skewing text */
   margin-left: 0em !important;
     font-size: 1.5em !important;
-    margin-bottom: .2em;
+    margin-bottom: .4em !important;
     background: linear-gradient(119deg, rgba(227,132,48,1) 0%, rgba(206,85,36,1) 100%) !important;
     -webkit-background-clip: text;
     background-clip: text !important; 
@@ -22022,9 +22218,42 @@ height: 90%; /* Adjust the size as needed */
 background-color: #1E1E1E; /* Black color */
 z-index: -1; /* Ensure it is behind the image */
 }
-
+.projects{
+  margin-top: 2.5em !important;
+}
+.margin-margin-margin{
+  margin-left: -1em;
+}
 }
 @media (min-width: 1170px) and (max-width: 1190px){
+  .blog-title{
+    color: #0E1A36 !important;
+    font-size: 3em !important;
+    line-height: 1.1;
+    font-weight: 400 !important;
+    text-transform: uppercase;
+    margin-left: 0em;
+    font-family: "Bebas Neue", sans-serif !important;
+    transform: skewX(-8deg);
+  margin-bottom: -.31em;
+  }
+  .ipad-display-visible{
+    display: block !important;
+  }
+  .review-logos{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 1.7em !important;
+    justify-content: center;
+    }
+  .google-review-logo-section{
+    margin-right: 2em;
+    width: 10em !important;
+  }
+  .facebook-review-logo-section{
+    width: 11em !important;
+  }
   .contact-section-padding{
     margin-top: .25em !important;
     padding-right: .1em !important;
@@ -22050,7 +22279,7 @@ margin-top: 0em !important;
       }
       
   .projects{
-    margin-top: 6em !important;
+    margin-top: 3em !important;
   }
   .mt-115{
     margin-top: 4.3em !important;
@@ -22092,7 +22321,7 @@ margin-top: 0em !important;
 color: #fff;
 font-weight: 400 !important;
 font-size: 1.7em !important;
-padding: 0.2em 2em !important;
+padding: 0.25em 2em 0.15em 2em !important;
 font-style:  italic !important;
   }
   .font-future-about{
@@ -22135,12 +22364,26 @@ font-style:  italic !important;
     background-clip: text !important; 
     color: transparent;
   }
-  .card-contact-page-size{
-    height: 400px !important;
-    padding-top: 83px !important;
+  .card-contact-page-size {
+    background-color: #ffffff !important; /* White background for the card */
+    border-radius: 10px; /* Slightly rounded corners */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    padding: 68px 20px 0px 20px !important; /* Padding inside the card for content */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth hover effect */
+    margin: -13px auto !important; /* Center the card on the page */
+    max-width: 440px; /* Set a max width for responsiveness */
+    height: 380px !important;
+  }
+  .bg-white-grey-123{
+    background: #F7F7F7;
   }
   .card-contact-page-size p{
-font-size: 1.2em !important;
+font-size: 1.12em !important;
+  }
+  .contact-btn{
+    background: rgb(33,123,199);
+    background: linear-gradient(90deg, rgba(33,123,199,1) 0%, rgba(23,165,237,1) 100%);
+    font-size: 1.2em !important;
   }
   .blog-title{
     color: #0E1A36 !important;
@@ -23781,9 +24024,34 @@ z-index: -1; /* Ensure it is behind the image */
 .about-text{
   padding-left: .7em !important;
 }
+.margin-margin-margin{
+  margin-left: -1em;
 }
+
+
+}
+
 @media (min-width: 1190px) and (max-width: 1270px){
-  
+  .margin-margin-margin{
+    margin-left: -1em;
+  }
+  .ipad-display-visible{
+    display: block !important;
+  }
+  .review-logos{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 2.4em !important;
+    justify-content: center;
+    }
+  .google-review-logo-section{
+    margin-right: 2em;
+    width: 10em !important;
+  }
+  .facebook-review-logo-section{
+    width: 11em !important;
+  }
   .contact-section-padding{
     margin-top: .25em !important;
     padding-right: .1em !important;
@@ -23809,7 +24077,7 @@ margin-top: 0em !important;
       }
       
   .projects{
-    margin-top: 6em !important;
+    margin-top: 3em !important;
   }
   .mt-115{
     margin-top: 4.3em !important;
@@ -23851,7 +24119,7 @@ margin-top: 0em !important;
 color: #fff;
 font-weight: 400 !important;
 font-size: 1.7em !important;
-padding: 0.2em 2em !important;
+padding: 0.25em 2em 0.15em 2em !important;
 font-style:  italic !important;
   }
   .font-future-about{
@@ -23894,12 +24162,26 @@ font-style:  italic !important;
     background-clip: text !important; 
     color: transparent;
   }
-  .card-contact-page-size{
-    height: 400px !important;
-    padding-top: 83px !important;
+  .card-contact-page-size {
+    background-color: #ffffff !important; /* White background for the card */
+    border-radius: 10px; /* Slightly rounded corners */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    padding: 68px 20px 0px 20px !important; /* Padding inside the card for content */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth hover effect */
+    margin: -13px auto !important; /* Center the card on the page */
+    max-width: 460px; /* Set a max width for responsiveness */
+    height: 380px !important;
+  }
+  .bg-white-grey-123{
+    background: #F7F7F7;
   }
   .card-contact-page-size p{
-font-size: 1.2em !important;
+font-size: 1.12em !important;
+  }
+  .contact-btn{
+    background: rgb(33,123,199);
+    background: linear-gradient(90deg, rgba(33,123,199,1) 0%, rgba(23,165,237,1) 100%);
+    font-size: 1.2em !important;
   }
   .blog-title{
     color: #0E1A36 !important;
@@ -25542,6 +25824,34 @@ z-index: -1; /* Ensure it is behind the image */
 }
 @media (min-width: 1270px) and (max-width: 1360px){
   
+  .blog-title{
+    color: #0E1A36 !important;
+    font-size: 3em !important;
+    line-height: 1.1;
+    font-weight: 400 !important;
+    text-transform: uppercase;
+    margin-left: 0em;
+    font-family: "Bebas Neue", sans-serif !important;
+    transform: skewX(-8deg);
+  margin-bottom: -.31em;
+  }
+  .ipad-display-visible{
+    display: block !important;
+  }
+  .review-logos{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 2em !important;
+    justify-content: center;
+    }
+  .google-review-logo-section{
+    margin-right: 2em;
+    width: 10em !important;
+  }
+  .facebook-review-logo-section{
+    width: 11em !important;
+  }
   .contact-section-padding{
     margin-top: .25em !important;
     padding-right: .1em !important;
@@ -25567,7 +25877,7 @@ margin-top: 0em !important;
       }
       
   .projects{
-    margin-top: 6em !important;
+    margin-top: 3em !important;
   }
   .mt-115{
     margin-top: 4.3em !important;
@@ -25609,7 +25919,7 @@ margin-top: 0em !important;
 color: #fff;
 font-weight: 400 !important;
 font-size: 1.7em !important;
-padding: 0.2em 2em !important;
+padding: 0.25em 2em 0.15em 2em !important;
 font-style:  italic !important;
   }
   .font-future-about{
@@ -25652,23 +25962,26 @@ font-style:  italic !important;
     background-clip: text !important; 
     color: transparent;
   }
-  .card-contact-page-size{
-    height: 400px !important;
-    padding-top: 83px !important;
+  .card-contact-page-size {
+    background-color: #ffffff !important; /* White background for the card */
+    border-radius: 10px; /* Slightly rounded corners */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    padding: 68px 20px 0px 20px !important; /* Padding inside the card for content */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth hover effect */
+    margin: -13px auto !important; /* Center the card on the page */
+    max-width: 400px; /* Set a max width for responsiveness */
+    height: 380px !important;
+  }
+  .bg-white-grey-123{
+    background: #F7F7F7;
   }
   .card-contact-page-size p{
-font-size: 1.2em !important;
+font-size: 1.12em !important;
   }
-  .blog-title{
-    color: #0E1A36 !important;
-    font-size: 3.1em;
-    line-height: 1.1;
-    font-weight: 400 !important;
-    text-transform: uppercase;
-    margin-left: 0em;
-    font-family: "Bebas Neue", sans-serif !important;
-    transform: skewX(0deg) !important;
-  
+  .contact-btn{
+    background: rgb(33,123,199);
+    background: linear-gradient(90deg, rgba(33,123,199,1) 0%, rgba(23,165,237,1) 100%);
+    font-size: 1.2em !important;
   }
   .projects-link-width{
     width: 95%  !important;
@@ -26194,7 +26507,8 @@ section#testimonial {
     align-items: center;
     justify-content: center;
     flex-wrap: nowrap;
-    margin-right: 4em !important;
+    white-space: nowrap !important;
+    margin-right: 9em !important;
   }
   .user{
     width: 2.75em !important;
@@ -26518,6 +26832,7 @@ background-position: top !important;
 }
 .about-page-page{
   padding-top: 1em !important;
+  padding-bottom: 2em !important;
 }
 .font-future-service-page{
   color: #121212   ;
@@ -27303,13 +27618,7 @@ z-index: -1; /* Ensure it is behind the image */
 .about-text{
   padding-left: .7em !important;
 }
-.card-contact-page-size{
-  height: 450px !important;
-  padding-top: 97px !important;
-}
-.card-contact-page-size p{
-font-size: 1.3em !important;
-}
+
 .contact-btn{
   background: rgb(33,123,199);
   background: linear-gradient(90deg, rgba(33,123,199,1) 0%, rgba(23,165,237,1) 100%);
@@ -27322,8 +27631,35 @@ font-size: 1.3em !important;
 font-size: 2.3em !important ;
   text-transform: uppercase;
   font-family: "Bebas Neue", sans-serif !important;
+}
+.margin-margin-margin{
+  margin-left: -3.25em;
 }}
 @media (min-width: 1360px) and (max-width: 1400px){
+  .margin-margin-margin{
+    margin-left: -3.5em;
+  }
+  .blog-title{
+    color: #0E1A36 !important;
+    font-size: 3em !important;
+    line-height: 1.1;
+    font-weight: 400 !important;
+    text-transform: uppercase;
+    margin-left: 0em;
+    font-family: "Bebas Neue", sans-serif !important;
+    transform: skewX(-8deg);
+  margin-bottom: -.31em;
+  }
+  .ipad-display-visible{
+    display: block !important;
+  }
+  .review-logos{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 2em !important;
+    justify-content: center;
+    }
   .google-review-logo-section{
     margin-right: 2em;
     width: 10em !important;
@@ -27331,6 +27667,7 @@ font-size: 2.3em !important ;
   .facebook-review-logo-section{
     width: 11em !important;
   }
+
   .contact-section-padding{
     margin-top: .25em !important;
     padding-right: .1em !important;
@@ -27398,7 +27735,7 @@ margin-top: 0em !important;
 color: #fff;
 font-weight: 400 !important;
 font-size: 1.7em !important;
-padding: 0.2em 2em !important;
+padding: 0.25em 2em 0.15em 2em !important;
 font-style:  italic !important;
   }
   .font-future-about{
@@ -28307,6 +28644,7 @@ background-position: top !important;
 }
 .about-page-page{
   padding-top: 1em !important;
+  padding-bottom: 1em !important;
 }
 .font-future-service-page{
   color: #121212   ;
@@ -29092,17 +29430,26 @@ z-index: -1; /* Ensure it is behind the image */
 .about-text{
   padding-left: .7em !important;
 }
-.card-contact-page-size{
-  height: 450px !important;
-  padding-top: 97px !important;
+.card-contact-page-size {
+  background-color: #ffffff !important; /* White background for the card */
+  border-radius: 10px; /* Slightly rounded corners */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  padding: 68px 20px 0px 20px !important; /* Padding inside the card for content */
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth hover effect */
+  margin: -13px auto !important; /* Center the card on the page */
+  max-width: 400px; /* Set a max width for responsiveness */
+  height: 380px !important;
+}
+.bg-white-grey-123{
+  background: #F7F7F7;
 }
 .card-contact-page-size p{
-font-size: 1.3em !important;
+font-size: 1.12em !important;
 }
 .contact-btn{
   background: rgb(33,123,199);
   background: linear-gradient(90deg, rgba(33,123,199,1) 0%, rgba(23,165,237,1) 100%);
-  font-size: 1.3em !important;
+  font-size: 1.2em !important;
 }  .contact-card-page-header{
   color: #0E1A36;
   outline: none;
@@ -29114,6 +29461,37 @@ font-size: 2.3em !important ;
 }
 }
 @media (min-width: 1400px) and (max-width: 1500px){
+  .margin-margin-margin{
+    margin-left: -4em;
+  }
+  .blog-title{
+    color: #0E1A36 !important;
+    font-size: 3.4em !important;
+    line-height: 1.1;
+    font-weight: 400 !important;
+    text-transform: uppercase;
+    margin-left: 0em;
+    font-family: "Bebas Neue", sans-serif !important;
+    transform: skewX(-8deg);
+  margin-bottom: -.31em;
+  }
+  .ipad-display-visible{
+    display: block !important;
+  }
+  .review-logos{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 2em !important;
+    justify-content: center;
+    }
+  .google-review-logo-section{
+    margin-right: 2em;
+    width: 10em !important;
+  }
+  .facebook-review-logo-section{
+    width: 11em !important;
+  }
   .font-type-service-header{
     text-align: center !important;
         color: #0E1A36 !important;
@@ -29246,6 +29624,7 @@ margin-top: 0em !important;
     margin-top: 2em !important;
 
   }
+
   .btn-colour-contact-form-page{
     background: rgb(33,123,199);
     background: linear-gradient(90deg, rgba(33,123,199,1) 0%, rgba(23,165,237,1) 100%);  color: #fff;
@@ -29254,7 +29633,7 @@ margin-top: 0em !important;
 color: #fff;
 font-weight: 400 !important;
 font-size: 1.7em !important;
-padding: 0.2em 2em !important;
+padding: 0.25em 2em 0.15em 2em !important;
 font-style:  italic !important;
   }
   .font-future-about{
@@ -29297,12 +29676,26 @@ font-style:  italic !important;
     background-clip: text !important; 
     color: transparent;
   }
-  .card-contact-page-size{
-    height: 400px !important;
-    padding-top: 83px !important;
+  .card-contact-page-size {
+    background-color: #ffffff !important; /* White background for the card */
+    border-radius: 10px; /* Slightly rounded corners */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    padding: 68px 20px 0px 20px !important; /* Padding inside the card for content */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth hover effect */
+    margin: -13px auto !important; /* Center the card on the page */
+    max-width: 400px; /* Set a max width for responsiveness */
+    height: 380px !important;
+  }
+  .bg-white-grey-123{
+    background: #F7F7F7;
   }
   .card-contact-page-size p{
-font-size: 1.2em !important;
+font-size: 1.12em !important;
+  }
+  .contact-btn{
+    background: rgb(33,123,199);
+    background: linear-gradient(90deg, rgba(33,123,199,1) 0%, rgba(23,165,237,1) 100%);
+    font-size: 1.2em !important;
   }
   .blog-title{
     color: #0E1A36 !important;
@@ -30155,6 +30548,7 @@ background-position: center !important;
 }
 .about-page-page{
   padding-top: 1em !important;
+  padding-bottom: 1em !important;
 }
 .font-future-service-page{
   color: #121212   ;
@@ -30940,29 +31334,55 @@ z-index: -1; /* Ensure it is behind the image */
 .about-text{
   padding-left: .7em !important;
 }
-.card-contact-page-size{
-  height: 450px !important;
-  padding-top: 97px !important;
-}
-.card-contact-page-size p{
-font-size: 1.4em !important;
-}
-.contact-btn{
-  background: rgb(33,123,199);
-  background: linear-gradient(90deg, rgba(33,123,199,1) 0%, rgba(23,165,237,1) 100%);
-  font-size: 1.3em !important;
-}  .contact-card-page-header{
-  color: #0E1A36;
-  outline: none;
-  font-weight: 400 !important;
-  margin-top: .13em !important;
-font-size: 2.3em !important ;
-  text-transform: uppercase;
-  font-family: "Bebas Neue", sans-serif !important;
-}
+
 }
 
 @media (min-width: 1500px) and (max-width: 1599px){
+  .margin-margin-margin{
+    margin-left: -4em;
+  }
+  .blog-title{
+    color: #0E1A36 !important;
+    font-size: 3.4em !important;
+    line-height: 1.1;
+    font-weight: 400 !important;
+    text-transform: uppercase;
+    margin-left: 0em;
+    font-family: "Bebas Neue", sans-serif !important;
+    transform: skewX(-8deg);
+  margin-bottom: -.31em;
+  }
+  .ipad-display-visible{
+    display: block !important;
+  }
+  .review-logos{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 2em !important;
+    justify-content: center;
+    }
+  .google-review-logo-section{
+    margin-right: 2em;
+    width: 10em !important;
+  }
+  .facebook-review-logo-section{
+    width: 11em !important;
+  }
+  .review-logos{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 1.7em !important;
+    justify-content: center;
+    }
+  .google-review-logo-section{
+    margin-right: 2em;
+    width: 10em !important;
+  }
+  .facebook-review-logo-section{
+    width: 11em !important;
+  }
   .font-type-service-header{
     text-align: center !important;
         color: #0E1A36 !important;
@@ -31061,7 +31481,7 @@ margin-top: 0em !important;
       }
       
   .projects{
-    margin-top: 6em !important;
+    margin-top : 2.66em !important;
   }
   .mt-115{
     margin-top: 4.3em !important;
@@ -31103,8 +31523,8 @@ margin-top: 0em !important;
 color: #fff;
 font-weight: 400 !important;
 font-size: 1.7em !important;
-padding: 0.2em 2em !important;
-font-style:  italic !important;
+padding: 0.25em 2em 0.15em 2em !important;
+  font-style:  italic !important;
   }
   .font-future-about{
     font-family: "Bebas Neue", sans-serif;
@@ -31146,12 +31566,26 @@ font-style:  italic !important;
     background-clip: text !important; 
     color: transparent;
   }
-  .card-contact-page-size{
-    height: 400px !important;
-    padding-top: 83px !important;
+  .card-contact-page-size {
+    background-color: #ffffff !important; /* White background for the card */
+    border-radius: 10px; /* Slightly rounded corners */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    padding: 68px 20px 0px 20px !important; /* Padding inside the card for content */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth hover effect */
+    margin: -13px auto !important; /* Center the card on the page */
+    max-width: 400px; /* Set a max width for responsiveness */
+    height: 380px !important;
+  }
+  .bg-white-grey-123{
+    background: #F7F7F7;
   }
   .card-contact-page-size p{
-font-size: 1.2em !important;
+font-size: 1.12em !important;
+  }
+  .contact-btn{
+    background: rgb(33,123,199);
+    background: linear-gradient(90deg, rgba(33,123,199,1) 0%, rgba(23,165,237,1) 100%);
+    font-size: 1.2em !important;
   }
   .blog-title{
     color: #0E1A36 !important;
@@ -32735,13 +33169,7 @@ z-index: -1; /* Ensure it is behind the image */
 .about-text{
   padding-left: .7em !important;
 }
-.card-contact-page-size{
-  height: 450px !important;
-  padding-top: 97px !important;
-}
-.card-contact-page-size p{
-font-size: 1.4em !important;
-}
+
 .contact-btn{
   background: rgb(33,123,199);
   background: linear-gradient(90deg, rgba(33,123,199,1) 0%, rgba(23,165,237,1) 100%);
@@ -32758,6 +33186,61 @@ font-size: 2.3em !important ;
 }
 @media (min-width: 1600px) and (max-width: 1679px){
 
+.margin-margin-margin{
+  margin-left: -4em;
+}
+  .contact-card-page-header{
+    color: #0E1A36;
+    outline: none;
+    font-weight: 400 !important;
+    margin-top: .13em !important;
+  font-size: 2.3em !important ;
+    text-transform: uppercase;
+    font-family: "Bebas Neue", sans-serif !important;
+  }
+  .blog-title{
+    color: #0E1A36 !important;
+    font-size: 3.4em !important;
+    line-height: 1.1;
+    font-weight: 400 !important;
+    text-transform: uppercase;
+    margin-left: 0em;
+    font-family: "Bebas Neue", sans-serif !important;
+    transform: skewX(-8deg);
+  margin-bottom: -.31em;
+  }
+  .ipad-display-visible{
+    display: none !important;
+  }
+  .review-logos{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 3em !important;
+    justify-content: center;
+    margin-top: -.5em !important;
+    }
+  .google-review-logo-section{
+    margin-right: 2em;
+    width: 11em !important;
+  }
+  .facebook-review-logo-section{
+    width: 12em !important;
+  }
+  .review-logos{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 1.7em !important;
+    justify-content: center;
+    }
+  .google-review-logo-section{
+    margin-right: 2em;
+    width: 10em !important;
+  }
+  .facebook-review-logo-section{
+    width: 11em !important;
+  }
   .font-type-service-header{
     text-align: center !important;
         color: #0E1A36 !important;
@@ -32856,7 +33339,7 @@ margin-top: 0em !important;
       }
       
   .projects{
-    margin-top: 6em !important;
+    margin-top: 4em !important;
   }
   .mt-115{
     margin-top: 4.3em !important;
@@ -32898,7 +33381,7 @@ margin-top: 0em !important;
 color: #fff;
 font-weight: 400 !important;
 font-size: 1.7em !important;
-padding: 0.2em 2em !important;
+padding: 0.25em 2em 0.15em 2em !important;
 font-style:  italic !important;
   }
   .font-future-about{
@@ -32955,17 +33438,26 @@ font-style:  italic !important;
     background-clip: text !important; 
     color: transparent;
   }
-  .card-contact-page-size{
-    height: 450px !important;
-    padding-top: 97px !important;
+  .card-contact-page-size {
+    background-color: #ffffff !important; /* White background for the card */
+    border-radius: 10px; /* Slightly rounded corners */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    padding: 68px 20px 0px 20px !important; /* Padding inside the card for content */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth hover effect */
+    margin: -13px auto !important; /* Center the card on the page */
+    max-width: 400px; /* Set a max width for responsiveness */
+    height: 380px !important;
+  }
+  .bg-white-grey-123{
+    background: #F7F7F7;
   }
   .card-contact-page-size p{
-font-size: 1.4em !important;
+font-size: 1.22em !important;
   }
   .contact-btn{
     background: rgb(33,123,199);
     background: linear-gradient(90deg, rgba(33,123,199,1) 0%, rgba(23,165,237,1) 100%);
-    font-size: 1.3em !important;
+    font-size: 1.2em !important;
   }
   .blog-title{
     color: #0E1A36 !important;
@@ -34485,7 +34977,7 @@ position: absolute;
 }
 
 .service{
-  margin-top: -2.2em !important;
+  margin-top: -4em !important;
   margin-bottom: -1em;
 }
 
@@ -34615,7 +35107,51 @@ z-index: -1; /* Ensure it is behind the image */
 
 }
 @media (min-width: 1679px) and (max-width: 1700px){
-  
+  .margin-margin-margin{
+    margin-left: -4em;
+  }
+  .blog-title{
+    color: #0E1A36 !important;
+    font-size: 3.5em !important;
+    line-height: 1.1;
+    font-weight: 400 !important;
+    text-transform: uppercase;
+    margin-left: 0em;
+    font-family: "Bebas Neue", sans-serif !important;
+    transform: skewX(-8deg);
+  margin-bottom: -.21em;
+  }
+  .ipad-display-visible{
+    display: block !important;
+  }
+  .review-logos{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 2em !important;
+    justify-content: center;
+    }
+  .google-review-logo-section{
+    margin-right: 2em;
+    width: 10em !important;
+  }
+  .facebook-review-logo-section{
+    width: 11em !important;
+  }
+  .review-logos{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 2.3em !important;
+    justify-content: center;
+    }
+  .google-review-logo-section{
+    margin-right: 2em;
+    width: 11em !important;
+  }
+  .facebook-review-logo-section{
+    width: 12em !important;
+  }
   .blog .posts-list .readmore {
     font-family: "Open Sans", sans-serif !important;
     font-weight: 600 !important;
@@ -34739,7 +35275,7 @@ margin-top: 0em !important;
       }
       
   .projects{
-    margin-top: 6em !important;
+    margin-top: 3.5em !important;
   }
   .mt-115{
     margin-top: 4.3em !important;
@@ -34781,7 +35317,7 @@ margin-top: 0em !important;
 color: #fff;
 font-weight: 400 !important;
 font-size: 1.7em !important;
-padding: 0.2em 2em !important;
+padding: 0.25em 2em 0.15em 2em !important;
 font-style:  italic !important;
   }
   .font-future-about{
@@ -34824,12 +35360,26 @@ font-style:  italic !important;
     background-clip: text !important; 
     color: transparent;
   }
-  .card-contact-page-size{
-    height: 450px !important;
-    padding-top: 97px !important;
+  .card-contact-page-size {
+    background-color: #ffffff !important; /* White background for the card */
+    border-radius: 10px; /* Slightly rounded corners */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    padding: 68px 20px 0px 20px !important; /* Padding inside the card for content */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth hover effect */
+    margin: -13px auto !important; /* Center the card on the page */
+    max-width: 400px; /* Set a max width for responsiveness */
+    height: 380px !important;
+  }
+  .bg-white-grey-123{
+    background: #F7F7F7;
   }
   .card-contact-page-size p{
-font-size: 1.4em !important;
+font-size: 1.3em !important;
+  }
+  .contact-btn{
+    background: rgb(33,123,199);
+    background: linear-gradient(90deg, rgba(33,123,199,1) 0%, rgba(23,165,237,1) 100%);
+    font-size: 1.2em !important;
   }
   .blog-title{
     color: #0E1A36 !important;
@@ -36179,7 +36729,7 @@ background-size: contain !important;  }
 margin-left: 1em;
 display: inline-block;
 align-items: center;
-font-size: 1.3em ;
+font-size: 1.2em !important ;
 
 }
 .stars-container b{
@@ -36350,7 +36900,7 @@ position: absolute;
 }
 
 .service{
-  margin-top: -2.2em !important;
+  margin-top: -4.2em !important;
   margin-bottom: -1em;
 }
 
@@ -36493,7 +37043,51 @@ font-size: 2.3em !important ;
 }
 }
 @media (min-width: 1700px) and (max-width: 1799px){
-
+  .blog-title{
+    color: #0E1A36 !important;
+    font-size: 3.6em !important;
+    line-height: 1.1;
+    font-weight: 400 !important;
+    text-transform: uppercase;
+    margin-left: 0em;
+    font-family: "Bebas Neue", sans-serif !important;
+    transform: skewX(-8deg);
+  margin-bottom: -.21em;
+  }
+  .ipad-display-visible{
+    display: block !important;
+  }
+  .review-logos{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 2em !important;
+    justify-content: center;
+    }
+  .google-review-logo-section{
+    margin-right: 2em;
+    width: 10em !important;
+  }
+  .facebook-review-logo-section{
+    width: 11em !important;
+  }
+  .margin-margin-margin{
+    margin-left: -4em;
+  }
+  .review-logos{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 2em !important;
+    justify-content: center;
+    }
+  .google-review-logo-section{
+    margin-right: 2em;
+    width: 11em !important;
+  }
+  .facebook-review-logo-section{
+    width: 12em !important;
+  }
   .font-type-service-header{
     text-align: center !important;
         color: #0E1A36 !important;
@@ -36592,7 +37186,7 @@ margin-top: 0em !important;
       }
       
   .projects{
-    margin-top: 6em !important;
+    margin-top: 4em !important;
   }
   .mt-115{
     margin-top: 4.3em !important;
@@ -36634,7 +37228,7 @@ margin-top: 0em !important;
 color: #fff;
 font-weight: 400 !important;
 font-size: 1.7em !important;
-padding: 0.2em 2em !important;
+padding: 0.25em 2em 0.2em 2em !important;
 font-style:  italic !important;
   }
   .font-future-about{
@@ -36677,17 +37271,26 @@ font-style:  italic !important;
     background-clip: text !important; 
     color: transparent;
   }
-  .card-contact-page-size{
-    height: 450px !important;
-    padding-top: 97px !important;
+  .card-contact-page-size {
+    background-color: #ffffff !important; /* White background for the card */
+    border-radius: 10px; /* Slightly rounded corners */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    padding: 68px 20px 0px 20px !important; /* Padding inside the card for content */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth hover effect */
+    margin: -13px auto !important; /* Center the card on the page */
+    max-width: 400px; /* Set a max width for responsiveness */
+    height: 380px !important;
+  }
+  .bg-white-grey-123{
+    background: #F7F7F7;
   }
   .card-contact-page-size p{
-  font-size: 1.3em !important;
+font-size: 1.3em !important;
   }
   .contact-btn{
     background: rgb(33,123,199);
     background: linear-gradient(90deg, rgba(33,123,199,1) 0%, rgba(23,165,237,1) 100%);
-    font-size: 1.3em !important;
+    font-size: 1.2em !important;
   }  .contact-card-page-header{
     color: #0E1A36;
     outline: none;
@@ -38046,7 +38649,7 @@ background-size: contain !important;  }
 margin-left: 1em;
 display: inline-block;
 align-items: center;
-font-size: 1.1em ;
+font-size: 1.2em !important ;
 
 }
 .stars-container b{
@@ -38217,7 +38820,7 @@ position: absolute;
 }
 
 .service{
-  margin-top: -2.2em !important;
+  margin-top: -3.42em !important;
   margin-bottom: -1em;
 }
 
@@ -38349,10 +38952,29 @@ z-index: -1; /* Ensure it is behind the image */
 
 }
 @media (min-width: 1800px) and (max-width: 1900px){
+  .margin-margin-margin{
+    margin-left: -4em;
+  }
+  .card-contact-page-size {
+    background-color: #ffffff !important; /* White background for the card */
+    border-radius: 10px; /* Slightly rounded corners */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    padding: 68px 20px 0px 20px !important; /* Padding inside the card for content */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth hover effect */
+    margin: -13px auto !important; /* Center the card on the page */
+    max-width: 400px; /* Set a max width for responsiveness */
+    height: 380px !important;
+  }
+  .bg-white-grey-123{
+    background: #F7F7F7;
+  }
+  .card-contact-page-size p{
+font-size: 1.32em !important;
+  }
   .contact-btn{
     background: rgb(33,123,199);
     background: linear-gradient(90deg, rgba(33,123,199,1) 0%, rgba(23,165,237,1) 100%);
-    font-size: 1.3em !important;
+    font-size: 1.2em !important;
   }
   .contact-card-page-header{
     color: #0E1A36;
@@ -38461,7 +39083,7 @@ margin-top: 0em !important;
       }
       
   .projects{
-    margin-top: 6em !important;
+    margin-top: 4.3em !important;
   }
   .mt-115{
     margin-top: 4.3em !important;
@@ -38503,7 +39125,7 @@ margin-top: 0em !important;
 color: #fff;
 font-weight: 400 !important;
 font-size: 1.7em !important;
-padding: 0.2em 2em !important;
+padding: 0.25em 2em 0.15em 2em !important;
 font-style:  italic !important;
   }
   .font-future-about{
@@ -38546,18 +39168,7 @@ font-style:  italic !important;
     background-clip: text !important; 
     color: transparent;
   }
-  .card-contact-page-size{
-    height: 450px !important;
-    padding-top: 97px !important;
-  }
-  .card-contact-page-size p{
-  font-size: 1.3em !important;
-  }
-  .contact-btn{
-    background: rgb(33,123,199);
-    background: linear-gradient(90deg, rgba(33,123,199,1) 0%, rgba(23,165,237,1) 100%);
-    font-size: 1.34em !important;
-  }  .contact-card-page-header{
+.contact-card-page-header{
     color: #0E1A36;
     outline: none;
     font-weight: 400 !important;
@@ -39606,7 +40217,7 @@ background-position: center !important;
       letter-spacing: .3px;    font-weight: 600 !important;
       font-style: normal;
       color: #fff;
-      padding-top: 1.2em !important;
+      padding-top: .16em !important;
       z-index: 1000;
       font-size: 1.57em !important  ;
   }
@@ -39616,7 +40227,7 @@ background-position: center !important;
     margin-left: 6em !important;
     font-family: "Montserrat", sans-serif;
       border: none;
-      padding-top: 1.2em !important;
+      padding-top: .16em !important;
 
       letter-spacing: .3px;    font-weight: 400 !important;
       font-style: normal;
@@ -39703,7 +40314,7 @@ background-position: center !important;
     border-left: white solid 2px;
     margin-top: 0em !important;
     right: 6% !important;
-    height: 448px !important;
+    height: 455px !important;
     margin-left: .9em !important;
   }
   .border-left2{
@@ -39908,7 +40519,7 @@ background-size: contain !important;  }
 margin-left: 1em;
 display: inline-block;
 align-items: center;
-font-size: 1.1em ;
+font-size: 1.25em !important ;
 
 }
 .stars-container b{
@@ -40079,7 +40690,7 @@ position: absolute;
 }
 
 .service{
-  margin-top: -2.7em !important;
+  margin-top: -3.5em !important;
   margin-bottom: -1em;
 }
 
@@ -40209,6 +40820,34 @@ z-index: -1; /* Ensure it is behind the image */
 
 }
 @media (min-width: 1900px) and (max-width: 2000px){
+  .blog-title{
+    color: #0E1A36 !important;
+    font-size: 3.7em !important;
+    line-height: 1.1;
+    font-weight: 400 !important;
+    text-transform: uppercase;
+    margin-left: 0em;
+    font-family: "Bebas Neue", sans-serif !important;
+    transform: skewX(-8deg);
+  margin-bottom: -.21em;
+  }
+  .ipad-display-visible{
+    display: block !important;
+  }
+  .review-logos{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 2em !important;
+    justify-content: center;
+    }
+  .google-review-logo-section{
+    margin-right: 2em;
+    width: 10em !important;
+  }
+  .facebook-review-logo-section{
+    width: 11em !important;
+  }
   .blog .posts-list .readmore {
     font-family: "Open Sans", sans-serif !important;
     font-weight: 600 !important;
@@ -40358,7 +40997,7 @@ margin-top: 0em !important;
       }
       
   .projects{
-    margin-top: 6em !important;
+    margin-top: 4.5em !important;
   }
   .mt-115{
     margin-top: 4.3em !important;
@@ -40392,6 +41031,9 @@ margin-top: 0em !important;
     margin-top: 2em !important;
 
   }
+  .margin-margin-margin{
+    margin-left: -4em;
+  }
   .btn-colour-contact-form-page{
     background: rgb(33,123,199);
     background: linear-gradient(90deg, rgba(33,123,199,1) 0%, rgba(23,165,237,1) 100%);  color: #fff;
@@ -40400,7 +41042,7 @@ margin-top: 0em !important;
 color: #fff;
 font-weight: 400 !important;
 font-size: 1.7em !important;
-padding: 0.2em 2em !important;
+padding: 0.25em 2em 0.15em 2em !important;
 font-style:  italic !important;
   }
   .font-future-about{
@@ -40443,18 +41085,27 @@ font-style:  italic !important;
     background-clip: text !important; 
     color: transparent;
   }
-  .card-contact-page-size{
-    height: 450px !important;
-    padding-top: 97px !important;
+  .card-contact-page-size {
+    background-color: #ffffff !important; /* White background for the card */
+    border-radius: 10px; /* Slightly rounded corners */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    padding: 68px 20px 0px 20px !important; /* Padding inside the card for content */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth hover effect */
+    margin: -13px auto !important; /* Center the card on the page */
+    max-width: 480px; /* Set a max width for responsiveness */
+    height: 380px !important;
+  }
+  .bg-white-grey-123{
+    background: #F7F7F7;
   }
   .card-contact-page-size p{
-  font-size: 1.3em !important;
+font-size: 1.3em !important;
   }
   .contact-btn{
     background: rgb(33,123,199);
     background: linear-gradient(90deg, rgba(33,123,199,1) 0%, rgba(23,165,237,1) 100%);
-    font-size: 1.3em !important;
-  }  .contact-card-page-header{
+    font-size: 1.2em !important;
+  }.contact-card-page-header{
     color: #0E1A36;
     outline: none;
     font-weight: 400 !important;
@@ -41978,7 +42629,7 @@ position: absolute;
 }
 
 .service{
-  margin-top: -2.7em !important;
+  margin-top: -3.5em !important;
   margin-bottom: -1em;
 }
 
@@ -42302,7 +42953,7 @@ margin-top: 0em !important;
 color: #fff;
 font-weight: 400 !important;
 font-size: 1.7em !important;
-padding: 0.2em 2em !important;
+padding: 0.25em 2em 0.15em 2em !important;
 font-style:  italic !important;
   }
   .font-future-about{
@@ -42345,12 +42996,26 @@ font-style:  italic !important;
     background-clip: text !important; 
     color: transparent;
   }
-  .card-contact-page-size{
-    height: 450px !important;
-    padding-top: 110px !important;
+  .card-contact-page-size {
+    background-color: #ffffff !important; /* White background for the card */
+    border-radius: 10px; /* Slightly rounded corners */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    padding: 68px 20px 0px 20px !important; /* Padding inside the card for content */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth hover effect */
+    margin: -13px auto !important; /* Center the card on the page */
+    max-width: 400px; /* Set a max width for responsiveness */
+    height: 380px !important;
+  }
+  .bg-white-grey-123{
+    background: #F7F7F7;
   }
   .card-contact-page-size p{
-font-size: 1.2em !important;
+font-size: 1.12em !important;
+  }
+  .contact-btn{
+    background: rgb(33,123,199);
+    background: linear-gradient(90deg, rgba(33,123,199,1) 0%, rgba(23,165,237,1) 100%);
+    font-size: 1.2em !important;
   }
   .blog-title{
     color: #0E1A36 !important;
@@ -44181,6 +44846,9 @@ margin-top: 0em !important;
     margin-top: 2em !important;
 
   }
+  .margin-margin-margin{
+    margin-left: -4em;
+  }
   .btn-colour-contact-form-page{
     background: rgb(33,123,199);
     background: linear-gradient(90deg, rgba(33,123,199,1) 0%, rgba(23,165,237,1) 100%);  color: #fff;
@@ -44189,7 +44857,7 @@ margin-top: 0em !important;
 color: #fff;
 font-weight: 400 !important;
 font-size: 1.7em !important;
-padding: 0.2em 2em !important;
+padding: 0.25em 2em 0.15em 2em !important;
 font-style:  italic !important;
   }
   .font-future-about{
@@ -44232,12 +44900,26 @@ font-style:  italic !important;
     background-clip: text !important; 
     color: transparent;
   }
-  .card-contact-page-size{
-    height: 450px !important;
-    padding-top: 110px !important;
+  .card-contact-page-size {
+    background-color: #ffffff !important; /* White background for the card */
+    border-radius: 10px; /* Slightly rounded corners */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    padding: 68px 20px 0px 20px !important; /* Padding inside the card for content */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth hover effect */
+    margin: -13px auto !important; /* Center the card on the page */
+    max-width: 400px; /* Set a max width for responsiveness */
+    height: 380px !important;
+  }
+  .bg-white-grey-123{
+    background: #F7F7F7;
   }
   .card-contact-page-size p{
-font-size: 1.2em !important;
+font-size: 1.12em !important;
+  }
+  .contact-btn{
+    background: rgb(33,123,199);
+    background: linear-gradient(90deg, rgba(33,123,199,1) 0%, rgba(23,165,237,1) 100%);
+    font-size: 1.2em !important;
   }
   .blog-title{
     color: #0E1A36 !important;
@@ -46076,7 +46758,7 @@ margin-top: 0em !important;
 color: #fff;
 font-weight: 400 !important;
 font-size: 1.7em !important;
-padding: 0.2em 2em !important;
+padding: 0.2em 2em 0.25em 2em !important;
 font-style:  italic !important;
   }
   .font-future-about{
@@ -47840,6 +48522,9 @@ margin-top: 0em !important;
     margin-top: 2em !important;
 
   }
+  .margin-margin-margin{
+    margin-left: -4em;
+  }
   .btn-colour-contact-form-page{
     background: rgb(33,123,199);
     background: linear-gradient(90deg, rgba(33,123,199,1) 0%, rgba(23,165,237,1) 100%);  color: #fff;
@@ -47848,7 +48533,7 @@ margin-top: 0em !important;
 color: #fff;
 font-weight: 400 !important;
 font-size: 1.7em !important;
-padding: 0.2em 2em !important;
+padding: 0.25em 2em 0.15em 2em !important;
 font-style:  italic !important;
   }
   .font-future-about{
@@ -52638,7 +53323,7 @@ margin-left: 70px;
   background: rgb(196,100,45);
   background: linear-gradient(90deg, rgba(196,100,45,1) 0%, rgba(221,133,52,1) 43%, rgba(230,153,55,1) 78%, rgba(219,131,52,1) 100%);  color: #fff;
   border: none;
-  padding: .21em 0em ;
+  padding: .25em 0em 0.15em 0em !important;
   font-size: 1.9em !important;
   font-family: "Bebas Neue", sans-serif !important;
 font-style:  italic !important;
@@ -53047,4 +53732,6 @@ margin-bottom: 11.118em !important;
 
 .bg-navy123{
 background: #060b17;
+}  .ipad-display-visible{
+  display: none ;
 }
