@@ -29476,7 +29476,7 @@ font-size: 2.3em !important ;
   margin-bottom: -.31em;
   }
   .ipad-display-visible{
-    display: block !important;
+    display: none !important;
   }
   .review-logos{
     display: flex;
@@ -31353,7 +31353,7 @@ z-index: -1; /* Ensure it is behind the image */
   margin-bottom: -.31em;
   }
   .ipad-display-visible{
-    display: block !important;
+    display: none !important;
   }
   .review-logos{
     display: flex;
@@ -35122,7 +35122,7 @@ z-index: -1; /* Ensure it is behind the image */
   margin-bottom: -.21em;
   }
   .ipad-display-visible{
-    display: block !important;
+    display: none  !important;
   }
   .review-logos{
     display: flex;
@@ -37055,7 +37055,7 @@ font-size: 2.3em !important ;
   margin-bottom: -.21em;
   }
   .ipad-display-visible{
-    display: block !important;
+    display: none !important;
   }
   .review-logos{
     display: flex;
@@ -40832,7 +40832,7 @@ z-index: -1; /* Ensure it is behind the image */
   margin-bottom: -.21em;
   }
   .ipad-display-visible{
-    display: block !important;
+    display: none  !important;
   }
   .review-logos{
     display: flex;
@@ -52614,6 +52614,9 @@ font-weight: 400 !important;
 .text-dark-blue{
   color: #0E1A36;
 }
+.text-dark-blue:hover{
+  color: #0E1A36;
+}
 .contact img{
   border: 0px solid #EC7A2D;
 padding: 15px;
@@ -53734,4 +53737,10 @@ margin-bottom: 11.118em !important;
 background: #060b17;
 }  .ipad-display-visible{
   display: none ;
+}
+.text-normal{
+  color: #5F656F;
+}
+.text-normal:hover{
+  color: #5F656F;
 }
