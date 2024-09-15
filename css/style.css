@@ -2500,11 +2500,22 @@ color: #020202;
 
 /* Media query for screens between 300px and 385px */
 @media (min-width: 370px) and (max-width: 385px) {
+
+  .about-page-page{
+    padding: 2.7em 8px 0em 8px !important;
+  }
+  .py-contact-custom{
+    padding: 1em 6px !important;
+  }
   .about-page-page{
     padding-top: 3em !important;
   }
   .py-contact-custom{
     padding: 1em 0em;
+  }
+  .sidebar{
+
+  margin-top: -2em;
   }
   .font-bold{
     color: #0E1A36 !important;
@@ -2609,7 +2620,7 @@ color: #020202;
       font-family: "Bebas Neue", sans-serif !important;
   color: #fff;
   font-size: 1.6em !important;
-  padding: 0.45em 2em  0.3em 2em  !important;
+  padding: 0.35em 2em .25em 2em !important;
   font-style:  italic !important;
     }
     .margin-left-added{
@@ -2720,6 +2731,7 @@ color: #020202;
       font-family: "Bebas Neue", sans-serif !important;
       transform: skewX(0) !important;
       padding: 0em .4em !important;
+      margin-top: -.1em;
       margin-bottom: 0em !important;
       text-shadow: none !important; /* Add text shadow */
       margin-right: 0em !important ;
@@ -2749,10 +2761,10 @@ color: #020202;
       text-decoration: none;
       color: #fff;
       font-family: "Bebas Neue", sans-serif;
-      font-size: 1.731em !important;
+      font-size: 2em !important;
       background: rgb(33,123,199);
-      background: linear-gradient(90deg, rgba(33,123,199,1) 0%, rgba(23,165,237,1) 100%); 
-       padding: 12px 60px 8px 60px !important;
+      background: linear-gradient(90deg, rgba(33,123,199,1) 0%, rgba(23,165,237,1) 100%);
+        padding: 10px 60px 5px 60px !important;
       border-radius: 0px;
       display: inline-block;
     }
@@ -2934,7 +2946,7 @@ color: #020202;
       }
       .text-container {
         position: absolute;
-        top: 284px;
+        top: 275px;
         left: 50%;
         transform: translate(-55%, -50%);
         width: 100% !important;
@@ -3030,7 +3042,7 @@ color: #020202;
       height: auto !important;  /* Maintain aspect ratio */
       margin-top: -5px !important; /* Adjust the margin as needed */
       display: block; /* Ensure the image takes its own line */
-      width: 2.5em !important;
+      width: 2.85em !important;
       margin-bottom: 10px; /* Space between the image and the button */
     }
     .google-logo2 {
@@ -3038,7 +3050,7 @@ color: #020202;
       margin-top: -5px !important; /* Adjust the margin as needed */
       display: block; /* Ensure the image takes its own line */
       object-fit: contain;
-      width: 2.5em !important;
+      width: 2.85em !important;
       margin-left: 0em !important;
       margin-bottom: 10px; /* Space between the image and the button */
     }
@@ -3122,7 +3134,7 @@ color: #020202;
   font-style:  italic !important;
     }
   section#testimonial {
-    margin-top: -5em !important;
+    margin-top: -4.3em !important;
     padding-bottom: 100px !important;
     margin-bottom: 2em !important;
   }
@@ -3386,7 +3398,7 @@ color: #020202;
   
     .font-type-services{
       color: #0E1A36 !important;
-      font-size: 2.28em !important; 
+      font-size: 2.3em !important; 
       line-height: 1.1;
       font-weight: 400 !important;
       text-transform: uppercase;
@@ -3396,7 +3408,9 @@ color: #020202;
     margin-bottom: .2em !important;
     margin-top: .4em !important;
     }
-  
+  .margin-top-custom{
+    margin-top: 1.2em !important;
+  }
   
   
   
@@ -3471,7 +3485,7 @@ color: #020202;
       justify-content: left;
       }
     .mt-minus{
-      margin-top: -2em;
+      margin-top: -2.4em;
     }
     .contact-section-padding{
       padding-right: .7em !important;
@@ -3646,7 +3660,7 @@ color: #020202;
     }
     .service-header-h1-text{
       color: #0E1A36 !important;
-      font-size: 2.8em !important;
+      font-size: 3em !important;
       line-height: 1.16 !important;
       font-weight: 400 !important;
       text-transform: uppercase;
@@ -3783,9 +3797,18 @@ color: transparent;
       .projects-link-width{
         width: 99%  !important;
       }
-      .card-contact-page-size{
-        height: 400px !important;
-        padding-top: 75px !important;
+      .card-contact-page-size {
+        background-color: #ffffff !important; /* White background for the card */
+        border-radius: 10px; /* Slightly rounded corners */
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+        padding: 68px 20px 0px 20px !important; /* Padding inside the card for content */
+        transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth hover effect */
+        margin: -13px auto !important; /* Center the card on the page */
+        max-width: 400px; /* Set a max width for responsiveness */
+        height: 380px !important;
+      }
+      .bg-white-grey-123{
+        background: #F7F7F7;
       }
       .card-contact-page-size p{
   font-size: 1.3em !important;
@@ -3795,14 +3818,14 @@ color: transparent;
         outline: none;
         font-weight: 400 !important;
         margin-top: .25em;
-      font-size: 2.2em !important;
+      font-size: 2.3em !important;
         text-transform: uppercase;
         font-family: "Bebas Neue", sans-serif !important;
       }
       .contact-btn{
         background: rgb(33,123,199);
         background: linear-gradient(90deg, rgba(33,123,199,1) 0%, rgba(23,165,237,1) 100%);
-        font-size: 1.25em !important;
+        font-size: 1.2em !important;
       }
       .contact-us-page-header {
         color: #0E1A36 !important;
@@ -4151,7 +4174,7 @@ color: transparent;
       margin-top: -4em;
     }
     .about-section{
-      margin-top: -3em !important;
+      margin-top: -3.85em !important;
     }
   
     /* Styling for mobile top bar */
@@ -4239,9 +4262,11 @@ color: transparent;
       font-weight: 600 !important;
       outline: none;
       font-family: "Poppins", sans-serif;    
-        font-style: normal;
+        font-style: normal !important;
         text-shadow: 1px 6px 2px rgba(0, 0, 0, 0.05); /* Adjust the values as needed */  
         font-style: normal;
+        transform: skewX(0deg) !important;
+
         color: #FFFFFF;
         letter-spacing: 0px;
         font-size: 3.69em !important;
@@ -4343,8 +4368,19 @@ color: transparent;
   }
 /* Media query for screens between 300px and 385px */
 @media (min-width: 321px) and (max-width: 370px) {
+  .margin-top-custom{
+    margin-top: 1.2em !important;
+  }
+  
+  .sidebar{
+
+    margin-top: -2em;
+    }
+  .py-contact-custom{
+    padding: 1em 6px !important;
+  }
   .about-page-page{
-    padding-top: 2.8em !important;
+    padding: 2.7em 7px 0em 7px !important;
   }
   .about-section-phone-number{
     font-family: "Bebas Neue", sans-serif;
@@ -4455,7 +4491,7 @@ color: transparent;
       font-family: "Bebas Neue", sans-serif !important;
   color: #fff;
   font-size: 1.6em !important;
-  padding: 0.45em 2em  0.3em 2em  !important;
+  padding: 0.3em 2em .15em 2em !important;
   font-style:  italic !important;
     }
     .margin-left-added{
@@ -4595,10 +4631,10 @@ color: transparent;
       text-decoration: none;
       color: #fff;
       font-family: "Bebas Neue", sans-serif;
-      font-size: 1.731em !important;
+      font-size: 1.9em !important;
       background: rgb(33,123,199);
-      background: linear-gradient(90deg, rgba(33,123,199,1) 0%, rgba(23,165,237,1) 100%); 
-       padding: 12px 60px 8px 60px !important;
+      background: linear-gradient(90deg, rgba(33,123,199,1) 0%, rgba(23,165,237,1) 100%);
+        padding: 11px 60px 5px 60px !important;
       border-radius: 0px;
       display: inline-block;
     }
@@ -4780,7 +4816,7 @@ color: transparent;
       }
       .text-container {
         position: absolute;
-        top: 284px;
+        top: 281px;
         left: 50%;
         transform: translate(-55%, -50%);
         width: 100% !important;
@@ -4876,7 +4912,7 @@ color: transparent;
       height: auto !important;  /* Maintain aspect ratio */
       margin-top: -5px !important; /* Adjust the margin as needed */
       display: block; /* Ensure the image takes its own line */
-      width: 2.5em !important;
+      width: 2.85em !important;
       margin-bottom: 10px; /* Space between the image and the button */
     }
     .google-logo2 {
@@ -4884,7 +4920,7 @@ color: transparent;
       margin-top: -5px !important; /* Adjust the margin as needed */
       display: block; /* Ensure the image takes its own line */
       object-fit: contain;
-      width: 2.5em !important;
+      width: 2.85em !important;
       margin-left: 0em !important;
       margin-bottom: 10px; /* Space between the image and the button */
     }
@@ -5494,6 +5530,7 @@ color: transparent;
       color: #0E1A36 !important;
       font-size: 2.8em !important;
       line-height: 1.16 !important;
+      margin-bottom: -.12em;
       font-weight: 400 !important;
       text-transform: uppercase;
       margin-left: .0em !important;
@@ -5606,7 +5643,7 @@ font-style: normal !important;
 font-style: italic;
 text-transform: uppercase;
 font-size: 1.6em !important;
-margin-bottom: .25em !important;
+margin-bottom: .35em !important;
 background: linear-gradient(119deg, rgba(227,132,48,1) 0%, rgba(206,85,36,1) 100%) !important;
 -webkit-background-clip: text;
 background-clip: text !important; 
@@ -5629,26 +5666,35 @@ color: transparent;
       .projects-link-width{
         width: 100%  !important;
       }
-      .card-contact-page-size{
-        height: 400px !important;
-        padding-top: 83px !important;
+      .card-contact-page-size {
+        background-color: #ffffff !important; /* White background for the card */
+        border-radius: 10px; /* Slightly rounded corners */
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+        padding: 66px 20px 0px 20px !important; /* Padding inside the card for content */
+        transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth hover effect */
+        margin: -13px auto !important; /* Center the card on the page */
+        max-width: 400px; /* Set a max width for responsiveness */
+        height: 380px !important;
+      }
+      .bg-white-grey-123{
+        background: #F7F7F7;
       }
       .card-contact-page-size p{
-  font-size: 1.3em !important;
+  font-size: 1.2em !important;
       }
       .contact-card-page-header{
         color: #0E1A36;
         outline: none;
         font-weight: 400 !important;
         margin-top: .25em;
-      font-size: 2.2em !important;
+      font-size: 2.3em !important;
         text-transform: uppercase;
         font-family: "Bebas Neue", sans-serif !important;
       }
       .contact-btn{
         background: rgb(33,123,199);
         background: linear-gradient(90deg, rgba(33,123,199,1) 0%, rgba(23,165,237,1) 100%);
-        font-size: 1.14em !important;
+        font-size: 1.2em !important;
       }
       .contact-us-page-header {
         color: #0E1A36 !important;
@@ -5997,7 +6043,7 @@ color: transparent;
       margin-top: -4em;
     }
     .about-section{
-      margin-top: -2em !important;
+      margin-top: -3.4em !important;
     }
   
     /* Styling for mobile top bar */
@@ -6085,10 +6131,12 @@ color: transparent;
       font-weight: 600 !important;
       outline: none;
       font-family: "Poppins", sans-serif;    
-        font-style: normal;
+        font-style: normal !important;
         text-shadow: 1px 6px 2px rgba(0, 0, 0, 0.05); /* Adjust the values as needed */  
         font-style: normal;
         color: #FFFFFF;
+        transform: skewX(0deg) !important;
+
         letter-spacing: 0px;
         font-size: 3.69em !important;
         text-transform: uppercase;
@@ -6190,7 +6238,13 @@ color: transparent;
   }
 /* Media query for screens between 300px and 385px */
 @media (min-width: 100px) and (max-width: 321px) {
-  
+  .sidebar{
+
+    margin-top: -2em;
+    }
+  .py-contact-custom{
+    padding: 1em 10px !important;
+  }
   .about-section-phone-number{
     font-family: "Bebas Neue", sans-serif;
     font-size: 2.41em !important;
@@ -6302,7 +6356,7 @@ color: transparent;
       font-family: "Bebas Neue", sans-serif !important;
   color: #fff;
   font-size: 1.6em !important;
-  padding: 0.45em 2em  0.3em 2em  !important;
+  padding: 0.25em 2em .2em 2em !important;
   font-style:  italic !important;
     }
     .margin-left-added{
@@ -7476,9 +7530,18 @@ color: transparent;
       .projects-link-width{
         width: 100%  !important;
       }
-      .card-contact-page-size{
-        height: 400px !important;
-        padding-top: 83px !important;
+      .card-contact-page-size {
+        background-color: #ffffff !important; /* White background for the card */
+        border-radius: 10px; /* Slightly rounded corners */
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+        padding: 68px 20px 0px 20px !important; /* Padding inside the card for content */
+        transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth hover effect */
+        margin: -4px auto !important; /* Center the card on the page */
+        max-width: 400px; /* Set a max width for responsiveness */
+        height: 380px !important;
+      }
+      .bg-white-grey-123{
+        background: #F7F7F7;
       }
       .card-contact-page-size p{
   font-size: 1.3em !important;
@@ -7488,14 +7551,14 @@ color: transparent;
         outline: none;
         font-weight: 400 !important;
         margin-top: .25em;
-      font-size: 2.2em !important;
+      font-size: 2.3em !important;
         text-transform: uppercase;
         font-family: "Bebas Neue", sans-serif !important;
       }
       .contact-btn{
         background: rgb(33,123,199);
         background: linear-gradient(90deg, rgba(33,123,199,1) 0%, rgba(23,165,237,1) 100%);
-        font-size: 1.14em !important;
+        font-size: 1.2em !important;
       }
       .contact-us-page-header {
         color: #0E1A36 !important;
@@ -8032,12 +8095,19 @@ color: transparent;
         font-family: "Bebas Neue", sans-serif !important;
         transform: skewX(-8deg);
       
-      }}
+      }
+      .about-page-page{
+        padding: 2.7em 3px 0em 3px !important;
+      }
+    }
 /* Media query for screens between 300px and 385px */
 @media (min-width: 385px) and (max-width: 410px) {
-
+  .margin-top-custom{
+    margin-top: 1.2em !important;
+  }
+  
   .about-page-page{
-    padding-top: 2.7em !important;
+    padding: 2.7em 7px 0em 7px !important;
   }
   .font-bold{
     color: #0E1A36 !important;
@@ -8141,8 +8211,8 @@ color: transparent;
       border: none;
       font-family: "Bebas Neue", sans-serif !important;
   color: #fff;
-  font-size: 1.6em !important;
-  padding: 0.45em 2em  0.3em 2em  !important;
+  font-size: 1.8em !important;
+  padding: 0.25em 2em .2em 2em !important;
   font-style:  italic !important;
     }
     .margin-left-added{
@@ -8282,10 +8352,10 @@ color: transparent;
       text-decoration: none;
       color: #fff;
       font-family: "Bebas Neue", sans-serif;
-      font-size: 1.731em !important;
+      font-size: 2.1em !important;
       background: rgb(33,123,199);
-      background: linear-gradient(90deg, rgba(33,123,199,1) 0%, rgba(23,165,237,1) 100%); 
-       padding: 12px 60px 8px 60px !important;
+      background: linear-gradient(90deg, rgba(33,123,199,1) 0%, rgba(23,165,237,1) 100%);
+        padding: 11px 60px 7.5px 60px !important;
       border-radius: 0px;
       display: inline-block;
     }
@@ -8563,7 +8633,7 @@ color: transparent;
       height: auto !important;  /* Maintain aspect ratio */
       margin-top: -5px !important; /* Adjust the margin as needed */
       display: block; /* Ensure the image takes its own line */
-      width: 2.5em !important;
+      width: 2.85em !important;
       margin-bottom: 10px; /* Space between the image and the button */
     }
     .google-logo2 {
@@ -8571,7 +8641,7 @@ color: transparent;
       margin-top: -5px !important; /* Adjust the margin as needed */
       display: block; /* Ensure the image takes its own line */
       object-fit: contain;
-      width: 2.5em !important;
+      width: 2.85em !important;
       margin-left: 0em !important;
       margin-bottom: 10px; /* Space between the image and the button */
     }
@@ -9316,9 +9386,18 @@ color: transparent;
       .projects-link-width{
         width: 97%  !important;
       }
-      .card-contact-page-size{
-        height: 400px !important;
-        padding-top: 83px !important;
+      .card-contact-page-size {
+        background-color: #ffffff !important; /* White background for the card */
+        border-radius: 10px; /* Slightly rounded corners */
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+        padding: 62px 20px 0px 20px !important; /* Padding inside the card for content */
+        transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth hover effect */
+        margin: -13px auto !important; /* Center the card on the page */
+        max-width: 400px; /* Set a max width for responsiveness */
+        height: 380px !important;
+      }
+      .bg-white-grey-123{
+        background: #F7F7F7;
       }
       .card-contact-page-size p{
   font-size: 1.3em !important;
@@ -9328,14 +9407,14 @@ color: transparent;
         outline: none;
         font-weight: 400 !important;
         margin-top: .25em;
-      font-size: 2.2em !important;
+      font-size: 2.3em !important;
         text-transform: uppercase;
         font-family: "Bebas Neue", sans-serif !important;
       }
       .contact-btn{
         background: rgb(33,123,199);
         background: linear-gradient(90deg, rgba(33,123,199,1) 0%, rgba(23,165,237,1) 100%);
-        font-size: 1.14em !important;
+        font-size: 1.2em !important;
       }
       .contact-us-page-header {
         color: #0E1A36 !important;
@@ -9350,7 +9429,7 @@ color: transparent;
       }
       .projects-page-header{
         color: #0E1A36 !important;
-          font-size: 3.3em !important;
+          font-size: 3.4em !important;
           font-weight: 400 !important;
           outline: none;
           line-height: 52px;
@@ -9358,6 +9437,7 @@ color: transparent;
           font-family: "Bebas Neue", sans-serif !important;
           transform: skewX(0deg) !important; /* Simulate slant by skewing text */
           font-style: normal;
+        margin-top: .32em;
           text-transform: uppercase;
           padding: 0em .3em !important;
           text-shadow: 1px 6px 2px rgba(0, 0, 0, 0.05); /* Adjust the values as needed */
@@ -9684,7 +9764,7 @@ color: transparent;
       margin-top: -4em;
     }
     .about-section{
-      margin-top: -2em !important;
+      margin-top: -3.5em !important;
     }
   
     /* Styling for mobile top bar */
@@ -9771,11 +9851,14 @@ color: transparent;
     .font-type-contact{
       font-weight: 600 !important;
       outline: none;
+      transform: skewX(0deg) !important;
+
       font-family: "Poppins", sans-serif;    
         font-style: normal;
         text-shadow: 1px 6px 2px rgba(0, 0, 0, 0.05); /* Adjust the values as needed */  
-        font-style: normal;
+        font-style: normal !important;
         color: #FFFFFF;
+        margin-top: .5em;
         letter-spacing: 0px;
         font-size: 3.89em !important;
         text-transform: uppercase;
@@ -9872,7 +9955,9 @@ color: transparent;
         transform: skewX(-8deg);
       
       }
-
+      .py-contact-custom{
+        padding: 1em 10px !important;
+      }
      /* Define the default background color for dropdown items */
   }
   .no-br-on-mobile{
@@ -9886,8 +9971,25 @@ color: transparent;
 
 /* Media query for screens between 410px and 425 */
 @media (min-width: 410px) and (max-width: 425px) {
+  .phone-icon-topbar{
+    transform: rotate(100deg);
+    
+  }
+
+  .icon-margin{
+    margin-right: 5px !important ;
+    padding-top: 1px !important;
+
+  }
+  .margin-top-custom{
+    margin-top: 1.2em !important;
+  }
+   
+   .py-contact-custom{
+  padding: 1em 10px !important;
+}
   .about-page-page{
-    padding-top: 2.7em !important;
+    padding: 2.7em 7px 0em 7px !important;
   }
 .btn-colour-contact{
   background: rgb(196,100,45);
@@ -9936,7 +10038,7 @@ font-style:  italic !important;
     font-family: "Bebas Neue", sans-serif !important;
 color: #fff;
 font-size: 1.8em !important;
-padding: 0.25em 2em !important;
+padding: 0.25em 2em .1em 2em !important;
 font-style:  italic !important;
   }
   .margin-left-added{
@@ -10015,7 +10117,7 @@ font-style:  italic !important;
     font-weight: 400 !important;
     text-transform: uppercase;
     font-family: "Bebas Neue", sans-serif !important;
-    transform: skewX(-8);
+    transform: skewX(0deg) !important;
     padding-right: .25em;
     margin-bottom: .5em !important;
   }
@@ -10030,20 +10132,20 @@ font-style:  italic !important;
     font-weight: 400 !important;
     text-transform: uppercase;
     font-family: "Bebas Neue", sans-serif !important;
-    transform: skewX(-8px);
+    transform: skewX(0deg) !important;
     padding-right: .13em !important;
     margin-bottom: .5em !important;
   }
   .font-future-testimonial {
     color: #0E1A36 !important;
-    font-size: 3.2em !important;
+    font-size: 3.3em !important;
     line-height: 1.05;
     font-weight: 400 !important;
     text-transform: uppercase;
     font-family: "Bebas Neue", sans-serif !important;
-    transform: skewX(-8px) !important;
+    transform: skewX(0deg) !important;
     padding: 0em .4em !important;
-    margin-bottom: .5em !important;
+    margin-bottom: .33em !important;
     text-shadow: none !important; /* Add text shadow */
     margin-right: .4em ;
     letter-spacing: 0px !important;
@@ -10072,9 +10174,10 @@ font-style:  italic !important;
     text-decoration: none;
     color: #fff;
     font-family: "Bebas Neue", sans-serif;
-    font-size: 1.931em !important;
+    font-size: 2.1em !important;
     background: rgb(33,123,199);
-    background: linear-gradient(90deg, rgba(33,123,199,1) 0%, rgba(23,165,237,1) 100%);  padding: 10px 60px;
+    background: linear-gradient(90deg, rgba(33,123,199,1) 0%, rgba(23,165,237,1) 100%);
+      padding: 11px 60px 5px 60px !important;
     border-radius: 0px;
     display: inline-block;
   }
@@ -10087,29 +10190,30 @@ margin-top: .4em ;
 }
   .about-section-header {
     color: #0E1A36 !important;
-    font-size: 3.27em !important;
+    font-size: 3.32em !important;
     line-height: 1.1;
     font-weight: 400 !important;
     text-transform: uppercase;
-    margin-left: .1em;
+    margin-left: .2em !important;
     font-family: "Bebas Neue", sans-serif !important;
-    transform: skewX(-8deg);
+    transform: skewX(0deg) !important;
   
   }
   .mobile-margin-left-about-section{
-    margin-left: -.2em !important;
+    margin-left: 0em !important;
   }
 
   .mobile-margin-left-about-section3{
-    margin-left: .1em !important;
+    margin-left: 0em !important;
   }
   .mobile-margin-left-about-section4{
-    margin-left: .45em !important;
+    margin-left: 0em !important;
   }
   .margin-left-about-section1{
 margin-left: 0 !important;  }
   .margin-left-about-section2{
-margin-left: .25em !important;  }
+    margin-left: 0em !important;
+}
   .container-stats {
     text-align: left;
   }
@@ -10251,11 +10355,11 @@ padding-right: 50px !important; /* Adjust the value as needed */
       line-height: 1.13;
       font-weight: 400 !important;
       margin-top: .05em !important;
-      font-size: 3.7em;
+      font-size: 3.9em;
     }
     .text-container {
       position: absolute;
-      top: 294px;
+      top: 285px;
       left: 50%;
       transform: translate(-55%, -50%);
       width: 100% !important;
@@ -10264,7 +10368,7 @@ padding-right: 50px !important; /* Adjust the value as needed */
       border-left: white solid 2px;
       margin-top: 8em !important;
       right: 6% !important;
-      height: 480px;
+      height: 476px;
       margin-left: .9em !important;
     }
     .border-left2{
@@ -10291,6 +10395,7 @@ padding-right: 50px !important; /* Adjust the value as needed */
       margin-bottom: 0em !important;
       font-size: 1.23em !important;
       font-weight: 600em;
+      margin-top: -.3em !important;
     }
  
   .carousel-control-prev {
@@ -10350,7 +10455,7 @@ padding-right: 50px !important; /* Adjust the value as needed */
     height: auto !important;  /* Maintain aspect ratio */
     margin-top: -5px !important; /* Adjust the margin as needed */
     display: block; /* Ensure the image takes its own line */
-    width: 2.5em !important;
+    width: 2.75em !important;
     margin-bottom: 10px; /* Space between the image and the button */
   }
   .google-logo2 {
@@ -10358,7 +10463,7 @@ padding-right: 50px !important; /* Adjust the value as needed */
     margin-top: -5px !important; /* Adjust the margin as needed */
     display: block; /* Ensure the image takes its own line */
     object-fit: contain;
-    width: 2.5em !important;
+    width: 2.75em !important;
     margin-left: 0em !important;
     margin-bottom: 10px; /* Space between the image and the button */
   }
@@ -10791,7 +10896,7 @@ margin-left: .3em;
     justify-content: left;
     }
   .mt-minus{
-    margin-top: -2em;
+    margin-top: -2.8em;
   }
   .contact-section-padding{
     padding-right: .7em !important;
@@ -11086,26 +11191,25 @@ color: #fff !important;
   font-style: normal;
   text-transform: uppercase;
   font-size: 1.6em !important;
-  margin-bottom: .25em !important;
+  margin-bottom: .4em !important;
   background: linear-gradient(119deg, rgba(227,132,48,1) 0%, rgba(206,85,36,1) 100%) !important;
   -webkit-background-clip: text;
   background-clip: text !important; 
   color: transparent;
 }
     .about-page-header-text{
-      font-family: "Open Sans", sans-serif !important;
-      font-weight: 600 !important;
-      font-style: normal;
+      font-family: "Oswald", sans-serif !important;
+      font-weight: 500 !important;
+      font-style: normal !important;
       text-transform: uppercase;
-      transform: skewX(0deg) !important; /* Simulate slant by skewing text */
-    margin-left: 0em !important;
-      font-size: 1.53em !important;
-      margin-bottom: .2em;
-      margin-top: .25em;
+      font-size: 1.73em;
+      margin-bottom: .25em !important;
       background: linear-gradient(119deg, rgba(227,132,48,1) 0%, rgba(206,85,36,1) 100%) !important;
       -webkit-background-clip: text;
       background-clip: text !important; 
       color: transparent;
+      transform: skewX(0deg) !important; /* Simulate slant by skewing text */
+      margin-left: 0em !important;
     }
 
     .font-future-about-page{
@@ -11113,7 +11217,7 @@ color: #fff !important;
         font-size: 3.3em !important;
         font-weight: 400 !important;
         outline: none;
-        line-height: 52px;
+        line-height: 58px !important;
         text-transform: uppercase;
         font-family: "Bebas Neue", sans-serif !important;
         transform: skewX(0deg) !important; /* Simulate slant by skewing text */
@@ -11122,11 +11226,21 @@ color: #fff !important;
         text-shadow: 1px 6px 2px rgba(0, 0, 0, 0.05); /* Adjust the values as needed */
     }
     .projects-link-width{
-      width: 95%  !important;
+      width: 99%  !important;
+      font-size: 1.1em;
     }
-    .card-contact-page-size{
-      height: 400px !important;
-      padding-top: 83px !important;
+    .card-contact-page-size {
+      background-color: #ffffff !important; /* White background for the card */
+      border-radius: 10px; /* Slightly rounded corners */
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+      padding: 61px 20px 0px 20px !important; /* Padding inside the card for content */
+      transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth hover effect */
+      margin: -13px auto !important; /* Center the card on the page */
+      max-width: 400px; /* Set a max width for responsiveness */
+      height: 380px !important;
+    }
+    .bg-white-grey-123{
+      background: #F7F7F7;
     }
     .card-contact-page-size p{
 font-size: 1.3em !important;
@@ -11136,14 +11250,14 @@ font-size: 1.3em !important;
       outline: none;
       font-weight: 400 !important;
       margin-top: .25em;
-    font-size: 2.2em !important;
+    font-size: 2.3em !important;
       text-transform: uppercase;
       font-family: "Bebas Neue", sans-serif !important;
     }
     .contact-btn{
       background: rgb(33,123,199);
       background: linear-gradient(90deg, rgba(33,123,199,1) 0%, rgba(23,165,237,1) 100%);
-      font-size: 1.14em !important;
+      font-size: 1.2em !important;
     }
     .contact-us-page-header {
       color: #0E1A36 !important;
@@ -11162,6 +11276,7 @@ font-size: 1.3em !important;
         font-weight: 400 !important;
         outline: none;
         line-height: 52px;
+        margin-top: .26em;
         text-transform: uppercase;
         font-family: "Bebas Neue", sans-serif !important;
         transform: skewX(0deg) !important; /* Simulate slant by skewing text */
@@ -11236,9 +11351,9 @@ font-size: 1.3em !important;
   }
 
   .logo {
-    width: 11em;
+    width: 12em;
     margin-right: 0.5em;
-    margin-bottom: 0em !important;
+    margin-bottom: -.31em !important;
     margin-left: -2em;
     }
   .clipping-mask2 {
@@ -11254,14 +11369,14 @@ font-size: 1.3em !important;
 
   .fb-mobile {
     margin-top: .1em;
-    padding-right: 3em;
+    padding-right: 2.8em;
   }
   .pt-mobile22{
-    margin-top: -.8em;
-    padding-left: .7em;
+    margin-top: -.68em;
+    padding-left: 1em;
   }
   .pt-mobile2{
-    padding-top: .65em !important;
+    padding-top: .85em !important;
   }
 
   .topbar-text1 {
@@ -11278,7 +11393,7 @@ font-size: 1.3em !important;
   
 
   .facebook-icon-mobile {
-    font-size: 15px !important;
+    font-size: 17px !important;
   }
 
   .carousel-img {
@@ -11464,7 +11579,7 @@ font-size: 1.3em !important;
     z-index: 1;
   }
   .contact{
-    margin-top: 2.5em !important;
+    margin-top: 1.5em !important;
   }
   .about-section-phone-number a{
 margin-left: .25em !important;
@@ -11492,7 +11607,7 @@ margin-left: .25em !important;
     margin-top: -4em;
   }
   .about-section{
-    margin-top: -2em !important;
+    margin-top: -3.9em !important;
   }
 
   /* Styling for mobile top bar */
@@ -11580,15 +11695,17 @@ margin-top: -.25em;
     font-weight: 600 !important;
     outline: none;
     font-family: "Poppins", sans-serif;    
-      font-style: normal;
+      font-style: normal !important;
       text-shadow: 1px 6px 2px rgba(0, 0, 0, 0.05); /* Adjust the values as needed */  
       font-style: normal;
       color: #FFFFFF;
       letter-spacing: 0px;
       font-size: 3.89em !important;
       text-transform: uppercase;
+      transform: skewX(0deg) !important; /* Simulate slant by skewing text */
+
       line-height: 1em !important;
-      margin-top: .35em !important;
+      margin-top: .95em !important;
   }
   .navbar .navbar-nav .nav-link {
     margin-right: 35px;
@@ -11662,12 +11779,13 @@ margin-top: -.25em;
     .blog-title{
       color: #0E1A36 !important;
       font-size: 3em !important;
-      line-height: 1.1;
+      line-height: 1.06 !important;
       font-weight: 400 !important;
       text-transform: uppercase;
       margin-left: 0em;
+      margin-bottom: -.1em;
       font-family: "Bebas Neue", sans-serif !important;
-      transform: skewX(-8deg);
+      transform: skewX(0deg) !important;
     
     }
     .blog .sidebar .sidebar-title {
@@ -11681,9 +11799,18 @@ margin-top: -.25em;
       transform: skewX(-8deg);
     
     }
+    .sidebar{
+      margin-top: -1.3em !important;
+    }
   }
 /* Media query for screens between 410px and 425 */
 @media (min-width: 425px) and (max-width: 699px) {
+  .about-page-page{
+    padding: 2.7em 8px 0em 8px !important;
+  }
+  .py-contact-custom{
+    padding: 1em 10px !important;
+  }
   .about-page-page{
     padding-top: 2.7em !important;
   }
@@ -11734,7 +11861,7 @@ font-style:  italic !important;
     font-family: "Bebas Neue", sans-serif !important;
 color: #fff;
 font-size: 1.8em !important;
-padding: 0.25em 2em !important;
+padding: 0.25em 2em .1em 2em !important;
 font-style:  italic !important;
   }
   .margin-left-added{
@@ -11870,9 +11997,10 @@ font-style:  italic !important;
     text-decoration: none;
     color: #fff;
     font-family: "Bebas Neue", sans-serif;
-    font-size: 1.931em !important;
+    font-size: 2.1em !important;
     background: rgb(33,123,199);
-    background: linear-gradient(90deg, rgba(33,123,199,1) 0%, rgba(23,165,237,1) 100%);  padding: 10px 60px;
+    background: linear-gradient(90deg, rgba(33,123,199,1) 0%, rgba(23,165,237,1) 100%);
+      padding: 11px 60px 5px 60px !important;
     border-radius: 0px;
     display: inline-block;
   }
@@ -11929,6 +12057,9 @@ margin-left: 0 !important;  }
     justify-content: left !important;
     align-items: left !important;
     
+  }
+  .about-section .contact{
+    margin-top: 1.4em !important;
   }
   .services-section {
     position: relative;
@@ -12054,7 +12185,7 @@ padding-right: 50px !important; /* Adjust the value as needed */
     }
     .text-container {
       position: absolute;
-      top: 294px;
+      top: 286px;
       left: 50%;
       transform: translate(-55%, -50%);
       width: 100% !important;
@@ -12149,7 +12280,7 @@ padding-right: 50px !important; /* Adjust the value as needed */
     height: auto !important;  /* Maintain aspect ratio */
     margin-top: -5px !important; /* Adjust the margin as needed */
     display: block; /* Ensure the image takes its own line */
-    width: 2.5em !important;
+    width: 2.8em !important;
     margin-bottom: 10px; /* Space between the image and the button */
   }
   .google-logo2 {
@@ -12157,7 +12288,7 @@ padding-right: 50px !important; /* Adjust the value as needed */
     margin-top: -5px !important; /* Adjust the margin as needed */
     display: block; /* Ensure the image takes its own line */
     object-fit: contain;
-    width: 2.5em !important;
+    width: 2.8em !important;
     margin-left: 0em !important;
     margin-bottom: 10px; /* Space between the image and the button */
   }
@@ -12838,7 +12969,7 @@ color: #fff !important;
     font-weight: 400 !important;
       font-style: normal;
       font-size: 5em !important;
-      margin-top: -.33em;
+      margin-top: -.38em;
   }
   .mt-contact-form-page{
     margin-top: -3em !important;
@@ -12884,8 +13015,8 @@ color: #fff !important;
   font-weight: 500 !important;
   font-style: normal;
   text-transform: uppercase;
-  font-size: 1.6em !important;
-  margin-bottom: .25em !important;
+  font-size: 1.7em !important;
+  margin-bottom: .35em !important;
   background: linear-gradient(119deg, rgba(227,132,48,1) 0%, rgba(206,85,36,1) 100%) !important;
   -webkit-background-clip: text;
   background-clip: text !important; 
@@ -12923,9 +13054,18 @@ color: #fff !important;
     .projects-link-width{
       width: 95%  !important;
     }
-    .card-contact-page-size{
-      height: 400px !important;
-      padding-top: 83px !important;
+    .card-contact-page-size {
+      background-color: #ffffff !important; /* White background for the card */
+      border-radius: 10px; /* Slightly rounded corners */
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+      padding: 68px 20px 0px 20px !important; /* Padding inside the card for content */
+      transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth hover effect */
+      margin: -13px auto !important; /* Center the card on the page */
+      max-width: 400px; /* Set a max width for responsiveness */
+      height: 380px !important;
+    }
+    .bg-white-grey-123{
+      background: #F7F7F7;
     }
     .card-contact-page-size p{
 font-size: 1.3em !important;
@@ -12935,14 +13075,14 @@ font-size: 1.3em !important;
       outline: none;
       font-weight: 400 !important;
       margin-top: .25em;
-    font-size: 2.2em !important;
+    font-size: 2.3em !important;
       text-transform: uppercase;
       font-family: "Bebas Neue", sans-serif !important;
     }
     .contact-btn{
       background: rgb(33,123,199);
       background: linear-gradient(90deg, rgba(33,123,199,1) 0%, rgba(23,165,237,1) 100%);
-      font-size: 1.14em !important;
+      font-size: 1.2em !important;
     }
     .contact-us-page-header {
       color: #0E1A36 !important;
@@ -13056,11 +13196,11 @@ font-size: 1.3em !important;
     padding-right: 3em;
   }
   .pt-mobile22{
-    margin-top: -.8em;
+    margin-top: -.73em !important;
     padding-left: .7em;
   }
   .pt-mobile2{
-    padding-top: .65em !important;
+    padding-top: 2.75em !important;
   }
 
   .topbar-text1 {
@@ -13069,7 +13209,7 @@ font-size: 1.3em !important;
     font-weight: 400 !important; 
     font-style: normal;
     color: #fff;
-    padding-top: .009em !important;
+    padding-top: .19em !important;
     
     font-size: 1.1em !important;
   }
@@ -13291,7 +13431,7 @@ margin-left: .25em !important;
     margin-top: -4em;
   }
   .about-section{
-    margin-top: -2em !important;
+    margin-top: -3.4em !important;
   }
 
   /* Styling for mobile top bar */
@@ -49760,7 +49900,7 @@ right: 50% ;
     margin-bottom: 11em !important;
   }
   .icon-margin{
-    margin-right: 10px !important;
+    margin-right: 10px ;
   }
   .about-us-page-content{
     padding-left: 3.05em;
