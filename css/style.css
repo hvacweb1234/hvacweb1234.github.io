@@ -961,6 +961,7 @@ transition: ease .15s;
 
 .contact-link{
   color: #121212   !important;
+  text-transform: capitalize ;
 }
 
 .copyright {
@@ -17996,15 +17997,16 @@ section#testimonial {
     font-size: 1.53em;
   }
 
-.about-img{
-  background-image: url(../img/about-page-image.jpg);
-  background-size: cover;
-  height: 830px !important;
-background-position: top !important;
-}
-.about-page-page{
-  padding-top: 0em !important;
-}
+  .about-img{
+    background-image: url(../img/about-page-image.jpg);
+    background-size: cover;
+    height: 732px !important;
+  background-position: top !important;
+  }
+  .about-page-page{
+    padding-top: .5em !important;
+    padding-bottom: 1.3em !important;
+  } 
 .font-future-service-page{
   color: #121212   ;
   font-family: "Poppis", sans-serif;
@@ -19691,15 +19693,16 @@ section#testimonial {
     font-size: 1.53em;
   }
 
-.about-img{
-  background-image: url(../img/about-page-image.jpg);
-  background-size: cover;
-  height: 830px !important;
-background-position: top !important;
-}
-.about-page-page{
-  padding-top: 1em !important;
-}
+  .about-img{
+    background-image: url(../img/about-page-image.jpg);
+    background-size: cover;
+    height: 735px !important;
+  background-position: top !important;
+  }
+  .about-page-page{
+    padding-top: 1em !important;
+    padding-bottom: 1.3em !important;
+  } 
 .font-future-service-page{
   color: #121212   ;
   font-family: "Poppis", sans-serif;
@@ -21446,15 +21449,16 @@ section#testimonial {
     font-size: 1.53em;
   }
 
-.about-img{
-  background-image: url(../img/about-page-image.jpg);
-  background-size: cover;
-  height: 830px !important;
-background-position: top !important;
-}
-.about-page-page{
-  padding-top: 1em !important;
-}
+  .about-img{
+    background-image: url(../img/about-page-image.jpg);
+    background-size: cover;
+    height: 745px !important;
+  background-position: top !important;
+  }
+  .about-page-page{
+    padding-top: 1em !important;
+    padding-bottom: 1.3em !important;
+  } 
 .font-future-service-page{
   color: #121212   ;
   font-family: "Poppis", sans-serif;
@@ -23252,11 +23256,12 @@ section#testimonial {
 .about-img{
   background-image: url(../img/about-page-image.jpg);
   background-size: cover;
-  height: 830px !important;
+  height: 739px !important;
 background-position: top !important;
 }
 .about-page-page{
   padding-top: 1em !important;
+  padding-bottom: 1.3em !important;
 }
 .font-future-service-page{
   color: #121212   ;
@@ -25049,11 +25054,12 @@ section#testimonial {
 .about-img{
   background-image: url(../img/about-page-image.jpg);
   background-size: cover;
-  height: 830px !important;
+  height: 735px !important;
 background-position: top !important;
 }
 .about-page-page{
   padding-top: 1em !important;
+  padding-bottom: 1.3em !important;
 }
 .font-future-service-page{
   color: #121212   ;
@@ -26844,8 +26850,8 @@ section#testimonial {
 .about-img{
   background-image: url(../img/about-page-image.jpg);
   background-size: cover;
-  height: 770px !important;
-background-position: top !important;
+  height: 685px !important;
+background-position: center !important;
 }
 .about-page-page{
   padding-top: 1em !important;
@@ -28656,8 +28662,8 @@ section#testimonial {
 .about-img{
   background-image: url(../img/about-page-image.jpg);
   background-size: cover;
-  height: 770px !important;
-background-position: top !important;
+  height: 694px !important;
+background-position: center !important;
 }
 .about-page-page{
   padding-top: 1em !important;
@@ -30560,7 +30566,7 @@ section#testimonial {
 .about-img{
   background-image: url(../img/about-page-image.jpg);
   background-size: cover;
-  height: 750px !important;
+  height: 680px !important;
 background-position: center !important;
 }
 .about-page-page{
@@ -32449,7 +32455,7 @@ section#testimonial {
 .about-img{
   background-image: url(../img/about-page-image.jpg);
   background-size: cover;
-  height: 750px !important;
+  height: 675px !important;
 background-position: center !important;
 }
 .about-page-page{
@@ -34320,12 +34326,10 @@ section#testimonial {
 .about-img{
   background-image: url(../img/about-page-image.jpg);
   background-size: cover;
-  height: 750px !important;
+  height: 675px !important;
 background-position: center !important;
 }
-.about-page-page{
-  padding-top: 1em !important;
-}
+
 .font-future-service-page{
   color: #121212   ;
   font-family: "Poppis", sans-serif;
@@ -36242,7 +36246,7 @@ section#testimonial {
 .about-img{
   background-image: url(../img/about-page-image.jpg);
   background-size: cover;
-  height: 750px !important;
+  height: 675px !important;
 background-position: center !important;
 }
 .about-page-page{
@@ -38161,7 +38165,7 @@ section#testimonial {
 .about-img{
   background-image: url(../img/about-page-image.jpg);
   background-size: cover;
-  height: 750px !important;
+  height: 675px !important;
 background-position: center !important;
 }
 .about-page-page{
@@ -40038,7 +40042,7 @@ section#testimonial {
 .about-img{
   background-image: url(../img/about-page-image.jpg);
   background-size: cover;
-  height: 750px !important;
+  height: 680px !important;
 background-position: center !important;
 }
 .about-page-page{
@@ -41975,7 +41979,7 @@ section#testimonial {
 .about-img{
   background-image: url(../img/about-page-image.jpg);
   background-size: cover;
-  height: 750px !important;
+  height: 685px !important;
 background-position: center !important;
 }
 .about-page-page{
