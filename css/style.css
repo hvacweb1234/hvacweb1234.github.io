@@ -52476,7 +52476,7 @@ align-items: center;
 
 /* Custom CSS for the logo inside the spinner */
 .spinner-logo {
-  width: 4.1rem; /* Adjust size as needed */
+  width: 3.8rem; /* Adjust size as needed */
   height: auto;
   position: absolute; /* Position it in the center */
 }
