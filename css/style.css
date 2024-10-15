@@ -8753,7 +8753,7 @@ white-space: nowrap !important;
   .reviews-overlay{
     width: 16.5em !important;
     height: auto !important;
-    margin-top: 1.2em !important;
+    margin-top: .9em !important;
     z-index: 2;
     margin-left: -.2em;
     content: url('../img/reviews-overlay.png'); /* Replace with the path to your mobile image */
@@ -8879,7 +8879,7 @@ text-transform: uppercase !important;
   border-left: white solid 2px;
   margin-top: 0em !important;
   right: 6% !important;
-  height: 578px !important;
+  height: 594px !important;
   margin-left: .3em !important;
 }
 .br-display2{
