@@ -8852,6 +8852,7 @@ font-size: 1.25em;
   font-weight: 700 !important;
   color: #fff;
   margin-top: -.25em;
+  padding-top: .25em;
   line-height: 1.15 ;
   font-size: 3em !important;
 text-transform: uppercase !important;
@@ -8945,8 +8946,8 @@ margin-top: -5.35% !important;
 } 
 .logo{
   margin-left: -9.5em;
-  width: 11em !important;
-  margin-top: .3em !important;
+  width: 11.5em !important;
+  margin-top: .5em !important;
 }
 .navbar{
   height: 89px;
