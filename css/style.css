@@ -2794,8 +2794,7 @@ margin-right: auto !important;}
   }
 
   .bg-purple{
-    background: rgb(250,161,33);
-    background: linear-gradient(270deg, rgba(250,161,33,1) 0%, rgba(251,190,27,1) 100%) !important;    }@media only screen and (min-width: 100px) and (max-width: 370px) {
+  background: #fff;   }@media only screen and (min-width: 100px) and (max-width: 370px) {
     .project-area .nav-tabs .nav-link {
         /* Add your mobile-specific styles here */
         padding: 8px 12px; /* Example: Adjust padding for mobile */
@@ -42252,7 +42251,7 @@ margin-top: 0em;
   width: 5.6rem; /* Adjust size as needed */
   height: 5.6rem; /* Adjust size as needed */
   border: 5px solid rgba(0, 0, 0, 0.1); /* Light border */
-  border-top: 5px solid #96E0E3; /* Blue border */
+  border-top: 5px solid #008BCC; /* Blue border */
   border-radius: 50%; /* Make it a circle */
   animation: spin 1s linear infinite; /* Spin animation */
   display: flex;
@@ -42267,7 +42266,7 @@ margin-top: 0em;
 
 /* Custom CSS for the logo inside the spinner */
 .spinner-logo {
-  width: 3.8rem; /* Adjust size as needed */
+  width: 3rem; /* Adjust size as needed */
   height: auto;
   position: absolute; /* Position it in the center */
 }
