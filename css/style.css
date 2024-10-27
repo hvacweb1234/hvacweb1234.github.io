@@ -2727,7 +2727,7 @@ margin-top: .2em;
 margin-left: auto !important;
 margin-right: auto !important;}
 .breadcrumb-item, .active{
-  color: #FBBC1B !important ;
+  color: #F88B1F !important ;
 } 
   .page-header .breadcrumb-item+.breadcrumb-item::before {
       color: #999999;
@@ -7097,7 +7097,7 @@ margin-top: -1.125em !important;
   transform: rotate(30deg);
   position: absolute;
   font-size: .73em !important;
-margin-left: -22.5% !important;
+margin-left: -22% !important;
 margin-top: -5.4% !important;
 
 } 
@@ -27585,7 +27585,7 @@ margin-right: 7px;
   justify-content: space-between;
   align-items: flex-start;
   gap: 10px;
-  margin-top: -4.5em !important;
+  margin-top: -5.5em !important;
 }
 .body-text-dark{
   font-size: 1.1em !important;
@@ -28668,7 +28668,7 @@ color: #000 !important;
     width: 90%;
     margin-top: 35px !important;
     }.carousel-caption {
-      top: 2% !important;
+      top: 3% !important;
       left: 5% !important;
     text-align: left;
       right: 0;
@@ -28677,7 +28677,7 @@ color: #000 !important;
 /* Ensure the carousel-item is positioned relatively */
 .carousel-item {
   position: relative;
-  height: 632px !important;
+  height: 662px !important;
 } .navbar-brand {
   position: absolute; /* Position the logo absolutely to center it */
   left: 50%;
@@ -39133,7 +39133,7 @@ margin-right: 15px !important;
     position: relative;
     background: #fff;
   margin-top: -13.3em !important;
-  margin-bottom: -.46em !important;
+  margin-bottom: 4em !important;
        padding: 60px 0 !important; /* Adjust padding as needed */
        z-index: -12; /* Ensure overlays are below content */
   overflow: hidden;
@@ -43182,3 +43182,6 @@ height: 64px;
 .br-display-testimonial{
   display: block ;
 } 
+.phone-button-padding{
+  rotate: 100deg !important;
+}
