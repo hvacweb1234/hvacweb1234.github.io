@@ -97,13 +97,7 @@
 
     text-decoration: underline;
   }
-  .about-page-link:hover{
-    font-weight: 600 !important;
-    color: #000;
-    font-family: 'Poppins', sans-serif !important;
-    font-style: normal !important;
-    text-decoration: underline;
-  }
+  
 
   .btn-colour:hover{
     background: rgb(191,30,46);
@@ -583,7 +577,11 @@ margin-top: 1em;
       font-family: "Merriweather", serif !important;
 
     }
-    
+    .blog-sidebar-item{
+      font-family: "Merriweather", serif !important;
+      color:  #000 !important;
+      font-size: 1.2em !important;
+    }
     .blog .posts-list .meta i {
       font-size: 16px;
       color: var(--color-primary);
@@ -19301,6 +19299,7 @@ white-space: nowrap !important;
 
     text-decoration: underline;
   }
+
   .call-us{
     color: #3356C9;
     font-weight: bold;
@@ -20450,14 +20449,7 @@ height: 55px;
  
     text-decoration: underline;
   }
-  .about-page-link:hover{
-    font-family: 'Kanit', sans-serif;
-    font-size: 22px;
-    font-style: italic;
-    font-weight: 500;
-    color: #182333;
-    text-decoration: underline;
-  }
+
   .about-page-header{
     font-family: "Brawler", serif !important;
     text-transform: uppercase !important ;
@@ -21979,14 +21971,7 @@ height: 55px;
  
     text-decoration: underline;
   }
-  .about-page-link:hover{
-    font-family: 'Kanit', sans-serif;
-    font-size: 22px;
-    font-style: italic;
-    font-weight: 500;
-    color: #182333;
-    text-decoration: underline;
-  }
+
   .about-page-header{
     font-family: "Brawler", serif !important;
     text-transform: uppercase !important ;
@@ -23512,14 +23497,7 @@ height: 55px;
  
     text-decoration: underline;
   }
-  .about-page-link:hover{
-    font-family: 'Kanit', sans-serif;
-    font-size: 22px;
-    font-style: italic;
-    font-weight: 500;
-    color: #182333;
-    text-decoration: underline;
-  }
+
   .about-page-header{
     font-family: "Brawler", serif !important;
     text-transform: uppercase !important ;
@@ -25044,14 +25022,7 @@ height: 55px;
  
     text-decoration: underline;
   }
-  .about-page-link:hover{
-    font-family: 'Kanit', sans-serif;
-    font-size: 22px;
-    font-style: italic;
-    font-weight: 500;
-    color: #182333;
-    text-decoration: underline;
-  }
+
   .about-page-header{
     font-family: "Brawler", serif !important;
     text-transform: uppercase !important ;
@@ -26576,14 +26547,7 @@ height: 55px;
  
     text-decoration: underline;
   }
-  .about-page-link:hover{
-    font-family: 'Kanit', sans-serif;
-    font-size: 22px;
-    font-style: italic;
-    font-weight: 500;
-    color: #182333;
-    text-decoration: underline;
-  }
+
   .about-page-header{
     font-family: "Brawler", serif !important;
     text-transform: uppercase !important ;
@@ -28118,14 +28082,7 @@ height: 55px;
  
     text-decoration: underline;
   }
-  .about-page-link:hover{
-    font-family: 'Kanit', sans-serif;
-    font-size: 22px;
-    font-style: italic;
-    font-weight: 500;
-    color: #182333;
-    text-decoration: underline;
-  }
+
   .about-page-header{
     font-family: "Brawler", serif !important;
     text-transform: uppercase !important ;
@@ -29662,14 +29619,7 @@ height: 55px;
  
     text-decoration: underline;
   }
-  .about-page-link:hover{
-    font-family: 'Kanit', sans-serif;
-    font-size: 22px;
-    font-style: italic;
-    font-weight: 500;
-    color: #182333;
-    text-decoration: underline;
-  }
+
   .about-page-header{
     font-family: "Brawler", serif !important;
     text-transform: uppercase !important ;
@@ -31210,14 +31160,7 @@ height: 55px;
  
     text-decoration: underline;
   }
-  .about-page-link:hover{
-    font-family: 'Kanit', sans-serif;
-    font-size: 22px;
-    font-style: italic;
-    font-weight: 500;
-    color: #182333;
-    text-decoration: underline;
-  }
+
   .about-page-header{
     font-family: "Brawler", serif !important;
     text-transform: uppercase !important ;
@@ -32751,14 +32694,7 @@ height: 55px;
  
     text-decoration: underline;
   }
-  .about-page-link:hover{
-    font-family: 'Kanit', sans-serif;
-    font-size: 22px;
-    font-style: italic;
-    font-weight: 500;
-    color: #182333;
-    text-decoration: underline;
-  }
+
   .about-page-header{
     font-family: "Brawler", serif !important;
     text-transform: uppercase !important ;
@@ -34292,14 +34228,7 @@ height: 55px;
  
     text-decoration: underline;
   }
-  .about-page-link:hover{
-    font-family: 'Kanit', sans-serif;
-    font-size: 22px;
-    font-style: italic;
-    font-weight: 500;
-    color: #182333;
-    text-decoration: underline;
-  }
+
   .about-page-header{
     font-family: "Brawler", serif !important;
     text-transform: uppercase !important ;
@@ -35833,14 +35762,7 @@ height: 55px;
  
     text-decoration: underline;
   }
-  .about-page-link:hover{
-    font-family: 'Kanit', sans-serif;
-    font-size: 22px;
-    font-style: italic;
-    font-weight: 500;
-    color: #182333;
-    text-decoration: underline;
-  }
+
   .about-page-header{
     font-family: "Brawler", serif !important;
     text-transform: uppercase !important ;
@@ -37374,14 +37296,7 @@ height: 55px;
  
     text-decoration: underline;
   }
-  .about-page-link:hover{
-    font-family: 'Kanit', sans-serif;
-    font-size: 22px;
-    font-style: italic;
-    font-weight: 500;
-    color: #182333;
-    text-decoration: underline;
-  }
+
   .about-page-header{
     font-family: "Brawler", serif !important;
     text-transform: uppercase !important ;
@@ -38918,14 +38833,7 @@ height: 55px;
  
     text-decoration: underline;
   }
-  .about-page-link:hover{
-    font-family: 'Kanit', sans-serif;
-    font-size: 22px;
-    font-style: italic;
-    font-weight: 500;
-    color: #182333;
-    text-decoration: underline;
-  }
+ 
   .about-page-header{
     font-family: "Brawler", serif !important;
     text-transform: uppercase !important ;
@@ -40539,14 +40447,7 @@ color: #000 !important;
 
     text-decoration: underline;
   }
-  .about-page-link:hover{
-    font-size: 33px !important;
-    font-weight: 600 !important;
-    color: #000 !important;
-    font-family: "Brawler", serif;
 
-    text-decoration: underline;
-  }
   .about-page-header{
     font-family: "Brawler", serif !important;
     text-transform: uppercase !important ;
@@ -41668,6 +41569,9 @@ margin-right: 7px;
     margin-top: 2.3em !important;
     margin-bottom: 2em;
   }
+  .phone-icon-contact-page{
+    rotate: 100deg;
+  }
   section#testimonial {
     margin-top: 2em !important;
     margin-bottom: 1.9em !important;
@@ -42085,7 +41989,7 @@ color: #000 !important;
     background-image: url(../img/about-1.jpg );
     background-size: cover;
   background-position: top;
-  height: 755px !important;
+  height: 655px !important;
   }/* Center the entire section */
 .about-container {
   display: flex;
@@ -42131,14 +42035,7 @@ color: #000 !important;
 
     text-decoration: underline;
   }
-  .about-page-link:hover{
-    font-family: 'Kanit', sans-serif;
-    font-size: 22px;
-    font-style: italic;
-    font-weight: 500;
-    color: #182333;
-    text-decoration: underline;
-  }
+
   .about-page-header{
     font-family: "Brawler", serif !important;
     text-transform: uppercase !important ;
@@ -43184,4 +43081,10 @@ height: 64px;
 } 
 .phone-button-padding{
   rotate: 100deg !important;
+}
+.about-page-link:hover{
+color: #000 !important;
+}
+.about-page-link{
+color: #000 !important;
 }
